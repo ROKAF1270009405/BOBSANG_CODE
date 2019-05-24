@@ -9,7 +9,6 @@ body{
     width: 100%;
     height: auto;
     margin: 0 auto;
-    background-color: aquamarine;
 }
 /*----header----*/
 header{
@@ -20,7 +19,6 @@ header{
 header>div:nth-child(1){
     margin: 54px 0 0 5px;
     float: left;
-    background-color: aquamarine;
 }
 header>div:nth-child(2){
     width: 215px;
@@ -30,12 +28,10 @@ header>div:nth-child(2){
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    background-color: aquamarine;
 }
 header>div:nth-child(3){
     margin: 54px 5px 0 0;
     float: right;
-    background-color: greenyellow;
     display: inline-block;
 }
 header>div:nth-child(3) table{
@@ -57,21 +53,29 @@ nav ul li{
     text-align: center;
     margin-right: -5px;
     padding: 30px 0 30px 0;
-    background-color: greenyellow;
 }
 /*----nav----*/
+
+#three_part{
+    background-color: #b08d61;
+    width: 1280px;
+    height: 1850px;
+    position: relative;
+    margin: 0 auto;
+}
 
 /*----main_img----*/
 #main_img{
     width: 100%;
-    margin: 0 auto;
+    height: 580px;
 }
 #main_img>div:nth-child(1){
     width: 100%;
     position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
     height: 580px;
     text-align: center;
-    background-color: aquamarine;
 }
 #main_img .left_black_box{
     position: absolute;
@@ -85,9 +89,44 @@ nav ul li{
     margin: 10px 5%;
     background-color: white;
 }
-/*----main_img----*/
 
+/*----slide_img----*/
+#slide_img{
+    width: 95%;
+    margin: 30px;
+    height: 730px;
+}
+/*----slide_img----*/
 
+/*----card----*/
+#card{
+    width: 95%;
+    margin: 30px 30px 0 30px;
+    height: 445px;
+    background-color: #f8f2e4;
 
-
-
+}
+#card div:nth-child(1){
+    width: 44.9%;
+    height: 385px;
+    padding: 30px;
+    float: left;
+    border-right: 2px solid #b08d61;
+}
+#card div:nth-child(2){
+    width: 44.9%;
+    height: 385px;
+    padding: 30px;
+    float: left;
+}
+/*----card----*/
+/*----footer----*/
+footer{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    background-color: rgb(72,74,61);
+}
+footer>div{
+    height: 60px;
+}
