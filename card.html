@@ -4,241 +4,7 @@
     <meta charset="UTF-8">
     <title>Document</title>
     <meta name="viewport" content="width=device-width; initial-scale=1.0">
-    <!--<link rel="stylesheet" href="/css/BOBSANG_main.css">-->
-    <style>
-
-        *{
-            margin: 0;
-            padding: 0;
-            /*background-color: papayawhip;*/
-        }
-
-        body{
-            width: 100%;
-        }
-
-        #wrap{
-            /*height: 1200px;
-            width: 1280px;
-            border: 1px solid silver;*/
-            width: 100%;
-            height: auto;
-            margin: 0 auto;
-            border: 1px solid silver;
-            background-color: lightgoldenrodyellow;
-        }
-
-        header{
-        width: 100%;
-        height: 95px;
-        background-color: #DAB991;
-        }
-        header>div:nth-child(1){
-        margin: 54px 0 0 5px;
-        float: left;
-        }
-        header>div:nth-child(2){
-        width: 215px;
-        height: 75px;
-        margin: 0 auto;
-        display: inline-block;
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-        }
-        header>div:nth-child(3){
-        margin: 54px 5px 0 0;
-        float: right;
-        display: inline-block;
-        }
-        header>div:nth-child(3) table{
-        border-collapse: collapse;
-        }
-        header>div:nth-child(3) table tr td{
-        padding: 0 10px 0 10px;
-        }
-
-        nav{
-        background-color: #b08d61;
-        height: 80px;
-        }
-        nav ul li{
-        display: inline-block;
-        width: 16.6%;
-        text-align: center;
-        margin-right: -5px;
-        padding: 30px 0 30px 0;
-        }
-
-        #location{
-            width: 1280px;
-            height: 80px;
-            margin: auto;
-            border-bottom: 2px solid silver;
-        }
-        #location h1{
-            float:left;
-            margin-top: 30px;
-        }
-        #location ul{
-            float:right;
-            list-style: none;
-            margin-top: 60px;
-            /*padding:17px 10px 0 0;*/
-        }
-        #location li{
-            float:left;
-            padding-right:11px;
-            margin-right:7px;
-            font-size:11px;
-            line-height:13px;
-            letter-spacing:-1px;
-        }
-        #location li.home a	{
-            display:block;
-            /*width:50px;
-            height:24px;*/
-            font-size:15px;
-        }
-        #location li a{
-            display:block;
-            /*vertical-align:bottom;
-            width:50px;
-            height:24px;*/
-            font-size:15px;
-        }
-        #location li.on	{
-            display:block;
-            /*width:50px;
-            height:24px;*/
-            font-size:15px;
-        }
-
-        #box{
-            width: 1280px;
-            height: 200px;
-            margin: auto;
-            /*border: 1px solid silver;*/
-        }
-
-        #box section{
-            width: 700px;
-            height: 140px;
-            margin: auto;
-            margin-top: 25px;
-            padding: 10px;
-            border: 2px solid black;
-            background-color: papayawhip;
-            line-height: 20.0px;
-        }
-
-        #box li{
-            font-size: 14px;
-        }
-
-        ul.tab{
-            width: 1280px;
-            height: 850px;
-            margin: auto;
-            /*margin-top: 100px;
-            margin-left: 100px;*/
-            /*width: 600px;
-            height: 500px;
-            border: 1px solid silver;*/
-        }
-        .tab>li{
-            list-style: none;
-        }
-        ul h3{
-            /*background-color: skyblue;*/
-            position: absolute;
-            float: left;
-            width: 424.6px;
-            height: 40px;
-            position: relative;
-            /*display: inline-block;*/
-            text-align: center;
-            border: 1px solid silver;
-            /*margin-bottom: 0;*/
-        }
-        .tab>li>div{
-            position: absolute;
-            top: 523px;
-            width: 1280px;
-            border: 1px solid silver;
-            height: 800px;
-            /*background-color: white;*/
-        }
-        .tab h3 a{
-            display: inline-block;
-            margin-top: 8px;
-            text-decoration: none;
-            color: black;
-        }
-        /*.tab a{
-            text-decoration: none;
-            color: white;
-        }*/
-        #a{
-            margin-bottom: 100px;
-        }
-        #b{
-            margin-left: 20px;
-            margin-bottom: 100px;
-        }
-        #a img{
-            width: 350px;
-            height: 210px;
-            padding-right: 50px;
-            float: left;
-        }
-        #a li img{
-            width: 150px;
-            height: 30px;
-        }
-        #b img{
-            width: 350px;
-            height: 210px;
-            padding-left: 50px;
-            float: right;
-        }
-        #b li img{
-            width: 150px;
-            height: 30px;
-        }
-
-
-        footer{
-        width: 100%;
-        height: 200px;
-        text-align: center;
-        background-color: rgb(72,74,61);
-        }
-        footer>div{
-        height: 60px;
-        }
-        footer>div img{
-        margin-top: 17px;
-        width: 70px;
-        height: 45px;
-        background-color: white;
-        }
-        footer ul li{
-        font-size: 0.5em;
-        height: 10px;;
-        color: white;
-        display: inline-block;
-        padding: 0 5px 5px 5px;
-        margin-top: 5px;
-        margin-bottom: 15px;
-        border-right: 1px solid white;
-
-        }
-        footer p{
-        color:white;
-        }
-
-    </style>
+    <link rel="stylesheet" href="/css/card.css">
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script>
         $(document).ready(function(){
@@ -323,42 +89,44 @@
 
             <li>
                 <h3><a href="#">제휴 카드</a></h3>
-                <div>
+                  <div class="da">
+                      <img src="img/card.jpg">
+                      <section class="sa">
+                          <h4>비트카드 20% 포인트 결제</h4>
+                          <li>* 비트카드 포인트로 20% 결제</li>
+                          <li>* 최소 1,000포인트 이상 시 사용 가능, 연간한도 무제한</li>
+                          <li>* 포인트 한도 내 결제 가능하며, 잔여 포인트 부족 시 잔여 포인트 만큼만 차감</li>
+                          <li>* 일부 매장은 포인트 결제가 제외됩니다.(계절밥상 코엑스몰점)</li>
+                          <li>* 발급 및 사용 문의: 1577-6000</li>
+                          <li><a href="http://bitcamp.co.kr">(www.bitcamp.co.kr)<img src="img/home.jpg"></a></li>
+                      </section>
+                  </div>
 
-                    <ul id="a">
-                        <img src=
-                        <h4>비트카드 20% 포인트 결제</h4>
-                        <li>비트카드 포인트로 20% 결제</li>
-                        <li>최소 1,000포인트 이상 시 사용 가능, 연간한도 무제한</li>
-                        <li>포인트 한도 내 결제 가능하며, 잔여 포인트 부족 시 잔여 포인트 만큼만 차감</li>
-                        <li>일부 매장은 포인트 결제가 제외됩니다.(계절밥상 코엑스몰점)</li>
-                        <li>발급 및 사용 문의: 1577-6000</li>
-                        <li><a href="http://bitcamp.co.kr"><img src="img/home.jpg">(www.bitcamp.co.kr)</a></li>
-                    </ul>
+                  <div class="da">
+                      <img src="img/card.jpg">
+                      <section class="sa">
+                          <h4>비트카드 20% 포인트 결제</h4>
+                          <li>비트카드 포인트로 20% 결제</li>
+                          <li>최소 1,000포인트 이상 시 사용 가능, 연간한도 무제한</li>
+                          <li>포인트 한도 내 결제 가능하며, 잔여 포인트 부족 시 잔여 포인트 만큼만 차감</li>
+                          <li>일부 매장은 포인트 결제가 제외됩니다.(계절밥상 코엑스몰점)</li>
+                          <li>발급 및 사용 문의: 1577-6000</li>
+                          <li><a href="http://bitcamp.co.kr">(www.bitcamp.co.kr)<img src="img/home.jpg"></a></li>
+                      </section>
+                  </div>
 
-                    <ul id="b">
-                        <img src="img/cc-truly-simple.jpg" alt="card">
-                        <h4>비트카드 20% 포인트 결제</h4>
-                        <li>비트카드 포인트로 20% 결제</li>
-                        <li>최소 1,000포인트 이상 시 사용 가능, 연간한도 무제한</li>
-                        <li>포인트 한도 내 결제 가능하며, 잔여 포인트 부족 시 잔여 포인트 만큼만 차감</li>
-                        <li>일부 매장은 포인트 결제가 제외됩니다.(계절밥상 코엑스몰점)</li>
-                        <li>발급 및 사용 문의: 1577-6000</li>
-                        <li><a href="http://bitcamp.co.kr"><img src="img/home.jpg">(www.bitcamp.co.kr)</a></li>
-                    </ul>
-
-                    <ul id="a">
-                        <img src="img/cc-truly-simple.jpg" alt="card">
-                        <h4>비트카드 20% 포인트 결제</h4>
-                        <li>비트카드 포인트로 20% 결제</li>
-                        <li>최소 1,000포인트 이상 시 사용 가능, 연간한도 무제한</li>
-                        <li>포인트 한도 내 결제 가능하며, 잔여 포인트 부족 시 잔여 포인트 만큼만 차감</li>
-                        <li>일부 매장은 포인트 결제가 제외됩니다.(계절밥상 코엑스몰점)</li>
-                        <li>발급 및 사용 문의: 1577-6000</li>
-                        <li><a href="http://bitcamp.co.kr"><img src="img/home.jpg">(www.bitcamp.co.kr)</a></li>
-                    </ul>
-
-                </div>
+                    <!--<div class="da">
+                      <img src="img/card.jpg">
+                      <section class="sa">
+                          <h4>비트카드 20% 포인트 결제</h4>
+                          <li>비트카드 포인트로 20% 결제</li>
+                          <li>최소 1,000포인트 이상 시 사용 가능, 연간한도 무제한</li>
+                          <li>포인트 한도 내 결제 가능하며, 잔여 포인트 부족 시 잔여 포인트 만큼만 차감</li>
+                          <li>일부 매장은 포인트 결제가 제외됩니다.(계절밥상 코엑스몰점)</li>
+                          <li>발급 및 사용 문의: 1577-6000</li>
+                          <li><a href="http://bitcamp.co.kr">(www.bitcamp.co.kr)<img src="img/home.jpg"></a></li>
+                      </section>
+                  </div>-->
             </li>
 
             <li>
