@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        img {
+            /*임시 이미지박스 표시*/
+            background-color: aqua;
+            /*지울것*/
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            border: 1px solid red;
+            /*지울것*/
+            height: 95px;
+        }
+
+        nav {
+            border: 1px solid blue;
+            /*지울것*/
+            height: 80px;
+            padding: 0 70px;
+        }
+
+        #foodsection {
+            border: 1px solid green;
+            /*지울것*/
+            width: 1140px;
+            height: 4200px;
+            padding: 50px 70px;
+            margin: 0 auto;
+            background-color: rgb(229, 220, 203);
+        }
+
+        #drinksection{
+            border: 1px solid green;
+            /*지울것*/
+            width: 1140px;
+            height: 1300px;
+            padding: 50px 70px;
+            margin: 0 auto;
+            background-color: rgb(229, 220, 203);
+        }
+
+        footer {
+            border: 1px solid black;
+            /*지울것*/
+            height: 200px;
+        }
+
+        .sectioninner {
+            border: 1px solid black;
+            /*지울것*/
+            width: inherit;
+            height: inherit;
+            margin: 0;
+        }
+
+        div {
+            margin-bottom: 20px;
+        }
+
+        #foodmainimg {
+            border: 1px solid red;
+            /*지울것*/
+            width: inherit;
+            height: 600px;
+        }
+
+        #nametitle>h1 {
+            text-align: center;
+            font-size: 50px;
+        }
+
+        .foodbox {
+            border: 1px solid red;
+            /*지울것*/
+            width: 550px;
+            height: 635px;
+            float: left;
+            margin: 20px 8px;
+
+        }
+
+        .foodbox>div:nth-child(1) {
+            /*이미지담당*/
+            border: 1px solid blue;
+            /*지울것*/
+            width: inherit;
+            height: 455px;
+            margin: 0;
+        }
+
+        .foodbox>div {
+            border: 1px solid green;
+            /*지울것*/
+            width: inherit;
+            height: 120px;
+            background-color: burlywood;
+        }
+
+        .foodbox>h1 {
+            font-size: 40px;
+            text-align: center;
+            margin: 10px 0;
+            color: darkgoldenrod;
+            text-decoration: underline;
+        }
+
+        .foodbox>div>p {
+            font-size: 20px
+        }
+
+        .drinkbox {
+            width: 260px;
+            height: 520px;
+            border: 1px solid red;
+            margin: 10px;
+            float: left;
+        }
+
+        .drinkpricebox {
+            width: 560px;
+            height: 520px;
+            border: 1px solid red;
+            margin: 10px 0 10px 10px;
+            float: left;
+        }
+
+        #caution {
+            border: 1px solid red;
+            width: 650px;
+            height: 100px;
+            clear: left;
+            margin: 0 auto;
+            font-size: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <p>header</p>
+    </header>
+    <nav>
+        <p>nav</p>
+    </nav>
+    <section id="foodsection">
+        <div class="sectioninner">
+            <div>
+                <h1>먹을거리</h1>
+                <hr style="border: solid 3px rgb(193, 154, 106);">
+            </div>
+            <div id="foodmainimg">
+                <img src="" alt="음식 메인 이미지">
+            </div>
+            <div id="nametitle">
+                <h1>먹을거리</h1>
+                <hr style="border: solid 3px rgb(193, 154, 106);">
+            </div>
+            <div id="eatlist">
+                <div class="foodbox">
+                    <div class="foodboximg">
+                        <img src="" alt="음식1">
+                    </div>
+                    <h1>계절수산</h1>
+                    <div>
+                        <h2>대표메뉴</h2>
+                        <p>통새우찜 바사삭 통새우, 새우 해산물 파스타</p>
+                        <p>한줄더 추가요</p>
+                        <p>한줄더!</p>
+                    </div>
+                </div>
+                <div class="foodbox">
+                    <div>
+                        <img src="" alt="음식1">
+                    </div>
+                    <h1>계절수산</h1>
+                    <div>
+                        <h2>대표메뉴</h2>
+                        <p>통새우찜 바사삭 통새우, 새우 해산물 파스타</p>
+                        <p>한줄더 추가요</p>
+                        <p>한줄더!</p>
+                    </div>
+                </div>
+                <div class="foodbox">
+                    <div class="foodboximg">
+                        <img src="" alt="음식1">
+                    </div>
+                    <h1>계절수산</h1>
+                    <div>
+                        <h2>대표메뉴</h2>
+                        <p>통새우찜 바사삭 통새우, 새우 해산물 파스타</p>
+                        <p>한줄더 추가요</p>
+                        <p>한줄더!</p>
+                    </div>
+                </div>
+                <div class="foodbox">
+                    <div class="foodboximg">
+                        <img src="" alt="음식1">
+                    </div>
+                    <h1>계절수산</h1>
+                    <div>
+                        <h2>대표메뉴</h2>
+                        <p>통새우찜 바사삭 통새우, 새우 해산물 파스타</p>
+                        <p>한줄더 추가요</p>
+                        <p>한줄더!</p>
+                    </div>
+                </div>
+                <div class="foodbox">
+                    <div class="foodboximg">
+                        <img src="" alt="음식1">
+                    </div>
+                    <h1>계절수산</h1>
+                    <div>
+                        <h2>대표메뉴</h2>
+                        <p>통새우찜 바사삭 통새우, 새우 해산물 파스타</p>
+                        <p>한줄더 추가요</p>
+                        <p>한줄더!</p>
+                    </div>
+                </div>
+                <div class="foodbox">
+                    <div class="foodboximg">
+                        <img src="" alt="음식1">
+                    </div>
+                    <h1>계절수산</h1>
+                    <div>
+                        <h2>대표메뉴</h2>
+                        <p>통새우찜 바사삭 통새우, 새우 해산물 파스타</p>
+                        <p>한줄더 추가요</p>
+                        <p>한줄더!</p>
+                    </div>
+                </div>
+                <div class="foodbox">
+                    <div class="foodboximg">
+                        <img src="" alt="음식1">
+                    </div>
+                    <h1>계절수산</h1>
+                    <div>
+                        <h2>대표메뉴</h2>
+                        <p>통새우찜 바사삭 통새우, 새우 해산물 파스타</p>
+                        <p>한줄더 추가요</p>
+                        <p>한줄더!</p>
+                    </div>
+                </div>
+                <div class="foodbox">
+                    <div class="foodboximg">
+                        <img src="" alt="음식1">
+                    </div>
+                    <h1>계절수산</h1>
+                    <div>
+                        <h2>대표메뉴</h2>
+                        <p>통새우찜 바사삭 통새우, 새우 해산물 파스타</p>
+                        <p>한줄더 추가요</p>
+                        <p>한줄더!</p>
+                    </div>
+                </div>
+                <div class="foodbox">
+                    <div class="foodboximg">
+                        <img src="" alt="음식1">
+                    </div>
+                    <h1>계절수산</h1>
+                    <div>
+                        <h2>대표메뉴</h2>
+                        <p>통새우찜 바사삭 통새우, 새우 해산물 파스타</p>
+                        <p>한줄더 추가요</p>
+                        <p>한줄더!</p>
+                    </div>
+                </div>
+                <div class="foodbox">
+                    <div class="foodboximg">
+                        <img src="" alt="음식1">
+                    </div>
+                    <h1>계절수산</h1>
+                    <div>
+                        <h2>대표메뉴</h2>
+                        <p>통새우찜 바사삭 통새우, 새우 해산물 파스타</p>
+                        <p>한줄더 추가요</p>
+                        <p>한줄더!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="drinksection">
+        <div class="sectioninner">
+            <div id="nametitle">
+                <h1>마실거리</h1>
+                <hr style="border: solid 3px rgb(193, 154, 106);">
+            </div>
+            <div id="drinklist">
+                <div class="drinkbox">
+                    <img src="" alt="음료1">
+                </div>
+                <div class="drinkbox">
+                    <img src="" alt="음료1">
+                </div>
+                <div class="drinkpricebox">
+                    <p>기타 술</p>
+                </div>
+                <div class="drinkbox">
+                    <img src="" alt="음료1">
+                </div>
+                <div class="drinkbox">
+                    <img src="" alt="음료1">
+                </div>
+                <div class="drinkpricebox">
+                    <p>기타 술</p>
+                </div>
+            </div>
+            <div id="caution">
+                <p style="color: red">*만 19세 미만의 청소년에게는 주류를 판매하지 않습니다.</p>
+                <p>*상기 메뉴의 가격은 10%부가세가 포함된 가격입니다.</p>
+                <p>*상기 이미지는 실제와 다를 수 있습니다.</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>footer</p>
+    </footer>
+</body>
+
+</html>
