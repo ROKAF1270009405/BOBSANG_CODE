@@ -130,13 +130,17 @@ nav ul li{
     background-color: #f8f2e4;
 
 }
-#card div h2{
+.card_left{
+    clear: both;
+    position: absolute;
+}
+#card .card_left h2{
     color: #4d3c26;
     font-family: "Black And White Picture";
     font-size: 2.7em;
     margin-bottom: 20px;
 }
-#card div h4{
+#card .card_left h4{
     font-family: "Gaegu";
     font-size: 1.6em;
     color: rgb(160,76,30);
@@ -144,7 +148,7 @@ nav ul li{
     padding-top: 30px;
     padding-bottom: 30px;
 }
-#card div h3{
+#card .card_left h3{
     color: #4d3c26;
     font-family: "Black And White Picture";
     font-size: 1.8em;
@@ -157,7 +161,7 @@ nav ul li{
     margin-left: 20px;
 }
 
-#card div:nth-child(1){
+.card_left{
     width: 44.9%;
     height: 385px;
     margin-left: 30px;
@@ -165,11 +169,12 @@ nav ul li{
     float: left;
     border-right: 2px solid #b08d61;
 }
-#card div:nth-child(2){
-    width: 44.9%;
+.card_right{
+    width: 40.9%;
     height: 385px;
     padding: 30px;
-    float: left;
+    position: absolute;
+    right: 2.5%;
 }
 #card div:nth-child(2) .button{
     margin-left: 230px;
