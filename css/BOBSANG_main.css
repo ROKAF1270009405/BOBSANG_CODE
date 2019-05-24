@@ -8,6 +8,11 @@ img{
 body{
     width: 100%;
 }
+.hr{
+    width: 80%;
+    height: 0.1px;
+    border: 1px solid #b08d61;
+}
 #wrap{
     width: 100%;
     height: auto;
@@ -222,5 +227,6 @@ footer p{
 .slide_button {
     position: relative;
     z-index: 1;
-    bottom: 400px
+    bottom: 400px;
+    opacity: 0.5;
 }
