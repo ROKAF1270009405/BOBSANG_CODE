@@ -29,17 +29,20 @@ header>div:nth-child(2){
     left: 50%;
     transform: translateX(-50%);
 }
-header>div:nth-child(3){
+.header_login{
+    font-family: "Gaegu-Regular";
     margin: 54px 5px 0 0;
     float: right;
+}
+.header_login ul{
+
+}
+.header_login ul li{
+    padding: 0 10px 0 10px;
+    border-right: 1px solid #b08d61;
     display: inline-block;
 }
-header>div:nth-child(3) table{
-    border-collapse: collapse;
-}
-header>div:nth-child(3) table tr td{
- padding: 0 10px 0 10px;
-}
+
 /*----header----*/
 
 /*----nav----*/
