@@ -20,10 +20,10 @@
             padding: 0 70px;
         }
 
-        section{
+        section {
             border: 1px solid green;
             width: 1140px;
-            height: 1200px;
+            height: 1100px;
             padding: 50px 70px;
             margin: 0 auto;
             background-color: rgb(229, 220, 203);
@@ -35,7 +35,7 @@
         }
 
         table {
-            width: 700px;
+            width: 100%;
             border-collapse: separate;
             text-align: center;
             border: 1px solid none;
@@ -44,17 +44,19 @@
         th,
         td {
             border: 1px solid rgb(193, 154, 10);
-            padding: 10px 0;
+            padding: 5px 0;
+            font-size: 20px;
         }
 
         th {
             background-color: rgb(193, 154, 106);
         }
 
-        div{
+        div {
             margin: 10px 0;
         }
-        img{
+
+        img {
             background-color: white;
         }
     </style>
@@ -62,7 +64,7 @@
     <script>
         $(document).ready(function() {
             $('.allergylist').find('td').on('dblclick', function() {
-               var searchname = $(this).text();
+                var searchname = $(this).text();
                 $('#allergy').find('td').each(function(index, element) {
                     let tmpname = $(element).text();
                     if (tmpname.indexOf(searchname) >= 0) {
@@ -99,6 +101,18 @@
             <img src="" alt="알레르기를 유발할 수 있는 원료(18가지)">
             <h3>더블클릭으로 선택 일반클릭으로 해제</h3>
             <table>
+            <colgroup>
+                <col width="11%">
+                <col width="11%">
+                <col width="11%">
+                <col width="11%">
+                <col width="11%">
+                <col width="11%">
+                <col width="11%">
+                <col width="11%">
+                <col width="11%">
+                <col width="11%">
+            </colgroup>
                 <tr>
                     <td>난류</td>
                     <td>우유</td>
@@ -126,6 +140,11 @@
             </table>
         </div>
         <table>
+            <colgroup>
+                <col width="25%">
+                <col width="25%">
+                <col width="50%">
+            </colgroup>
             <thead>
                 <tr>
                     <th>메뉴군</th>
@@ -212,10 +231,10 @@
             </tbody>
         </table>
         <div>
-        <img src="" alt="꼭읽어보세요">
-        <p>*주요 메뉴 중 식품위생법 상 표기 대산 원료에 대한 안내사항입니다.</p>
-        <p>*알레르기는 개인 체질 등에 따라 발생하는 식품이 다를 수 있으니, 해당 여부를 꼭 확인하여 주시기 바랍니다.</p>
-        <p>*상기 메뉴는 매장별로 상이할 수 있습니다.</p>
+            <img src="" alt="꼭읽어보세요">
+            <p>*주요 메뉴 중 식품위생법 상 표기 대산 원료에 대한 안내사항입니다.</p>
+            <p>*알레르기는 개인 체질 등에 따라 발생하는 식품이 다를 수 있으니, 해당 여부를 꼭 확인하여 주시기 바랍니다.</p>
+            <p>*상기 메뉴는 매장별로 상이할 수 있습니다.</p>
         </div>
     </section>
     <section id="origin">
@@ -224,6 +243,11 @@
         </div>
         <div>
             <table>
+                <colgroup>
+                    <col width="25%">
+                    <col width="25%">
+                    <col width="50%">
+                </colgroup>
                 <thead>
                     <tr>
                         <th>메뉴명</th>
@@ -351,7 +375,7 @@
             </table>
         </div>
         <div>
-           <img src="" alt="꼭읽어보세요">
+            <img src="" alt="꼭읽어보세요">
             <p>*쌀은 모두 국내산을 사용하고 있습니다.</p>
             <p>*한정운영 메뉴는 별도의 네임택에 표기됩니다.</p>
             <p>*메뉴는 매장 별, 시간대 별 상이할 수 있으므로 방문 전 문의해주세요.</p>
@@ -360,5 +384,4 @@
     <footer>
         <p>footer</p>
     </footer>
-</body>
-</html>
+</body></html>
