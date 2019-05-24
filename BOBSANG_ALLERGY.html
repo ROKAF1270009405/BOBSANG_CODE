@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            border: 1px solid red;
+            height: 95px;
+        }
+
+        nav {
+            border: 1px solid blue;
+            height: 80px;
+            padding: 0 70px;
+        }
+
+        section{
+            border: 1px solid green;
+            width: 1140px;
+            height: 1200px;
+            padding: 50px 70px;
+            margin: 0 auto;
+            background-color: rgb(229, 220, 203);
+        }
+
+        footer {
+            border: 1px solid black;
+            height: 200px;
+        }
+
+        table {
+            width: 700px;
+            border-collapse: separate;
+            text-align: center;
+            border: 1px solid none;
+        }
+
+        th,
+        td {
+            border: 1px solid rgb(193, 154, 10);
+            padding: 10px 0;
+        }
+
+        th {
+            background-color: rgb(193, 154, 106);
+        }
+
+        div{
+            margin: 10px 0;
+        }
+        img{
+            background-color: white;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.allergylist').find('td').on('dblclick', function() {
+               var searchname = $(this).text();
+                $('#allergy').find('td').each(function(index, element) {
+                    let tmpname = $(element).text();
+                    if (tmpname.indexOf(searchname) >= 0) {
+                        this.style.backgroundColor = 'red';
+                    }
+                });
+            });
+
+            $('.allergylist').find('td').on('click', function() {
+                var searchname = $(this).text();
+                $('#allergy').find('td').each(function(index, element) {
+                    let tmpname = $(element).text();
+                    if (tmpname.indexOf(searchname) >= 0) {
+                        this.style.backgroundColor = 'rgb(229, 220, 203)';
+                    }
+                });
+            })
+        });
+    </script>
+</head>
+
+<body>
+    <header>
+        <p>header</p>
+    </header>
+    <nav>
+        <p>nav</p>
+    </nav>
+    <section id="allergy">
+        <div>
+            <img src="" alt="알레르기안내">
+        </div>
+        <div class="allergylist">
+            <img src="" alt="알레르기를 유발할 수 있는 원료(18가지)">
+            <h3>더블클릭으로 선택 일반클릭으로 해제</h3>
+            <table>
+                <tr>
+                    <td>난류</td>
+                    <td>우유</td>
+                    <td>메밀</td>
+                    <td>땅콩</td>
+                    <td>대두</td>
+                    <td>밀</td>
+                </tr>
+                <tr>
+                    <td>고등어</td>
+                    <td>게</td>
+                    <td>새우</td>
+                    <td>돼지고기</td>
+                    <td>복숭아</td>
+                    <td>토마토</td>
+                </tr>
+                <tr>
+                    <td>아황산류</td>
+                    <td>호두</td>
+                    <td>쇠고기</td>
+                    <td>닭고기</td>
+                    <td>오징어</td>
+                    <td>조개류</td>
+                </tr>
+            </table>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>메뉴군</th>
+                    <th>메뉴명</th>
+                    <th>알레르기 정보</th>
+                </tr>
+            </thead>
+            <tbody class="allergytable">
+                <tr>
+                    <td rowspan="10">계절별미당</td>
+                    <td>고추냉이마요</td>
+                    <td>난류, 대두, 밀, 쇠고기</td>
+                </tr>
+                <tr>
+                    <td>바삭전병</td>
+                    <td>우유, 대두, 밀</td>
+                </tr>
+                <tr>
+                    <td>전채사라다</td>
+                    <td>난류, 우유, 대두, 아황산류, 쇠고기</td>
+                </tr>
+                <tr>
+                    <td>바삭김부각</td>
+                    <td>대두, 밀</td>
+                </tr>
+                <tr>
+                    <td>날치알</td>
+                    <td>우유, 대두, 밀, 고등어, 아황산류</td>
+                </tr>
+                <tr>
+                    <td>참치마요</td>
+                    <td>난류, 대두</td>
+                </tr>
+                <tr>
+                    <td>베이컨딥</td>
+                    <td>난류, 대두, 돼지고기</td>
+                </tr>
+                <tr>
+                    <td>특제고추장 케찹</td>
+                    <td>대두, 밀, 토마토</td>
+                </tr>
+                <tr>
+                    <td>체다치즈</td>
+                    <td>우유</td>
+                </tr>
+                <tr>
+                    <td>토마토살사</td>
+                    <td>토마토, 아황산류</td>
+                </tr>
+                <tr>
+                    <td rowspan="3">이북식 김치말이 국수</td>
+                    <td>소면</td>
+                    <td>밀, 닭고기</td>
+                </tr>
+                <tr>
+                    <td>김치말이육수</td>
+                    <td>대두, 밀, 쇠고기</td>
+                </tr>
+                <tr>
+                    <td>김가루</td>
+                    <td>대두, 아황산류</td>
+                </tr>
+                <tr>
+                    <td rowspan="5">죽&쌈밥</td>
+                    <td>건강채소죽</td>
+                    <td>우유, 대두</td>
+                </tr>
+                <tr>
+                    <td>미역국</td>
+                    <td>대두, 밀, 쇠고기, 조개류</td>
+                </tr>
+                <tr>
+                    <td>겨자장</td>
+                    <td>대두, 밀</td>
+                </tr>
+                <tr>
+                    <td>호박죽</td>
+                    <td>우유, 대두, 밀, 쇠고기, 닭고기</td>
+                </tr>
+                <tr>
+                    <td>알마늘장아찌</td>
+                    <td>대두, 밀</td>
+                </tr>
+            </tbody>
+        </table>
+        <div>
+        <img src="" alt="꼭읽어보세요">
+        <p>*주요 메뉴 중 식품위생법 상 표기 대산 원료에 대한 안내사항입니다.</p>
+        <p>*알레르기는 개인 체질 등에 따라 발생하는 식품이 다를 수 있으니, 해당 여부를 꼭 확인하여 주시기 바랍니다.</p>
+        <p>*상기 메뉴는 매장별로 상이할 수 있습니다.</p>
+        </div>
+    </section>
+    <section id="origin">
+        <div>
+            <img src="" alt="원산지안내">
+        </div>
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>메뉴명</th>
+                        <th>식재료</th>
+                        <th>원산지</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>깍두기볶음밥</td>
+                        <td>쌀</td>
+                        <td>국내산</td>
+                    </tr>
+                    <tr>
+                        <td>흰쌀밥</td>
+                        <td>쌀</td>
+                        <td>국내산</td>
+                    </tr>
+                    <tr>
+                        <td>광장 마약김밥</td>
+                        <td>쌀</td>
+                        <td>국내산</td>
+                    </tr>
+                    <tr>
+                        <td>앉은뱅이보리밥</td>
+                        <td>쌀</td>
+                        <td>국내산</td>
+                    </tr>
+                    <tr>
+                        <td>호박죽</td>
+                        <td>쌀</td>
+                        <td>국내산</td>
+                    </tr>
+                    <tr>
+                        <td>제주해녀톳밥</td>
+                        <td>쌀</td>
+                        <td>국내산</td>
+                    </tr>
+                    <tr>
+                        <td>건강채소죽</td>
+                        <td>쌀</td>
+                        <td>국내산</td>
+                    </tr>
+                    <tr>
+                        <td>볶음김치</td>
+                        <td>배추, 고춧가루</td>
+                        <td>배추: 국내산/ 고춧가루 : 국내산</td>
+                    </tr>
+                    <tr>
+                        <td>배추김치</td>
+                        <td>배추, 고춧가루</td>
+                        <td>배추 : 국내산/ 고춧가루 : 국내산</td>
+                    </tr>
+                    <tr>
+                        <td>김치말이국수다진김치</td>
+                        <td>배추, 고춧가루</td>
+                        <td>배추 : 국내산/ 고춧가루 : 국내산</td>
+                    </tr>
+                    <tr>
+                        <td>김치말이국수 토핑</td>
+                        <td>두부-콩</td>
+                        <td>외국산</td>
+                    </tr>
+                    <tr>
+                        <td>육전</td>
+                        <td>두부-콩</td>
+                        <td>외국산</td>
+                    </tr>
+                    <tr>
+                        <td>베이컨감자딥</td>
+                        <td>돼지고기-베이컨</td>
+                        <td>외국산</td>
+                    </tr>
+                    <tr>
+                        <td>광장 육전</td>
+                        <td>돼지고기</td>
+                        <td>국내산</td>
+                    </tr>
+                    <tr>
+                        <td>마포식 돼지양념구이</td>
+                        <td>돼지고기</td>
+                        <td>미국산</td>
+                    </tr>
+                    <tr>
+                        <td>간장 등갈비구이</td>
+                        <td>돼지고기</td>
+                        <td>캐나다산</td>
+                    </tr>
+                    <tr>
+                        <td>육개장</td>
+                        <td>소고기</td>
+                        <td>다대기 : 호주산/ 우전각찜 : 미국산/ 육수 : 국내산</td>
+                    </tr>
+                    <tr>
+                        <td>한우곰탕</td>
+                        <td>소고기</td>
+                        <td>국내산</td>
+                    </tr>
+                    <tr>
+                        <td>춘천 직화 닭갈비</td>
+                        <td>닭고기</td>
+                        <td>브라질산</td>
+                    </tr>
+                    <tr>
+                        <td>왕갈비치킨</td>
+                        <td>닭고기</td>
+                        <td>브라질산</td>
+                    </tr>
+                    <tr>
+                        <td>닭국시</td>
+                        <td>닭고기</td>
+                        <td>국내산</td>
+                    </tr>
+                    <tr>
+                        <td>새우 해산물 파스타</td>
+                        <td>오징어</td>
+                        <td>페루산</td>
+                    </tr>
+                    <tr>
+                        <td>해산물 부추전</td>
+                        <td>오징어</td>
+                        <td>페루산</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+           <img src="" alt="꼭읽어보세요">
+            <p>*쌀은 모두 국내산을 사용하고 있습니다.</p>
+            <p>*한정운영 메뉴는 별도의 네임택에 표기됩니다.</p>
+            <p>*메뉴는 매장 별, 시간대 별 상이할 수 있으므로 방문 전 문의해주세요.</p>
+        </div>
+    </section>
+    <footer>
+        <p>footer</p>
+    </footer>
+</body>
+</html>
