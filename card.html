@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #wrap{
+            width: 1280px;
+        }
+        #location{
+            width: 780px;
+            height:60px;
+           /* padding-top:-200px;*/
+            margin-left: 100px;
+            margin-bottom:34px;
+            border-bottom: 1px solid silver;
+            /*overflow:hidden;
+            background:url('/images/common/lineH.gif') repeat-x 0 100%; */
+        }
+        #location h2{
+            float:left;
+        }
+        #location ul{
+            float:right;
+            padding:17px 10px 0 0;
+        }
+        #location li{
+            float:left;
+            padding-right:11px;
+            margin-right:7px;
+            font-size:11px;
+            line-height:13px;
+            letter-spacing:-1px;
+        }
+        #location li.home a	{
+            display:block;
+            width:50px;
+            height:24px;
+            font-size:30;
+        }
+        #location li a{
+            display:block;
+            width:50px;
+            height:24px;
+            font-size:30;
+        }
+        #location li.on	{
+            display:block;
+            width:50px;
+            height:24px;
+            font-size:30;
+        }
+        ul.tab{
+            margin-top: 100px;
+            margin-left: 100px;
+            /*width: 600px;
+            height: 500px;
+            border: 1px solid silver;*/
+        }
+        .tab>li{
+            list-style: none;
+        }
+        ul h3{
+            /*background-color: skyblue;*/
+            position: absolute;
+            float: left;
+            width: 260px;
+            height: 40px;
+            position: relative;
+            /*display: inline-block;*/
+            text-align: center;
+            border: 1px solid silver;
+            /*margin-bottom: 0;*/
+        }
+        .tab>li>div{
+            position: absolute;
+            top: 205px;
+            width: 784px;
+            border: 1px solid silver;
+            height: 900px;
+            /*background-color: white;*/
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        /*.tab a{
+            text-decoration: none;
+            color: white;
+        }*/
+        #a{
+            margin-bottom: 100px;
+        }
+        #b{
+            margin-left: 20px;
+            margin-bottom: 100px;
+        }
+        #a img{
+            width: 350px;
+            height: 210px;
+            padding-right: 50px;
+            float: left;
+        }
+        #a li img{
+            width: 150px;
+            height: 30px;
+        }
+        #b img{
+            width: 350px;
+            height: 210px;
+            padding-left: 50px;
+            float: right;
+        }
+        #b li img{
+            width: 150px;
+            height: 30px;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.tab>li').find('div').hide();
+            $('.tab>li:eq(0)').find('h3')
+                .css('background-color', 'brown')
+                .next()
+                .show()
+                /*.css('background-color', 'brown')*/;
+
+            $('.tab>li>h3').on('click', function(){
+                $('.tab>li').find('div').hide();
+                $('.tab>li').find('h3')
+                    .css('background-color', 'white');
+                    /*.next()
+                    .css('background-color', 'skyblue');*/
+                $(this).css('background-color', 'brown')
+                    .next()
+                    .show()
+                    /*.css('background-color', 'silver')*/;
+            });
+
+        });
+
+    </script>
+</head>
+<body>
+
+
+
+   <div id="wrap">
+    <div id="location">
+        <h3>제휴 혜택</h3>
+        <ul>
+            <li class="home">
+                <a href="www.https://www.seasonstable.co.kr">홈</a>
+            </li>
+            <li>
+                <a href="#">제휴 혜택</a>
+            </li>
+            <li class="on">제휴 카드</li>
+        </ul>
+    </div>
+    <ul class="tab">
+
+        <li>
+            <h3><a href="#">제휴 카드</a></h3>
+            <div>
+
+               <ul id="a">
+                <img src="img/card-a.jpg" alt="card">
+                <h4>비트카드 20% 포인트 결제</h4>
+                    <li>비트카드  포인트로 20% 결제</li>
+                    <li>최소 1,000포인트 이상 시 사용 가능, 연간한도 무제한</li>
+                    <li>포인트 한도 내 결제 가능하며, 잔여 포인트 부족 시 잔여 포인트 만큼만 차감</li>
+                    <li>일부 매장은 포인트 결제가 제외됩니다.(계절밥상 코엑스몰점)</li>
+                    <li>발급 및 사용 문의: 1577-6000</li>
+                    <li><a href="http://bitcamp.co.kr"><img src="img/home.jpg">(www.bitcamp.co.kr)</a></li>
+                </ul>
+
+                <ul id="b">
+                <img src="img/cc-truly-simple.jpg" alt="card">
+                <h4>비트카드 20% 포인트 결제</h4>
+                    <li>비트카드  포인트로 20% 결제</li>
+                    <li>최소 1,000포인트 이상 시 사용 가능, 연간한도 무제한</li>
+                    <li>포인트 한도 내 결제 가능하며, 잔여 포인트 부족 시 잔여 포인트 만큼만 차감</li>
+                    <li>일부 매장은 포인트 결제가 제외됩니다.(계절밥상 코엑스몰점)</li>
+                    <li>발급 및 사용 문의: 1577-6000</li>
+                    <li><a href="http://bitcamp.co.kr"><img src="img/home.jpg">(www.bitcamp.co.kr)</a></li>
+                </ul>
+
+                <ul id="a">
+                <img src="img/cc-truly-simple.jpg" alt="card">
+                <h4>비트카드 20% 포인트 결제</h4>
+                    <li>비트카드  포인트로 20% 결제</li>
+                    <li>최소 1,000포인트 이상 시 사용 가능, 연간한도 무제한</li>
+                    <li>포인트 한도 내 결제 가능하며, 잔여 포인트 부족 시 잔여 포인트 만큼만 차감</li>
+                    <li>일부 매장은 포인트 결제가 제외됩니다.(계절밥상 코엑스몰점)</li>
+                    <li>발급 및 사용 문의: 1577-6000</li>
+                    <li><a href="http://bitcamp.co.kr"><img src="img/home.jpg">(www.bitcamp.co.kr)</a></li>
+                </ul>
+
+            </div>
+        </li>
+
+        <li>
+            <h3><a href="#">CJ 패밀리 상품권</a></h3>
+            <div>
+               <ul>
+                   <li><a href="#">CJ 패밀리 상품권</a></li>
+               </ul>
+            </div>
+        </li>
+
+        <li>
+
+            <h3><a href="#">제휴 상품권</a></h3>
+            <div>
+                <ul>
+                    <li>제휴 상품권</li>
+                </ul>
+            </div>
+        </li>
+
+    </ul>
+    </div>
+</body>
+</html>
