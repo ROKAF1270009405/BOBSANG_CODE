@@ -109,6 +109,7 @@ nav ul li{
     margin: 30px;
     height: 730px;
     position: relative;
+    z-index: 3;
 }
 #slide_img .slide_button img{
     width: 120px;
@@ -211,4 +212,10 @@ footer ul li{
 footer p{
     font-family: "Gaegu Regular";
     color:white;
+}
+
+.slide_button {
+    position: relative;
+    z-index: 1;
+    bottom: 400px
 }
