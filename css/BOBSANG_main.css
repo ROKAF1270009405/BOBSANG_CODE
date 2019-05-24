@@ -8,6 +8,11 @@ img{
 body{
     width: 100%;
 }
+.hr{
+    width: 80%;
+    height: 0.1px;
+    border: 1px solid #b08d61;
+}
 #wrap{
     width: 100%;
     height: auto;
@@ -108,6 +113,17 @@ nav ul li{
     width: 95%;
     margin: 30px;
     height: 730px;
+    position: relative;
+    z-index: 3;
+}
+#slide_img .slide_button img{
+    width: 120px;
+}
+#slide_img .slide_button img:nth-child(1){
+    float: left;
+}
+#slide_img .slide_button img:nth-child(2){
+    float: right;
 }
 /*----slide_img----*/
 
@@ -119,13 +135,17 @@ nav ul li{
     background-color: #f8f2e4;
 
 }
-#card div h2{
+.card_left{
+    clear: both;
+    position: absolute;
+}
+#card .card_left h2{
     color: #4d3c26;
     font-family: "Black And White Picture";
     font-size: 2.7em;
     margin-bottom: 20px;
 }
-#card div h4{
+#card .card_left h4{
     font-family: "Gaegu";
     font-size: 1.6em;
     color: rgb(160,76,30);
@@ -133,14 +153,20 @@ nav ul li{
     padding-top: 30px;
     padding-bottom: 30px;
 }
-#card div h3{
+#card .card_left h3{
     color: #4d3c26;
     font-family: "Black And White Picture";
     font-size: 1.8em;
     padding-top: 20px;
     padding-bottom: 20px;
+    display: inline-block;
 }
-#card div:nth-child(1){
+.card_left img{
+    width : 30px;
+    margin-left: 20px;
+}
+
+.card_left{
     width: 44.9%;
     height: 385px;
     margin-left: 30px;
@@ -148,11 +174,21 @@ nav ul li{
     float: left;
     border-right: 2px solid #b08d61;
 }
-#card div:nth-child(2){
-    width: 44.9%;
+.card_right{
+    width: 40.9%;
     height: 385px;
     padding: 30px;
-    float: left;
+    position: absolute;
+    right: 2.5%;
+}
+#card div:nth-child(2) .button{
+    margin-left: 230px;
+    height: 11px;
+}
+#card div:nth-child(2) div>img{
+    width: 11px;
+    height: 11px;
+    display: inline-block;
 }
 /*----card----*/
 /*----footer----*/
@@ -186,4 +222,11 @@ footer ul li{
 footer p{
     font-family: "Gaegu Regular";
     color:white;
+}
+
+.slide_button {
+    position: relative;
+    z-index: 1;
+    bottom: 400px;
+    opacity: 0.5;
 }
