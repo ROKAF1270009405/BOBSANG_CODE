@@ -11,8 +11,8 @@ body {
     width: 100%;
     height: auto;
     margin: 0 auto;
-    border: 1px solid silver;
-    background-color: lightgoldenrodyellow;
+    background-color: white;
+    /*border: 1px solid silver;*/
 }
 
 header {
@@ -78,10 +78,22 @@ nav ul li {
     padding: 30px 0 30px 0;
     color:#4d3c26;
 }
+<<<<<<< HEAD
+
+#out{
+   width: 1280px;
+   height: 1500px;
+   border: 1px solid silver;
+   background-color:lightyellow;
+    margin: auto;
+}
+
+=======
 nav ul li a{
     text-decoration: none;
     color: #4d3c26;
 }
+>>>>>>> origin/master
 #location {
     width: 1280px;
     height: 80px;
@@ -147,10 +159,17 @@ nav ul li a{
     font-size: 14px;
 }
 
-ul.tab {
+/*ul.tab {
     width: 1280px;
     height: 800px;
     margin: 0 auto;
+}*/
+
+#wrap2 {
+    width: 1280px;
+    height: 1100px;
+    margin: 0 auto;
+    border: 1px solid silver;
 }
 
 .tab > li {
@@ -162,18 +181,19 @@ ul h3 {
     position: absolute;
     float: left;
     width: 422px;
-    height: 40px;
+    height: 60px;
     position: relative;
     text-align: center;
     border: 2px solid silver;
+    font-size: 25px;
 }
 
 ul>li>div{
     position: absolute;
-    top: 523.5px;
+    top: 546px;
     width: 1280px;
     border: 1px solid silver;
-    height: 900px;
+    height: 1130px;
     background-color: lightyellow;
 }
 
@@ -185,28 +205,29 @@ ul>li>div{
 }
 
 #ua img {
-    width: 350px;
-    height: 210px;
+    width: 450px;
+    height: 270px;
     padding-top: 40px;
-    padding-left: 120px;
-    padding-right: 50px;
+    padding-left: 50px;
+    padding-right: 30px;
     float: left;
 }
 
 #sa {
-    padding-top: 55px;
-    padding-left: 70px;
-    padding-right: 50px;
+    padding-top: 90px;
+    padding-left: 0px;
+    padding-right: 0px;
     float: left;
-    line-height: 25.0px;
+    line-height: 30.0px;
 }
 #sa h4{
     color: red;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 #sa li{
     list-style: none;
+    font-size: 20px;
 }
 
 #sa img{
@@ -292,8 +313,8 @@ ul>li>div{
 }
 
 #ud #a{
-    width: 400px;
-    height: 240px;
+    width: 450px;
+    height: 270px;
     padding-top: 10px;
     padding-left: 110px;
     padding-right: 100px;
