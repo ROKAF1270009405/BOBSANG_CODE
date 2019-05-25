@@ -7,17 +7,17 @@
     <link rel="stylesheet" href="css/BOBSANG_ALLERGY.css">
     <style>
         @font-face {
-            font-family: Tfont;
+            font-family: BlackAndWhitePicture-Regular;
             src: url(../fonts/Black_And_White_picture/BlackAndWhitePicture-Regular.ttf);
         }
 
         @font-face {
-            font-family: Gbold;
+            font-family: Gaegu-Bold;
             src: url(../fonts/Gaegu/Gaegu-Bold.ttf);
         }
 
         @font-face {
-            font-family: Glight;
+            font-family: Gaegu-Light;
             src: url(../fonts/Gaegu/Gaegu-Light.ttf);
         }
 
@@ -45,7 +45,7 @@
         section {
             border: 1px solid green;
             width: 1140px;
-            height: 1100px;
+            height: 1300px;
             padding: 50px 70px;
             margin: 0 auto;
             background-color: rgb(229, 220, 203);
@@ -67,11 +67,17 @@
         td {
             border: 1px solid rgb(193, 154, 10);
             padding: 5px 0;
-            font-size: 20px;
         }
 
         th {
             background-color: rgb(193, 154, 106);
+            font-family: "Gaegu-Bold";
+            font-size: 30px;
+        }
+
+        td{
+            font-family: "Gaegu-Regular";
+            font-size: 20px;
         }
 
         div {
@@ -83,7 +89,7 @@
         }
 
         #toptitle>h1 {
-            font-family: "Tfont";
+            font-family: "BlackAndWhitePicture-Regular";
             color: #8B4513;
         }
 
@@ -91,6 +97,33 @@
             border: 3px solid rgb(193, 154, 106);
         }
 
+        .nametitle>h1 {
+            text-align: center;
+            font-size: 50px;
+            font-family: "BlackAndWhitePicture-Regular";
+            color: #8B4513;
+            margin-top: 50px;
+        }
+
+        .nametitle>h3 {
+            text-align: center;
+            font-size: 25px;
+            font-family: "Gaegu-Light";
+        }
+
+        .caution {
+            font-family: "Gaegu-Regular";
+            clear: left;
+            margin: 30px auto;
+            background: #E1B771;
+            padding: 10px;
+        }
+
+        .caution>h1 {
+            font-family: "Gaegu-Bold";
+            font-size: 30px;
+            color: red;
+        }
     </style>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script>
@@ -115,7 +148,6 @@
                 });
             })
         });
-
     </script>
 </head>
 
@@ -129,8 +161,6 @@
                 </ul>
             </div>
         </header>
-
-<!--nav시작 처음에는 이미지를 넣으려 했으나 배경색으로 하자 링크 추가 필요-->
         <nav>
             <ul>
                 <li><a href="BOBSANG_story.html">시골밥상 이야기</a></li>
@@ -147,11 +177,10 @@
             <div class="line"></div>
         </div>
         <div class="allergylist">
-           <div>
-
-           </div>
-            <img src="" alt="알레르기를 유발할 수 있는 원료(18가지)">
-            <h3>더블클릭으로 선택 일반클릭으로 해제</h3>
+            <div class="nametitle">
+                <h1>알레르기를 유발할 수 있는 원료(18가지)</h1><br>
+                <h3>더블클릭으로 선택 일반클릭으로 해제</h3>
+            </div>
             <table>
                 <colgroup>
                     <col width="11%">
@@ -282,17 +311,18 @@
                 </tr>
             </tbody>
         </table>
-        <div>
-            <img src="" alt="꼭읽어보세요">
+        <div class="caution">
+            <h1>꼭 읽어보세요!</h1>
             <p>*주요 메뉴 중 식품위생법 상 표기 대산 원료에 대한 안내사항입니다.</p>
             <p>*알레르기는 개인 체질 등에 따라 발생하는 식품이 다를 수 있으니, 해당 여부를 꼭 확인하여 주시기 바랍니다.</p>
             <p>*상기 메뉴는 매장별로 상이할 수 있습니다.</p>
         </div>
     </section>
     <section id="origin">
-        <div>
-            <img src="" alt="원산지안내">
-        </div>
+       <div class="nametitle">
+                <h1>원산지 안내</h1>
+                <div class="line"></div>
+            </div>
         <div>
             <table>
                 <colgroup>
@@ -426,8 +456,8 @@
                 </tbody>
             </table>
         </div>
-        <div>
-            <img src="" alt="꼭읽어보세요">
+        <div class="caution">
+            <h1>꼭 읽어보세요!</h1>
             <p>*쌀은 모두 국내산을 사용하고 있습니다.</p>
             <p>*한정운영 메뉴는 별도의 네임택에 표기됩니다.</p>
             <p>*메뉴는 매장 별, 시간대 별 상이할 수 있으므로 방문 전 문의해주세요.</p>
