@@ -280,6 +280,50 @@ ul>li>div{
     float: left;
 }
 
+#ud #h{
+    color: chocolate;
+    font-size: 20px;
+    padding-top: 50px;
+    padding-left: 120px;
+    /*margin: 10px;*/
+}
+
+#ud #a{
+    width: 400px;
+    height: 240px;
+    padding-top: 10px;
+    padding-left: 110px;
+    padding-right: 100px;
+    float: left;
+}
+
+#sd td{
+     /*border-collapse: collapse;
+     width: 500px;
+     height: 200px;*/
+     border: 2px solid silver;
+}
+
+#sd table img{
+    width: 166px;
+    height: 66px;
+}
+
+#sd td{
+  border: 2px solid silver;
+  /*text-align: left;*/
+  /*padding-right: 100px;*/
+
+/*#ud #b{
+    width: 350px;
+    height: 210px;
+    padding-top: 10px;
+    padding-left: 110px;
+    padding-right: 100px;
+    clear: both;
+    float: left;
+}*/
+
 footer {
     width: 100%;
     height: 200px;
