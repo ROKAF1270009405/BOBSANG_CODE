@@ -74,12 +74,8 @@ nav ul li{
     margin-right: -6px;
     padding: 30px 0 30px 0;
 }
-<<<<<<< HEAD
-nav ul li{
-=======
 nav ul li a{
     text-decoration: none;
->>>>>>> origin/master
     color: #4d3c26;
 }
 /*----nav----*/
