@@ -37,6 +37,7 @@ header>div:nth-child(2){
 }
 .header_login ul{
 
+<<<<<<< HEAD
 }
 .header_login ul li{
     padding: 0 10px 0 10px;
@@ -47,6 +48,18 @@ header>div:nth-child(2){
    color:  #4d3c26;
     text-decoration: none;
 }
+=======
+}
+.header_login ul li{
+    padding: 0 10px 0 10px;
+    border-right: 1px solid #b08d61;
+    display: inline-block;
+}
+.header_login ul li a{
+   color:  #4d3c26;
+    text-decoration: none;
+}
+>>>>>>> origin/master
 /*----header----*/
 
 /*----nav----*/

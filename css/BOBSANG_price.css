@@ -37,12 +37,21 @@ header>div:nth-child(2){
 }
 .header_login ul{
 
+<<<<<<< HEAD
 }
 .header_login ul li{
     padding: 0 10px 0 10px;
     border-right: 1px solid #b08d61;
     display: inline-block;
 }
+=======
+}
+.header_login ul li{
+    padding: 0 10px 0 10px;
+    border-right: 1px solid #b08d61;
+    display: inline-block;
+}
+>>>>>>> origin/master
 .header_login ul li a{
    color:  #4d3c26;
     text-decoration: none;
@@ -232,12 +241,18 @@ footer p{
 }
 <<<<<<< HEAD
 
+<<<<<<< HEAD
 
 =======
+=======
+>>>>>>> origin/master
 footer ul li a{
     color: white;
     text-decoration: none;
 }
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
 
 

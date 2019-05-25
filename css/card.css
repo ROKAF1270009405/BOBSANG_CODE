@@ -146,8 +146,8 @@ nav ul li {
 
 ul.tab {
     width: 1280px;
-    height: 900px;
-    margin: auto;
+    height: 800px;
+    margin: 0 auto;
 }
 
 .tab > li {
@@ -170,7 +170,7 @@ ul>li>div{
     top: 523.5px;
     width: 1280px;
     border: 1px solid silver;
-    height: 880px;
+    height: 900px;
     background-color: lightyellow;
 }
 
