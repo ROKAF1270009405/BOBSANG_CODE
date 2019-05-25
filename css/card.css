@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    /*background-color: papayawhip;*/
 }
 
 body {
@@ -9,9 +8,6 @@ body {
 }
 
 #wrap {
-    /*height: 1200px;
-            width: 1280px;
-            border: 1px solid silver;*/
     width: 100%;
     height: auto;
     margin: 0 auto;
@@ -53,6 +49,18 @@ header > div:nth-child(3) table {
 header > div:nth-child(3) table tr td {
     padding: 0 10px 0 10px;
 }
+.header_login ul li{
+    font-family: "Gaegu Regular";
+    font-weight: bold;
+    padding: 0 10px 0 10px;
+    border-right: 1px solid #b08d61;
+    display: inline-block;
+}
+.header_login ul li a{
+
+   color:  #4d3c26;
+    text-decoration: none;
+}
 
 nav {
     background-color: #b08d61;
@@ -60,11 +68,15 @@ nav {
 }
 
 nav ul li {
+    font-family: "Gaegu Regular";
+    font-weight: bold;
+    font-size: 1.5em;
     display: inline-block;
     width: 16.6%;
     text-align: center;
     margin-right: -5px;
     padding: 30px 0 30px 0;
+    color:#4d3c26;
 }
 
 #location {
@@ -83,7 +95,6 @@ nav ul li {
     float: right;
     list-style: none;
     margin-top: 60px;
-    /*padding:17px 10px 0 0;*/
 }
 
 #location li {
@@ -104,16 +115,11 @@ nav ul li {
 
 #location li a {
     display: block;
-    /*vertical-align:bottom;
-            width:50px;
-            height:24px;*/
     font-size: 15px;
 }
 
 #location li.on {
     display: block;
-    /*width:50px;
-            height:24px;*/
     font-size: 15px;
 }
 
@@ -121,7 +127,6 @@ nav ul li {
     width: 1280px;
     height: 200px;
     margin: auto;
-    /*border: 1px solid silver;*/
 }
 
 #box section {
@@ -141,13 +146,8 @@ nav ul li {
 
 ul.tab {
     width: 1280px;
-    height: 850px;
+    height: 900px;
     margin: auto;
-    /*margin-top: 100px;
-            margin-left: 100px;*/
-    /*width: 600px;
-            height: 500px;
-            border: 1px solid silver;*/
 }
 
 .tab > li {
@@ -161,18 +161,16 @@ ul h3 {
     width: 422px;
     height: 40px;
     position: relative;
-    /*display: inline-block;*/
     text-align: center;
     border: 2px solid silver;
-    /*margin-bottom: 0;*/
 }
 
-.tab > li > div {
+ul>li>div{
     position: absolute;
     top: 523.5px;
     width: 1280px;
     border: 1px solid silver;
-    height: 800px;
+    height: 880px;
     background-color: lightyellow;
 }
 
@@ -183,80 +181,109 @@ ul h3 {
     color: black;
 }
 
-/*.tab a{
-            text-decoration: none;
-            color: white;
-        }*/
-/*.da {
-    margin: 50px;
-}*/
-
-/*.da img{
-    float: left;
-    margin-right: 100px;
-}*/
-
-/*#a ul{
-    margin-left: 100px;
-    list-style:
-}*/
-
-.da img {
+#ua img {
     width: 350px;
     height: 210px;
-    padding-top: 50px;
-    padding-left: 70px;
+    padding-top: 40px;
+    padding-left: 120px;
     padding-right: 50px;
     float: left;
 }
 
-.sa {
-    /*margin: 50px;
-        padding-left: 50px;
-        float: left;*/
-    padding-top: 65px;
+#sa {
+    padding-top: 55px;
     padding-left: 70px;
     padding-right: 50px;
     float: left;
     line-height: 25.0px;
 }
-.sa h4{
+#sa h4{
     color: red;
     font-size: 20px;
 }
-/*.sa h3{
-    display: inline-block;
-}*/
-/*.sa li{
-    list-style: square;
-}*/
 
-.sa img{
+#sa li{
+    list-style: none;
+}
+
+#sa img{
     width: 150px;
     height: 30px;
     margin: 0;
     padding: 5px;
 }
 
-
-
-
-
-/*#a li img {
-    width: 150px;
-    height: 30px;
-}*/
-
-/*#b img {
+#ub img{
     width: 350px;
     height: 210px;
-    padding: 50px;
+    padding-top: 80px;
+    padding-left: 110px;
+    padding-right: 100px;
     float: right;
-}*/
+}
+
+#sb {
+    padding-top: 360px;
+    padding-left: 130px;
+    padding-right: 50px;
+    line-height: 25.0px;
+}
+
+#sb h4{
+    color: red;
+    font-size: 20px;
+}
+
+#sb li{
+    list-style: none;
+}
+
+#sb img{
+    width: 150px;
+    height: 30px;
+    margin: 0;
+    padding: 0px;
+    float: left;
+}
+
+#uc img {
+    width: 350px;
+    height: 210px;
+    padding-top: 90px;
+    padding-left: 0px;
+    padding-right: 50px;
+    margin-left: -150px;
+    float: left;
+}
+
+#sc {
+    padding-top: 110px;
+    padding-left: 70px;
+    padding-right: 50px;
+    float: left;
+    line-height: 25.0px;
+}
+#sc h4{
+    color: red;
+    font-size: 20px;
+}
+
+#sc li{
+    list-style: none;
+}
+
+#sc img{
+    width: 150px;
+    height: 30px;
+    margin: 0;
+    padding: 0px;
+    float: left;
+}
 
 footer {
     width: 100%;
     height: 200px;
+    margin-top: 25px;
     text-align: center;
     background-color: rgb(72, 74, 61);
 }
@@ -265,11 +292,10 @@ footer > div {
     height: 60px;
 }
 
-footer > div img {
-    margin-top: 17px;
-    width: 70px;
-    height: 45px;
-    background-color: white;
+footer>div img{
+    width:40px;
+    height: 40px;
+    margin: 17px;
 }
 
 footer ul li {
@@ -287,4 +313,9 @@ footer ul li {
 
 footer p {
     color: white;
+}
+
+footer ul li a{
+    color: white;
+    text-decoration: none;
 }

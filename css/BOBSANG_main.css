@@ -51,7 +51,10 @@ header>div:nth-child(2){
     border-right: 1px solid #b08d61;
     display: inline-block;
 }
-
+.header_login ul li a{
+   color:  #4d3c26;
+    text-decoration: none;
+}
 /*----header----*/
 
 /*----nav----*/
@@ -68,6 +71,9 @@ nav ul li{
     text-align: center;
     margin-right: -6px;
     padding: 30px 0 30px 0;
+}
+nav ul li{
+    color:#4d3c26;
 }
 /*----nav----*/
 
@@ -202,10 +208,9 @@ footer>div{
     height: 60px;
 }
 footer>div img{
-    margin-top: 17px;
-    width: 70px;
-    height: 45px;
-    background-color: white;
+    width:40px;
+    height: 40px;
+    margin: 17px;
 }
 footer ul li{
     font-family: "Gaegu Regular";
@@ -219,11 +224,14 @@ footer ul li{
     border-right: 1px solid white;
 
 }
+footer ul li a{
+    color: white;
+    text-decoration: none;
+}
 footer p{
     font-family: "Gaegu Regular";
     color:white;
 }
-
 .slide_button {
     position: relative;
     z-index: 1;
