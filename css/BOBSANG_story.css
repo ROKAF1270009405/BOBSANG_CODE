@@ -237,14 +237,82 @@ body div .r2{
 
 .vc{
     position: relative;
-    bottom:180px;
+    bottom:350px;
     left:75px;
 }
 #ov{
     position:relative;
-    bottom:50px;
-
-    left:1300px;
+    bottom:170px;
+    left:1280px;
     font-size:40px;
 
 }
+#ov:hover{
+    font-size: 50px;
+     left:1250px;
+    color:brown;
+}
+
+.dot1{
+    position: absolute;
+    top:290px;
+    left:645px;
+}
+.dot2{
+    position: absolute;
+    top:290px;
+    left:675px;
+}
+
+.dot3{
+    position: absolute;
+    top:290px;
+    left:705px;
+}
+.dot4{
+    position: absolute;
+    top:290px;
+    left:735px;
+}
+.icon1{
+    width:40px;
+    height:40px;
+    position:absolute;
+    top:0px;
+    left:781px;
+    background-color: #b08d61;
+     border-radius: 50px;
+}
+.icon2{
+    width:40px;
+    height:40px;
+    position:absolute;
+    bottom: 1000px;
+    left:781px;
+    background-color: #b08d61;
+    border-radius: 50px;
+}
+.icon3{
+    width:40px;
+    height:40px;
+    position:absolute;
+   top:870px;
+    right:797px;
+    background-color: #b08d61;
+    border-radius: 50px;
+}
+.icon4{
+    width:40px;
+    height:40px;
+    position:absolute;
+   top:630px;
+    right:801px;
+    background-color: #b08d61;
+    border-radius: 50px;
+}
+
+
+
+
+
+
