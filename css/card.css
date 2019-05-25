@@ -78,7 +78,10 @@ nav ul li {
     padding: 30px 0 30px 0;
     color:#4d3c26;
 }
-
+nav ul li a{
+    text-decoration: none;
+    color: #4d3c26;
+}
 #location {
     width: 1280px;
     height: 80px;
