@@ -202,7 +202,13 @@ footer ul li{
 footer p{
     color:white;
 }
+#btn1,#btn2{
+    width:100px;
+    height:30px;
+    position: relative;
 
+
+}
 
 
 

@@ -251,6 +251,7 @@ body div .r2{
     font-size: 50px;
      left:1250px;
     color:brown;
+    background-color:coral;
 }
 
 .dot1{
@@ -297,7 +298,7 @@ body div .r2{
     height:40px;
     position:absolute;
    top:870px;
-    right:797px;
+    right:801px;
     background-color: #b08d61;
     border-radius: 50px;
 }
