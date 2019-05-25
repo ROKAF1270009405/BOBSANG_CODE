@@ -50,19 +50,31 @@ nav ul li{
     margin-right: -5px;
     padding: 30px 0 30px 0;
 }
-#di{
+body{
+    background-color: rgb(248,242,228);
 
+}
+
+
+#di{
+       margin-left:70px;
+    margin-right:70px;
+    padding-top: 20px;
       background-color: rgb(248,242,228);
 }
 
 .box{
-    border:1px solid silver;
-    width:100%;
-    height:50px;
 
+    width:92.7%;
+    height:50px;
+    font-family: "Gaegu Regular";
+    font-size:30px;
+    color:#DAB991;
     position:absolute;
-    top:610px;
+    top:770px;
+    background-color:#b08d61;
 }
+
 
 .h3{
     font-family: "Gaegu Regular";
@@ -70,7 +82,14 @@ nav ul li{
     font-size:30px;
     font-weight:bolder;
 }
+.line{
+    width:100%;
+    height:5px;
+    border-top:2px solid rgb(72,74,61);
+    position:relative;
+    left:0px;
 
+}
 
 .i1{
     width:100%;
@@ -79,14 +98,80 @@ nav ul li{
 .p1{
     width:100%;
     height:80px;
-    border:1px solid white;
+    font-family: "Gaegu Regular";
     position:absolute;
-    top:530px;
+    top:675px;
     left:00px;
     color:white;
     font-size:30px;
     text-align: center;
 
+}
+table{
+    width:900px;    /*테이블로 인해 메인 배치가 이상하게 엉킴 수정 요망*/
+    height:300px;
+    border:1px solid silver;
+    border-collapse: collapse;
+    text-align: center;
+    border-left: none;
+    border-right: none;
+    border-top:2px solid #b08d61;
+    border-bottom:2px dotted #b08d61;
+    position: relative;
+    left: 20px;
+    top:50px;
+
+}
+th{
+    border-bottom:2px dotted #b08d61;
+    border-right: 2px solid #b08d61;
+    background-color: antiquewhite;
+
+}
+td{
+    border:1px solid #b08d61;
+    border-left: none;
+
+
+}
+.th1,.td1,.td2,.td3{
+    border-right: none;
+}
+
+.pr2{
+    padding-top: 20px;
+    color:red;
+
+}
+.s1{
+    width:100%;
+    height:300px;
+    padding-left: 20px;
+    position: relative;
+    top:50px;
+}
+.s2{
+    padding-left: 20px;
+    position: relative;
+    top:0px;
+}
+.s2 ul{
+    padding-left: 20px;
+
+}
+.s2 li{
+    padding-bottom: 20px;
+
+}
+.h33,.h34{
+    padding-left:20px;
+    padding-bottom: 20px;
+    padding-top: 70px;
+    font-family: "Gaegu Regular";
+    font-weight: 800;
+    font-size:30px;
+    text-decoration: underline;
+    color:rgb(72,74,61);
 }
 
 footer{
@@ -117,3 +202,10 @@ footer ul li{
 footer p{
     color:white;
 }
+
+
+
+
+
+
+
