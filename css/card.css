@@ -49,6 +49,18 @@ header > div:nth-child(3) table {
 header > div:nth-child(3) table tr td {
     padding: 0 10px 0 10px;
 }
+.header_login ul li{
+    font-family: "Gaegu Regular";
+    font-weight: bold;
+    padding: 0 10px 0 10px;
+    border-right: 1px solid #b08d61;
+    display: inline-block;
+}
+.header_login ul li a{
+
+   color:  #4d3c26;
+    text-decoration: none;
+}
 
 nav {
     background-color: #b08d61;
@@ -56,11 +68,15 @@ nav {
 }
 
 nav ul li {
+    font-family: "Gaegu Regular";
+    font-weight: bold;
+    font-size: 1.5em;
     display: inline-block;
     width: 16.6%;
     text-align: center;
     margin-right: -5px;
     padding: 30px 0 30px 0;
+    color:#4d3c26;
 }
 
 #location {
@@ -264,28 +280,69 @@ ul>li>div{
     float: left;
 }
 
-footer {
+#ud #h{
+    color: chocolate;
+    font-size: 20px;
+    padding-top: 50px;
+    padding-left: 120px;
+    /*margin: 10px;*/
+}
+
+#ud #a{
+    width: 400px;
+    height: 240px;
+    padding-top: 10px;
+    padding-left: 110px;
+    padding-right: 100px;
+    float: left;
+}
+
+#sd td{
+     /*border-collapse: collapse;
+     width: 500px;
+     height: 200px;*/
+     border: 2px solid silver;
+}
+
+#sd table img{
+    width: 166px;
+    height: 66px;
+}
+
+#sd td{
+  border: 2px solid silver;
+  /*text-align: left;*/
+  /*padding-right: 100px;*/
+}
+/*#ud #b{
+    width: 350px;
+    height: 210px;
+    padding-top: 10px;
+    padding-left: 110px;
+    padding-right: 100px;
+    clear: both;
+    float: left;
+}*/
+
+/*----footer----*/
+footer{
     width: 100%;
     height: 200px;
-    margin-top: 25px;
     text-align: center;
-    background-color: rgb(72, 74, 61);
+    background-color: rgb(72,74,61);
 }
-
-footer > div {
+footer>div{
     height: 60px;
 }
-
 footer>div img{
     width:40px;
     height: 40px;
     margin: 17px;
 }
-
-footer ul li {
-    font-size: 0.5em;
-    height: 10px;
-    ;
+footer ul li{
+    font-family: "Gaegu Regular";
+    font-size: 1em;
+    height: 10px;;
     color: white;
     display: inline-block;
     padding: 0 5px 5px 5px;
@@ -294,7 +351,12 @@ footer ul li {
     border-right: 1px solid white;
 
 }
-
-footer p {
+footer ul li a{
     color: white;
+    text-decoration: none;
 }
+footer p{
+    font-family: "Gaegu Regular";
+    color:white;
+}
+    /*----footer----*/
