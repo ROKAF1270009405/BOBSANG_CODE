@@ -78,6 +78,7 @@ nav ul li {
     padding: 30px 0 30px 0;
     color:#4d3c26;
 }
+<<<<<<< HEAD
 
 #out{
    width: 1280px;
@@ -87,6 +88,12 @@ nav ul li {
     margin: auto;
 }
 
+=======
+nav ul li a{
+    text-decoration: none;
+    color: #4d3c26;
+}
+>>>>>>> origin/master
 #location {
     width: 1280px;
     height: 80px;

@@ -37,6 +37,7 @@ header>div:nth-child(2){
 }
 .header_login ul{
 
+<<<<<<< HEAD
 }
 .header_login ul li{
     padding: 0 10px 0 10px;
@@ -47,6 +48,18 @@ header>div:nth-child(2){
    color:  #4d3c26;
     text-decoration: none;
 }
+=======
+}
+.header_login ul li{
+    padding: 0 10px 0 10px;
+    border-right: 1px solid #b08d61;
+    display: inline-block;
+}
+.header_login ul li a{
+   color:  #4d3c26;
+    text-decoration: none;
+}
+>>>>>>> origin/master
 /*----header----*/
 
 /*----nav----*/
@@ -64,15 +77,15 @@ nav ul li{
     margin-right: -6px;
     padding: 30px 0 30px 0;
 }
-nav ul li{
-    color:#4d3c26;
+nav ul li a{
+    text-decoration: none;
+    color: #4d3c26;
 }
 /*----nav----*/
 
 
 div{
-    margin-left:70px;
-    margin-right:70px;
+
     padding-top: 20px;
 
 }
@@ -123,7 +136,7 @@ body div .l{
     text-decoration: underline;
     height:700px;
     border-right: 2px solid #b08d61;
-    width:800px;
+    width:640px;
 
 }
 body div .l2{
@@ -134,7 +147,7 @@ body div .l2{
     text-decoration: underline;
     height:700px;
     border-right: 2px solid #b08d61;
-    width:800px;
+    width:640px;
 
 }
 
@@ -145,14 +158,25 @@ body div .l2{
 body div .r{
     position:relative;
     top:-700px;
-    left:800px;
+    left:640px;
     height:400px;
     text-align: right;
     text-decoration: underline;
     margin-right:700px;
     border-left: 2px solid #b08d61;
     font-size:30px;
-    width:820px;
+    width:640px;
+}
+body div .r2{
+    position:relative;
+    top:-120px;
+    left:640px;
+    text-align: right;
+    text-decoration: underline;
+    margin-right:700px;
+    border-left: 2px solid #b08d61;
+    font-size:30px;
+    width:640px;
 }
 body div .video{
 
@@ -212,7 +236,7 @@ footer ul li a{
     height:80px;
 
     position:absolute;
-    top:725px;
+    top:533px;
     left:00px;
     color:white;
     font-size:30px;
@@ -224,27 +248,20 @@ footer ul li a{
     top:0px;
 }
 .i2,.i3,.i4,.i5{
-    width:700px;
+    width:300px;
     height:400px;
 
 }
 .v1{
    height:400px;
-   width:900px;
+   width:00px;
 
 }
-body div .r2{
-    position:relative;
-    top:-120px;
-    left:800px;
-    text-align: right;
-    text-decoration: underline;
-    margin-right:700px;
-    border-left: 2px solid #b08d61;
-    font-size:30px;
-    width:820px;
-}
+
 #di{
+      width:1280px;
+    position:relative;
+    left:330px;
 
       background-color: rgb(248,242,228);
 }
@@ -253,7 +270,7 @@ body div .r2{
     height:5px;
     border-top:2px solid rgb(72,74,61);
     position:relative;
-    left:-74px;
+    left:0px;
 
 }
 
@@ -262,46 +279,54 @@ body div .r2{
     bottom:350px;
     left:75px;
 }
+.img1{
+    width:700px;
+    height:400px;
+    position:relative;
+    top:40px;
+}
+
 #ov{
     position:relative;
     bottom:170px;
-    left:1280px;
+    left:970px;
     font-size:40px;
 
 }
 #ov:hover{
     font-size: 50px;
-     left:1250px;
+     left:900px;
     color:brown;
+    background-color:coral;
 }
 
 .dot1{
     position: absolute;
-    top:290px;
-    left:645px;
+    top:100px;
+    left:325px;
 }
 .dot2{
     position: absolute;
-    top:290px;
-    left:675px;
+    top:100px;
+    left:355px;
 }
 
 .dot3{
     position: absolute;
-    top:290px;
-    left:705px;
+    top:100px;
+    left:385px;
 }
 .dot4{
     position: absolute;
-    top:290px;
-    left:735px;
+    top:100px;
+    left:419px;
 }
 .icon1{
     width:40px;
     height:40px;
     position:absolute;
     top:0px;
-    left:781px;
+    left:621px;
     background-color: #b08d61;
      border-radius: 50px;
 }
@@ -310,7 +335,7 @@ body div .r2{
     height:40px;
     position:absolute;
     bottom: 1000px;
-    left:781px;
+    left:621px;
     background-color: #b08d61;
     border-radius: 50px;
 }
@@ -319,7 +344,7 @@ body div .r2{
     height:40px;
     position:absolute;
    top:870px;
-    right:797px;
+    right:621px;
     background-color: #b08d61;
     border-radius: 50px;
 }
@@ -328,7 +353,7 @@ body div .r2{
     height:40px;
     position:absolute;
    top:630px;
-    right:801px;
+    right:621px;
     background-color: #b08d61;
     border-radius: 50px;
 }
