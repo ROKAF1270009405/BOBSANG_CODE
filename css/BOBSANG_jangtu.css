@@ -369,16 +369,25 @@ footer p {
             margin: 0px auto;
 
         }
+
         #inner_wrap {
-        width: 100%;
-        height: 3900px;
-    }
+            width: 100%;
+            height: 3900px;
+        }
+
         #main_body {
-        padding: 0;
-        width: 100%;
-        height: 4000px;
-    }
+            padding: 0;
+            width: 100%;
+            height: 4000px;
+        }
 
 
+.header_onetext {
+            display: none;
+        }
 
+        .header_login {
+            margin-top: 75px;
+            margin-right: 27%;
+        }
     }

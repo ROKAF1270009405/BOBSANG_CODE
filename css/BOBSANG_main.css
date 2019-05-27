@@ -360,4 +360,11 @@ li {
     #three_part{
         height: 1700px;
     }
+    .header_onetext{
+        display: none;
+    }
+    .header_login{
+        margin-top: 75px;
+        margin-right: 27%;
+    }
 }
