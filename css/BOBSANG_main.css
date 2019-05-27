@@ -78,7 +78,7 @@ nav {
 
 nav ul li {
     display: inline-block;
-    width: 16.2%;
+    width: 19.6%;
     text-align: center;
     margin-right: -6px;
     padding: 30px 0 30px 0;
@@ -323,4 +323,41 @@ li {
 
 .slide li:nth-child(4) {
     background-image: url(/img/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C%EC%9D%B4%EB%AF%B8%EC%A7%801.gif);
+}
+
+/*media*/
+
+@media screen and (max-width:832px) {
+    .slide {
+        display: none;
+    }
+
+    #card {
+        width: 850px;
+        position: relative;
+        display: none;
+    }
+
+    .card_right {
+        display: none;
+    }
+
+    .main_big_img{
+        display: none;
+    }
+    #main_img .left_black_box{
+        width: 900px;
+        height: 1700px;
+        background-color: #f8f2e4;
+        display: none;
+
+    }
+    #main_img .left_black_box .left_mini_img{
+        height: 500px;
+        width: 95%;
+        margin: 25px;;
+    }
+    #three_part{
+        height: 1700px;
+    }
 }
