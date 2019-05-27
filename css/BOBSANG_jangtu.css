@@ -363,7 +363,7 @@ footer p {
 
     }
 
-    @media screen and (max-width:755px) {
+    @media screen and (max-width:773px) {
         #all_menu_wrap {
             width: 400px;
             margin: 0px auto;
@@ -382,12 +382,41 @@ footer p {
         }
 
 
-.header_onetext {
+        .header_onetext {
             display: none;
         }
 
         .header_login {
             margin-top: 75px;
-            margin-right: 27%;
+            margin-right: 31%;
         }
+
+
+        nav {
+            height: auto;
+            background-image: url(/img/aluminous-749358_1920.jpg);
+            background-size: 900px;
+            background-repeat: no-repeat;
+        }
+
+        nav ul li {
+            display: block;
+            width: 100%;
+            text-align: center;
+            margin-right: -6px;
+            padding: 30px 0 30px 0;
+            background-color: black;
+            opacity: 0.7;
+
+        }
+
+        nav ul li:hover {
+            opacity: 1;
+        }
+
+        nav ul li a {
+            color: white;
+            font-size: 1.5em;
+        }
+
     }
