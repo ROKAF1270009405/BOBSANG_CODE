@@ -251,12 +251,13 @@ footer p {
             top: 455px;
             z-index: 1;
             font-size: 20px;
+            text-align: center;
         }
 
-        .foodboxundertext>h1 {
+        .boxundertextname {
+            font-family: "GaeGu-Bold";
             font-size: 40px;
-            text-align: center;
-            margin: 0px 0;
+            text-decoration: none;
             color: darkgoldenrod;
         }
 
@@ -304,7 +305,7 @@ footer p {
             font-family: "Gaegu-Bold";
             font-size: 40px;
             text-align: center;
-            margin: 80px 0 80px 0;
+            margin: 60px 0 60px 0;
         }
 
         .drinkunderboxtext {
@@ -312,18 +313,12 @@ footer p {
             top: 400px;
             z-index: 1;
             font-size: 20px;
-        }
-
-        .drinkunderboxtext>h1 {
-            color: darkgoldenrod;
-            font-family: "Gaegu-Bold";
-            font-size: 40px;
-            padding: 10px 60px;
+            padding: 0 64px;
         }
 
         .drinkunderboxtext>h2 {
             color: firebrick;
-            text-align: center;
+
         }
 
         .drinkpricebox {
@@ -410,11 +405,13 @@ footer p {
         }
 
         #allergynav {
-            width: 200px;
+            width: 170px;
             height: 50px;
             position: relative;
             left: 940px;
             background-color: rgb(193, 154, 106);
+            border-radius: 15px;
+            padding: 0 10px;
         }
 
         #allergynav>a {
