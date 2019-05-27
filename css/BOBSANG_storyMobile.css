@@ -80,6 +80,9 @@ nav ul li a{
 }
 /*----nav----*/
 
+
+
+
 #di{
       width:100%;
     position:absolute;
@@ -88,7 +91,9 @@ nav ul li a{
     border-top:none;
       background-color: rgb(248,242,228);
 }
-.line{
+.line1,.line2{
+    position:relative;
+    top:7px;
     width:100%;
 }
 .video{
@@ -107,8 +112,6 @@ body div .l{
 body div .l2{
     display: none;
 }
-
-
 
 
 
