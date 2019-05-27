@@ -7,11 +7,6 @@ body {
     width: 100%;
 }
 
-/*.change{
-    background-color: brown;
-    color: white;
-}*/
-
 #wrap {
     width: 100%;
     height: auto;
@@ -141,15 +136,15 @@ nav ul li a{
     font-size: 15px;
 }
 
-#box {
+.box {
     width: 1280px;
     height: 200px;
     margin: auto;
 }
 
-#box section {
-    width: 700px;
-    height: 140px;
+.box section {
+    width: 800px;
+    height: 200px;
     margin: auto;
     margin-top: 25px;
     padding: 10px;
@@ -158,9 +153,15 @@ nav ul li a{
     line-height: 20.0px;
 }
 
-#box li {
+.box li {
     font-size: 14px;
 }
+
+/*.change{
+    background-color: yellow;
+    font-weight: bold;
+    font-size: 25px;
+}*/
 
 /*ul.tab {
     width: 1280px;

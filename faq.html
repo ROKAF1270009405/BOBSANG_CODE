@@ -15,7 +15,7 @@
             $('.tab>li:eq(0)').find('h3')
                 .css('background-color', 'brown')
                 .next()
-                .show()
+                .show();
 
             $('.tab>li>h3').on('click', function(){
                 $('.tab>li').find('div').hide();
@@ -25,9 +25,14 @@
                 $(this).css('background-color', 'brown')
                     .next()
                     .show();
+                var d=this;
+                console.log(d);
             });
 
-               $('.tab>li>div>p:eq(0)').on('click', function(){
+               /*QA 글을 클릭했을 때 나타나는 반응*/
+
+            /*$.fn.myfunction()=function(){*/
+            $('.tab>li>div>p:eq(0)').on('click', function(){
                 $('.tab>li>div>p:eq(0)').addClass('change');
                 $('.tab>li>div>p:eq(1)').slideDown();
                 $('.tab>li>div>p').each(function(index){
@@ -138,6 +143,9 @@
                 $('.tab>li>div>p:eq(13)').slideUp();
                 $('.tab>li>div>p:eq(12)').removeClass('change');
             });
+                /*}*/
+
+            /*QA 글을 클릭했을 때 나타나는 반응*/
 
         });
 
