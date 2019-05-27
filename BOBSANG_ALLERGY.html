@@ -4,167 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-    <link rel="stylesheet" href="css/BOBSANG_ALLERGY.css">
-    <style>
-        @font-face {
-            font-family: BlackAndWhitePicture-Regular;
-            src: url(../fonts/Black_And_White_picture/BlackAndWhitePicture-Regular.ttf);
-        }
-
-        @font-face {
-            font-family: Gaegu-Bold;
-            src: url(../fonts/Gaegu/Gaegu-Bold.ttf);
-        }
-
-        @font-face {
-            font-family: Gaegu-Light;
-            src: url(../fonts/Gaegu/Gaegu-Light.ttf);
-        }
-
-        @font-face {
-            font-family: Gregular;
-            src: url(../fonts/Gaegu/Gaegu-Regular.ttf);
-        }
-
-        * {
-            margin: 0;
-            padding: 0;
-        }
-
-        header {
-            border: 1px solid red;
-            height: 95px;
-        }
-
-        nav {
-            border: 1px solid blue;
-            height: 80px;
-            padding: 0 70px;
-        }
-
-        section {
-            border: 1px solid green;
-            width: 1140px;
-            height: 1300px;
-            padding: 50px 70px;
-            margin: 0 auto;
-            background-color: rgb(229, 220, 203);
-        }
-
-        footer {
-            border: 1px solid black;
-            height: 200px;
-        }
-
-        table {
-            width: 100%;
-            border-collapse: separate;
-            text-align: center;
-            border: 1px solid none;
-        }
-
-        th,
-        td {
-            border: 1px solid rgb(193, 154, 10);
-            padding: 5px 0;
-        }
-
-        th {
-            background-color: rgb(193, 154, 106);
-            font-family: "Gaegu-Bold";
-            font-size: 30px;
-        }
-
-        td{
-            font-family: "Gaegu-Regular";
-            font-size: 20px;
-        }
-
-        div {
-            margin: 10px 0;
-        }
-
-        img {
-            background-color: white;
-        }
-
-        #toptitle>h1 {
-            font-family: "BlackAndWhitePicture-Regular";
-            color: #8B4513;
-        }
-
-        .line {
-            border: 3px solid rgb(193, 154, 106);
-        }
-
-        .nametitle>h1 {
-            text-align: center;
-            font-size: 50px;
-            font-family: "BlackAndWhitePicture-Regular";
-            color: #8B4513;
-            margin-top: 50px;
-        }
-
-        .nametitle>h3 {
-            text-align: center;
-            font-size: 25px;
-            font-family: "Gaegu-Light";
-        }
-
-        .caution {
-            font-family: "Gaegu-Regular";
-            clear: left;
-            margin: 30px auto;
-            background: #E1B771;
-            padding: 10px;
-        }
-
-        .caution>h1 {
-            font-family: "Gaegu-Bold";
-            font-size: 30px;
-            color: red;
-        }
-    </style>
+    <link rel="stylesheet" href="css/BOBSANG_ALLERGY.css" media="screen and (min-width:1111px)">
+    <link rel="stylesheet" href="css/BOBSANG_ALLERGYMOBILE.css" media="screen and (min-width:320px) and (max-width:1110px)">
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script>
-        $(document).ready(function() {
-            $('.allergylist').find('td').on('dblclick', function() {
-                var searchname = $(this).text();
-                $('#allergy').find('td').each(function(index, element) {
-                    let tmpname = $(element).text();
-                    if (tmpname.indexOf(searchname) >= 0) {
-                        this.style.backgroundColor = 'red';
-                    }
-                });
-            });
-
-            $('.allergylist').find('td').on('click', function() {
-                var searchname = $(this).text();
-                $('#allergy').find('td').each(function(index, element) {
-                    let tmpname = $(element).text();
-                    if (tmpname.indexOf(searchname) >= 0) {
-                        this.style.backgroundColor = 'rgb(229, 220, 203)';
-                    }
-                });
-            })
-        });
-    </script>
+    <script src="js/BOBSANG_ALLERGY.js"></script>
 </head>
 
 <body>
     <header>
-            <div class="header_onetext"><img src="img/%EB%AF%B8%EB%8B%88title.gif" alt="미니 타이틀"></div>
-            <div class="header_logo"><a href="BOBSANG_main.html"><img src="img/%ED%83%80%EC%9D%B4%ED%8B%80.gif" alt="메인 타이틀"></a></div>
-            <div class="header_login">
-                <ul>
-                    <li><a href="#">로그인</a></li><li><a href="#">회원가입</a></li><li><a href="#">사이트맵</a></li><li><a href="#">고객센터</a></li>
-                </ul>
-            </div>
-        </header>
-        <nav>
+        <div class="header_onetext"><img src="img/%EB%AF%B8%EB%8B%88title.gif" alt="미니 타이틀"></div>
+        <div class="header_logo"><a href="BOBSANG_main.html"><img src="img/%ED%83%80%EC%9D%B4%ED%8B%80.gif" alt="메인 타이틀"></a></div>
+        <div class="header_login">
+            <ul>
+                <li><a href="#">로그인</a></li>
+                <li><a href="#">회원가입</a></li>
+                <li><a href="#">사이트맵</a></li>
+                <li><a href="#">고객센터</a></li>
+            </ul>
+        </div>
+    </header>
+    <nav>
             <ul>
                 <li><a href="BOBSANG_story.html">시골밥상 이야기</a></li>
-                <li><a href="#">매장안내</a></li>
                 <li><a href="BOBSANG_FOODMENU.html">차림메뉴</a></li>
                 <li><a href="BOBSANG_jangtu.html">시골장터</a></li>
                 <li><a href="card.html">제휴혜택</a></li>
@@ -172,6 +33,9 @@
             </ul>
         </nav>
     <section id="allergy">
+        <div id="allergynav">
+            <a href="BOBSANG_FOODMENU.html">먹을거리>></a>
+        </div>
         <div id="toptitle">
             <h1>알레르기</h1>
             <div class="line"></div>
@@ -183,16 +47,12 @@
             </div>
             <table>
                 <colgroup>
-                    <col width="11%">
-                    <col width="11%">
-                    <col width="11%">
-                    <col width="11%">
-                    <col width="11%">
-                    <col width="11%">
-                    <col width="11%">
-                    <col width="11%">
-                    <col width="11%">
-                    <col width="11%">
+                    <col style="width: 11.1%">
+                    <col style="width: 11.1%">
+                    <col style="width: 11.1%">
+                    <col style="width: 11.1%">
+                    <col style="width: 11.1%">
+                    <col style="width: 11.1%">
                 </colgroup>
                 <tr>
                     <td>난류</td>
@@ -222,9 +82,9 @@
         </div>
         <table>
             <colgroup>
-                <col width="25%">
-                <col width="25%">
-                <col width="50%">
+                <col style="width: 25%">
+                <col style="width: 25%">
+                <col style="width: 50%">
             </colgroup>
             <thead>
                 <tr>
@@ -319,16 +179,16 @@
         </div>
     </section>
     <section id="origin">
-       <div class="nametitle">
-                <h1>원산지 안내</h1>
-                <div class="line"></div>
-            </div>
+        <div class="nametitle">
+            <h1>원산지 안내</h1>
+            <div class="line"></div>
+        </div>
         <div>
             <table>
                 <colgroup>
-                    <col width="25%">
-                    <col width="25%">
-                    <col width="50%">
+                    <col style="width: 25%">
+                    <col style="width: 25%">
+                    <col style="width: 50%">
                 </colgroup>
                 <thead>
                     <tr>
@@ -465,22 +325,22 @@
     </section>
     <footer>
         <div>
-                <a href="https://twitter.com/?lang=ko"><img src="img/iconmonstr-twitter-1-240.png" alt="트위터"></a><a href="https://ko-kr.facebook.com/"><img src="img/iconmonstr-facebook-3-240.png" alt="페이스북"></a><a href="https://www.instagram.com/?hl=ko"><img src="img/iconmonstr-instagram-1-240.png" alt="인스타그램"></a><a href="https://www.youtube.com/?gl=KR&hl=ko"><img src="img/iconmonstr-youtube-6-240.png" alt="유튜브"></a><a href="https://www.google.co.kr/webhp?tab=ww"><img src="img/iconmonstr-google-plus-1-240.png" alt="구글플러스"></a>
-            </div>
-            <hr>
-            <ul>
-                <li><a href="#">회사소개</a></li>
-                <li><a href="#">사이트맵</a></li>
-                <li><a href="#">채용정보</a></li>
-                <li><a href="#">이용약관</a></li>
-                <li><a href="#">개인정보처리방침</a></li>
-                <li><a href="#">이메일 무단수집거부</a></li>
-                <li><a href="#">법적고지</a></li>
-                <li><a href="#">윤리신고센터</a></li>
-            </ul>
-            <p>(우)12345 서울시 밥구 상동303(밥동 303-1번지) BIT타워 3-3/3-3층 BOBSANG(주)</p>
-            <p>대표이사 : 홍길동 개인정보보호책임자 : 고길동 고객센터 : 1111-2222 팩스 02-1111-2222</p>
-            <p>사업자등록번호 : 111-22-33333 대표이메일 : help@help.hong</p>
-            <p>Copyrightⓒ2019BOBSANG BIT ALL RIGHTS RESERVED</p>
-        </footer>
+            <a href="https://twitter.com/?lang=ko"><img src="img/iconmonstr-twitter-1-240.png" alt="트위터"></a><a href="https://ko-kr.facebook.com/"><img src="img/iconmonstr-facebook-3-240.png" alt="페이스북"></a><a href="https://www.instagram.com/?hl=ko"><img src="img/iconmonstr-instagram-1-240.png" alt="인스타그램"></a><a href="https://www.youtube.com/?gl=KR&hl=ko"><img src="img/iconmonstr-youtube-6-240.png" alt="유튜브"></a><a href="https://www.google.co.kr/webhp?tab=ww"><img src="img/iconmonstr-google-plus-1-240.png" alt="구글플러스"></a>
+        </div>
+        <hr>
+        <ul>
+            <li><a href="#">회사소개</a></li>
+            <li><a href="#">사이트맵</a></li>
+            <li><a href="#">채용정보</a></li>
+            <li><a href="#">이용약관</a></li>
+            <li><a href="#">개인정보처리방침</a></li>
+            <li><a href="#">이메일 무단수집거부</a></li>
+            <li><a href="#">법적고지</a></li>
+            <li><a href="#">윤리신고센터</a></li>
+        </ul>
+        <p>(우)12345 서울시 밥구 상동303(밥동 303-1번지) BIT타워 3-3/3-3층 BOBSANG(주)</p>
+        <p>대표이사 : 홍길동 개인정보보호책임자 : 고길동 고객센터 : 1111-2222 팩스 02-1111-2222</p>
+        <p>사업자등록번호 : 111-22-33333 대표이메일 : help@help.hong</p>
+        <p>Copyrightⓒ2019BOBSANG BIT ALL RIGHTS RESERVED</p>
+    </footer>
 </body></html>

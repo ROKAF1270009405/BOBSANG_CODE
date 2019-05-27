@@ -1,29 +1,35 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-img{
+
+img {
     width: 100%;
 }
-body{
+
+body {
     width: 100%;
 }
-#wrap{
+
+#wrap {
     width: 100%;
     height: auto;
     margin: 0 auto;
 }
+
 /*----header----*/
-header{
+header {
     width: 100%;
     height: 95px;
     background-color: #DAB991;
 }
-header>div:nth-child(1){
+
+header > div:nth-child(1) {
     margin: 54px 0 0 5px;
     float: left;
 }
-header>div:nth-child(2){
+
+header > div:nth-child(2) {
     width: 215px;
     height: 75px;
     margin: 0 auto;
@@ -32,99 +38,113 @@ header>div:nth-child(2){
     left: 50%;
     transform: translateX(-50%);
 }
-.header_login{
+
+.header_login {
     font-family: "Gaegu Regular";
     font-weight: bold;
     margin: 54px 5px 0 0;
     float: right;
 }
-.header_login ul{
 
-}
-.header_login ul li{
+.header_login ul {}
+
+.header_login ul li {
     padding: 0 10px 0 10px;
     border-right: 1px solid #b08d61;
     display: inline-block;
 }
-.header_login ul li a{
-   color:  #4d3c26;
+
+.header_login ul li a {
+    color: #4d3c26;
     text-decoration: none;
 }
+
 /*----header----*/
 
 /*----nav----*/
-nav{
+nav {
     font-family: "Gaegu Regular";
     font-size: 1.5em;
     font-weight: bold;
     background-color: #b08d61;
     height: 80px;
 }
-nav ul li{
+
+nav ul li {
     display: inline-block;
-    width: 16.2%;
+    width: 19.6%;
     text-align: center;
     margin-right: -6px;
     padding: 30px 0 30px 0;
 }
-nav ul li a{
+
+nav ul li a {
     text-decoration: none;
     color: #4d3c26;
 }
+
 /*----nav----*/
 /*----main_body----*/
-#main_body{
+#main_body {
     width: 1280px;
     height: 1800px;
     margin: 0 auto;
     background-color: #f8f2e4;
     padding: 50px 70px 0 70px;
 }
-#main_body h2{
+
+#main_body h2 {
     font-family: "Black And White Picture";
     font-size: 2.3em;
     color: #4d3c26;
     display: inline-block;
     float: left;
 }
-#main_body h4{
+
+#main_body h4 {
     font-family: "Black And White Picture";
-    margin-top:20px;
+    margin-top: 20px;
     font-size: 1em;
     color: #4d3c26;
     display: inline-block;
     float: right;
 }
-.line{
+
+.line {
     height: 0.4px;
     width: 100%;
     border: 1px solid #4d3c26;
     clear: both;
     margin-bottom: 40px;
 }
-#inner_wrap{
+
+#inner_wrap {
     width: 100%;
     height: 1800px;
-    background-color: rgb(240,234,198);
+    background-color: rgb(240, 234, 198);
 }
-#mini_img{
+
+#mini_img {
     width: 1180px;
     padding-top: 20px;
     margin: 0px auto;
 }
-#mini_img img{
+
+#mini_img img {
     height: 450px;
 }
-#mini_title{
+
+#mini_title {
     width: 450px;
     height: 120px;
     margin: 0 auto;
     position: relative;
     padding: 0 20px;
-    background-color: rgb(240,234,198);
+    background-color: rgb(240, 234, 198);
     z-index: 1;
 }
-.inner_line{
+
+.inner_line {
     margin: 0 auto;
     width: 1000px;
     height: 1px;
@@ -133,64 +153,100 @@ nav ul li a{
     position: relative;
     top: -60px;
 }
-#all_menu_wrap{
+
+#all_menu_wrap {
     width: 90%;
     margin: 0px auto;
 }
-#all_menu_wrap .menu_wrap{
+
+#all_menu_wrap .menu_wrap {
     width: 330px;
     height: 350px;
     margin: 0 25px 20px;
     float: left;
     font-family: "Gaegu";
-    color:#b08d61;
+    color: #b08d61;
     font-weight: bolder;
     font-size: 2em;
     text-align: center;
     position: relative;
+    z-index: 0;
 }
-#all_menu_wrap .menu_wrap div:nth-last-child(1){
-   padding-top: 30px;
+
+#all_menu_wrap .menu_wrap .menu a img {
+    height: 252px;
 }
-#all_menu_wrap .menu_wrap img:nth-child(1){
+
+#all_menu_wrap .menu_wrap:hover .hidden_area {
+    visibility: visible;
+    opacity: 0.71;
+}
+
+.hidden_area {
+    width: 324px;
+    height: 252px;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    opacity: 2;
+    transition-duration: 0.3s;
+    visibility: hidden;
+    opacity: 0;
+}
+
+
+
+
+#all_menu_wrap .menu_wrap div:nth-last-child(1) {
+    padding-top: 30px;
+}
+
+#all_menu_wrap .menu_wrap img:nth-child(1) {
     height: 200px;
 }
-#all_menu_wrap .menu_wrap .mini_icon{
+
+#all_menu_wrap .menu_wrap .mini_icon {
     width: 30px;
     height: 30px;
     position: absolute;
     top: 243px;
     left: 45%;
-    background-color: rgb(240,234,198);
+    background-color: rgb(240, 234, 198);
 }
-.menu{
+
+.menu {
     padding: 20px;
     border: 3px solid #b08d61;
 }
+
 /*----main_body----*/
 
 
 
 
 /*----footer----*/
-footer{
+footer {
     width: 100%;
     height: 200px;
     text-align: center;
-    background-color: rgb(72,74,61);
+    background-color: rgb(72, 74, 61);
 }
-footer>div{
+
+footer > div {
     height: 60px;
 }
-footer>div img{
-    width:40px;
+
+footer > div img {
+    width: 40px;
     height: 40px;
     margin: 17px;
 }
-footer ul li{
+
+footer ul li {
     font-family: "Gaegu Regular";
     font-size: 1em;
-    height: 10px;;
+    height: 10px;
+    ;
     color: white;
     display: inline-block;
     padding: 0 5px 5px 5px;
@@ -199,62 +255,130 @@ footer ul li{
     border-right: 1px solid white;
 
 }
-footer ul li a{
+
+footer ul li a {
     color: white;
     text-decoration: none;
 }
-footer p{
+
+footer p {
     font-family: "Gaegu Regular";
-    color:white;
+    color: white;
 }
+
 .slide_button {
     position: relative;
     z-index: 1;
     bottom: 400px;
     opacity: 0.5;
 }
-<<<<<<< HEAD
-=======
+
 /*----footer----*/
 
 /*test*/
 
 .foodboxtext {
-            background-color: firebrick;
-            width: 330px;
-            height: 350px;
-            display: none;
-            opacity: 0.5;
-            color: white;
-            position: absolute;
-            z-index: 2;
-        }
+    background-color: firebrick;
+    width: 330px;
+    height: 350px;
+    display: none;
+    opacity: 0.5;
+    color: white;
+    position: absolute;
+    z-index: 2;
+}
 
 
 
 .shape {
-            stroke-dasharray: 0;
-            /*각 꼭지점을 기준으로 시작하는 길이 */
-            stroke: none;
-            /* 돌아가는 색상*/
-            transition: stroke-dashoffseet 1s, stroke-dasharray 1s;
-            fill: transparent;
-            /* svg값의 배경값을 가져온다.*/
-        }
+    stroke-dasharray: 0;
+    /*각 꼭지점을 기준으로 시작하는 길이 */
+    stroke: none;
+    /* 돌아가는 색상*/
+    transition: stroke-dashoffseet 1s, stroke-dasharray 1s;
+    fill: transparent;
+    /* svg값의 배경값을 가져온다.*/
+}
 
-        .foodsvg {
-            position: absolute;
-            z-index: 3;
-        }
+.foodsvg {
+    position: absolute;
+    z-index: 3;
+}
 
-        .foodsvg>svg:hover .shape {
-            stroke-width: 10px;
-            stroke-dashoffset: 0;
-            /* 왼쪽위를 기준으로 끝나는 총변의 길이*/
-            stroke-dasharray: 2420;
-            stroke: brown;
-            /* 도형의 총 변의 길이 만큼 이펙트로 채워짐*/
-            position: relative;
-            z-index: 3;
+.foodsvg > svg:hover .shape {
+    stroke-width: 10px;
+    stroke-dashoffset: 0;
+    /* 왼쪽위를 기준으로 끝나는 총변의 길이*/
+    stroke-dasharray: 2420;
+    stroke: brown;
+    /* 도형의 총 변의 길이 만큼 이펙트로 채워짐*/
+    position: relative;
+    z-index: 3;
+}
+
+/*hover*/
+
+
+@media screen and (max-width:1280px) {
+    #main_body {
+        padding: 0;
+        width: 100%;
+        height: 2550px;
+    }
+
+    #main_body h2 {
+        margin: 20px;
+    }
+
+    .line {
+        width: 95%;
+        margin: 20px;
+    }
+
+    #inner_wrap {
+        width: 100%;
+        height: 2450px;
+    }
+
+    #mini_img {
+        width: 100%;
+    }
+
+    #mini_title {}
+
+    .menu_wrap {
+        margin: 0 100px;
+    }
+
+    #all_menu_wrap {
+        width: 94%;
+        margin: 0px auto;
+    }
+}
+
+@media screen and (max-width:1228px) {
+    #all_menu_wrap {
+        width: 800px;
+        margin: 0px auto;
+
+    }
+
+    @media screen and (max-width:755px) {
+        #all_menu_wrap {
+            width: 400px;
+            margin: 0px auto;
+
         }
->>>>>>> origin/master
+        #inner_wrap {
+        width: 100%;
+        height: 3900px;
+    }
+        #main_body {
+        padding: 0;
+        width: 100%;
+        height: 4000px;
+    }
+
+
+
+    }
