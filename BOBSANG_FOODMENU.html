@@ -5,342 +5,9 @@
     <meta charset="UTF-8">
     <title>Document</title>
     <link rel="stylesheet" href="css/BOBSANG_FOODMENU.css">
-    <style>
-        @font-face {
-            font-family: BlackAndWhitePicture-Regular;
-            src: url(../fonts/Black_And_White_picture/BlackAndWhitePicture-Regular.ttf);
-        }
-
-        @font-face {
-            font-family: Gaegu-Bold;
-            src: url(../fonts/Gaegu/Gaegu-Bold.ttf);
-        }
-
-        @font-face {
-            font-family: Gaegu-Light;
-            src: url(../fonts/Gaegu/Gaegu-Light.ttf);
-        }
-
-        @font-face {
-            font-family: Gaegu-Regular;
-            src: url(../fonts/Gaegu/Gaegu-Regular.ttf);
-        }
-
-        * {
-            margin: 0;
-            padding: 0;
-        }
-
-        header {
-            height: 95px;
-        }
-
-        nav {
-            height: 80px;
-            padding: 0 70px;
-        }
-
-        #foodsection {
-            width: 1140px;
-            height: 4200px;
-            padding: 50px 70px;
-            margin: 0 auto;
-            background-color: rgb(229, 220, 203);
-        }
-
-        #drinksection {
-            width: 1140px;
-            height: 1300px;
-            padding: 50px 70px;
-            margin: 0 auto;
-            background-color: rgb(229, 220, 203);
-        }
-
-        footer {
-            height: 200px;
-        }
-
-        .sectioninner {
-            width: inherit;
-            height: inherit;
-        }
-
-        div {
-            margin-bottom: 20px;
-        }
-
-        .line {
-            border: 3px solid rgb(193, 154, 106);
-        }
-
-        #toptitle>h1 {
-            font-family: "BlackAndWhitePicture-Regular";
-            color: #8B4513;
-        }
-
-        #foodmainimg {
-            /*지울것*/
-            width: inherit;
-            height: 600px;
-        }
-
-        #foodmainimg>img {
-            width: inherit;
-            height: 600px;
-        }
-
-        .nametitle>h1 {
-            text-align: center;
-            font-size: 50px;
-            font-family: "BlackAndWhitePicture-Regular";
-            color: #8B4513;
-        }
-
-        /*        음식 시작*/
-        .foodbox {
-            width: 550px;
-            height: 635px;
-            float: left;
-            margin: 20px 10px;
-            position: relative;
-            z-index: 1;
-        }
-
-        .foodboximg>img {
-            /*음식 이미지 크기 조정*/
-            width: 550px;
-            height: 455px;
-            position: absolute;
-            z-index: 1;
-        }
-
-        .foodboxtext {
-            background-color: #CD853F;
-            width: 550px;
-            height: 455px;
-            display: none;
-            opacity: 0.7;
-            color: white;
-            position: absolute;
-            z-index: 2;
-        }
-
-        .foodboxtext>h1 {
-            font-family: "Gaegu-Bold";
-            font-size: 40px;
-            text-align: center;
-            text-decoration: underline;
-            margin: 80px 0 80px 0;
-        }
-
-        .foodboxtext>h2 {
-            font-family: "Gaegu-Light";
-            font-size: 30px;
-            text-align: center;
-            margin: 40px 0 40px 0;
-        }
-
-        .foodboxtext>div {
-            border: 5px solid white;
-            width: 300px;
-            margin: 0 auto;
-        }
-
-        .foodboxtext>div>p {
-            font-family: "Gaegu-Regular";
-            font-size: 40px;
-            text-align: center;
-        }
-
-        .foodboxundertext {
-            width: inherit;
-            height: 180px;
-            background-color: burlywood;
-            position: absolute;
-            top: 455px;
-            z-index: 1;
-            font-size: 20px;
-        }
-
-        .foodboxundertext>h1 {
-            font-size: 40px;
-            text-align: center;
-            margin: 0px 0;
-            color: darkgoldenrod;
-        }
-
-        .foodboxundertext>h2 {
-            font-family: "Gaegu-Light";
-            font-size: 30px;
-            padding: 0 10px;
-        }
-
-        .foodboxundertext>p {
-            font-family: "Gaegu-Regular";
-            font-size: 25px;
-            padding: 0 10px;
-        }
-
-        /*마실음료 css시작*/
-        .drinkbox {
-            width: 260px;
-            height: 520px;
-            margin: 10px;
-            float: left;
-            position: relative;
-            z-index: 1;
-        }
-
-        .drinkboximg>img {
-            width: 260px;
-            height: 400px;
-            position: absolute;
-            z-index: 1;
-            top: 0;
-        }
-
-        .drinkboxtext {
-            background-color: #CD853F;
-            width: 260px;
-            height: 400px;
-            display: none;
-            opacity: 0.7;
-            position: absolute;
-            z-index: 2;
-        }
-
-        .drinkboxtext>h1 {
-            font-family: "Gaegu-Bold";
-            font-size: 40px;
-            text-align: center;
-            margin: 80px 0 80px 0;
-        }
-
-        .drinkunderboxtext {
-            position: absolute;
-            top: 400px;
-            z-index: 1;
-            font-size: 20px;
-        }
-
-        .drinkunderboxtext>h1 {
-            color: darkgoldenrod;
-            font-family: "Gaegu-Bold";
-            font-size: 40px;
-            padding: 10px 60px;
-        }
-
-        .drinkunderboxtext>h2 {
-            color: firebrick;
-            text-align: center;
-        }
-
-        .drinkpricebox {
-            width: 560px;
-            height: 520px;
-            margin: 10px 0 10px 10px;
-            float: left;
-        }
-
-        .drinkpricebox>table {
-            width: inherit;
-            height: inherit;
-            border-collapse: separate;
-            text-align: center;
-        }
-
-        .drinkpricebox th,
-        .drinkpricebox td {
-            border: 1px solid rgb(193, 154, 10);
-            padding: 5px 0;
-        }
-
-        .drinkpricebox th {
-            background-color: rgb(193, 154, 106);
-            font-family: "Gaegu-Bold";
-            font-size: 30px;
-        }
-
-        .drinkpricebox td {
-            font-family: "Gaegu-Light";
-            font-size: 25px;
-        }
-
-        #caution {
-            width: 650px;
-            height: 100px;
-            clear: left;
-            margin: 0 auto;
-            font-size: 25px;
-            background-color: rgb(193, 154, 106);
-        }
-
-        /*        test중*/
-        .shape {
-            stroke-dasharray: 0;
-            /*각 꼭지점을 기준으로 시작하는 길이 */
-            stroke: none;
-            /* 돌아가는 색상*/
-            transition: stroke-dashoffseet 1s, stroke-dasharray 1s;
-            fill: transparent;
-            /* svg값의 배경값을 가져온다.*/
-        }
-
-        .foodsvg {
-            position: absolute;
-            z-index: 3;
-        }
-
-        .foodsvg>svg:hover .shape {
-            stroke-width: 10px;
-            stroke-dashoffset: 0;
-            /* 왼쪽위를 기준으로 끝나는 총변의 길이*/
-            stroke-dasharray: 2420;
-            stroke: brown;
-            /* 도형의 총 변의 길이 만큼 이펙트로 채워짐*/
-            position: relative;
-            z-index: 3;
-        }
-
-        .drinksvg {
-            position: absolute;
-            z-index: 3;
-        }
-
-        .drinksvg>svg:hover .shape {
-            stroke-width: 10px;
-            stroke-dashoffset: 0;
-            /* 왼쪽위를 기준으로 끝나는 총변의 길이*/
-            stroke-dasharray: 1570;
-            stroke: brown;
-            /* 도형의 총 변의 길이 만큼 이펙트로 채워짐*/
-            position: relative;
-            z-index: 3;
-        }
-    </style>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script>
-        $(document).ready(function() {
-            let boxtext;
-            $('svg').on('mouseover', function() {
-                let boxname = $(this).parent().parent();
-                if ((boxname.attr('class')).indexOf('food') >= 0) {
-                    boxtext = $(boxname).find('.foodboxtext');
-                    boxtext.slideDown();
-                } else {
-                    boxtext = $(boxname).find('.drinkboxtext');
-                    boxtext.slideDown();
-                }
-            });
-
-            $('svg').on('mouseout', function() {
-                boxtext.slideUp();
-            });
-
-        });
-    </script>
+    <script src="js/BOBSANG_FOODMENU.js"></script>
 </head>
-
 <body>
     <header>
         <div class="header_onetext"><img src="img/%EB%AF%B8%EB%8B%88title.gif" alt="미니 타이틀"></div>
@@ -354,18 +21,21 @@
             </ul>
         </div>
     </header>
-        <nav>
-            <ul>
-                <li><a href="BOBSANG_story.html">시골밥상 이야기</a></li>
-                <li><a href="#">매장안내</a></li>
-                <li><a href="BOBSANG_FOODMENU.html">차림메뉴</a></li>
-                <li><a href="BOBSANG_jangtu.html">시골장터</a></li>
-                <li><a href="card.html">제휴혜택</a></li>
-                <li><a href="#">FAQ</a></li>
-            </ul>
-        </nav>
+    <nav>
+        <ul>
+            <li><a href="BOBSANG_story.html">시골밥상 이야기</a></li>
+            <li><a href="#">매장안내</a></li>
+            <li><a href="BOBSANG_FOODMENU.html">차림메뉴</a></li>
+            <li><a href="BOBSANG_jangtu.html">시골장터</a></li>
+            <li><a href="card.html">제휴혜택</a></li>
+            <li><a href="#">FAQ</a></li>
+        </ul>
+    </nav>
     <section id="foodsection">
         <div class="sectioninner">
+            <div id="allergynav">
+                <a href="BOBSANG_ALLERGY.html">알레르기>></a>
+            </div>
             <div id="toptitle">
                 <h1>먹을거리</h1>
                 <div class="line"></div>
@@ -387,7 +57,7 @@
                     <div class="foodboximg">
                         <img src="img/%EB%8F%8C%EC%86%A5%EB%B0%A5.jpg" alt="돌솥밥">
                         <div class="foodboxtext">
-                            <h1>밥없이는 식사를 논하지마라!</h1>
+                            <h1>식사에 밥은 필수입니다</h1>
                             <div>
                                 <p>원산지 : 국내산</p>
                             </div>
@@ -650,9 +320,9 @@
                 <div class="drinkpricebox">
                     <table>
                         <colgroup>
-                            <col width="25%">
-                            <col width="50%">
-                            <col width="25%">
+                            <col style="width: 25%">
+                            <col style="width: 50%">
+                            <col style="width: 25%">
                         </colgroup>
                         <thead>
                             <tr>
@@ -739,9 +409,9 @@
                 <div class="drinkpricebox">
                     <table>
                         <colgroup>
-                            <col width="25%">
-                            <col width="50%">
-                            <col width="25%">
+                            <col style="width: 25%">
+                            <col style="width: 50%">
+                            <col style="width: 25%">
                         </colgroup>
                         <thead>
                             <tr>
