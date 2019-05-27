@@ -1,0 +1,232 @@
+@font-face {
+    font-family: BlackAndWhitePicture-Regular;
+    src: url(../fonts/Black_And_White_picture/BlackAndWhitePicture-Regular.ttf);
+}
+
+@font-face {
+    font-family: Gaegu-Bold;
+    src: url(../fonts/Gaegu/Gaegu-Bold.ttf);
+}
+
+@font-face {
+    font-family: Gaegu-Light;
+    src: url(../fonts/Gaegu/Gaegu-Light.ttf);
+}
+
+@font-face {
+    font-family: Gregular;
+    src: url(../fonts/Gaegu/Gaegu-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*----header----*/
+header {
+    width: 100%;
+    height: 95px;
+    background-color: #DAB991;
+}
+
+header > div:nth-child(1) {
+    margin: 54px 0 0 5px;
+    float: left;
+}
+
+header > div:nth-child(2) {
+    width: 215px;
+    height: 75px;
+    margin: 0 auto;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.header_login {
+    font-family: "Gaegu Regular";
+    font-weight: bold;
+    margin: 54px 5px 0 0;
+    float: right;
+}
+
+.header_login ul {}
+
+.header_login ul li {
+    padding: 0 10px 0 10px;
+    border-right: 1px solid #b08d61;
+    display: inline-block;
+}
+
+.header_login ul li a {
+    color: #4d3c26;
+    text-decoration: none;
+}
+
+/*----header----*/
+
+/*----nav----*/
+nav {
+    font-family: "Gaegu Regular";
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: #b08d61;
+    height: 80px;
+}
+
+nav ul li {
+    display: inline-block;
+    width: 16.2%;
+    text-align: center;
+    margin-right: -6px;
+    padding: 30px 0 30px 0;
+}
+
+nav ul li a {
+    color: #4d3c26;
+    text-decoration: none;
+}
+
+/*----nav----*/
+
+/*----footer----*/
+footer {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    background-color: rgb(72, 74, 61);
+}
+
+footer > div {
+    height: 60px;
+    margin-top: 0px; 바디부분이랑 띄워져 있길래 추가합니다.
+}
+
+footer > div img {
+    width: 40px;
+    height: 40px;
+    margin: 17px;
+}
+
+footer ul li {
+    font-family: "Gaegu Regular";
+    font-size: 1em;
+    height: 10px;
+    ;
+    color: white;
+    display: inline-block;
+    padding: 0 5px 5px 5px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-right: 1px solid white;
+
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer p {
+    font-family: "Gaegu Regular";
+    color: white;
+}
+
+/*----footer----*/
+
+section {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: rgb(229, 220, 203);
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    text-align: center;
+    border: 1px solid none;
+}
+
+th,
+td {
+    border: 1px solid rgb(193, 154, 10);
+    padding: 5px 0;
+}
+
+th {
+    background-color: rgb(193, 154, 106);
+    font-family: "Gaegu-Bold";
+    font-size: 30px;
+}
+
+td {
+    font-family: "Gaegu-Regular";
+    font-size: 20px;
+}
+
+div {
+    margin: 10px 0;
+}
+
+section> img {
+    background-color: white;
+}
+
+#toptitle > h1 {
+    font-family: "BlackAndWhitePicture-Regular";
+    color: #8B4513;
+}
+
+.line {
+    border: 3px solid rgb(193, 154, 106);
+}
+.nametitle{
+    margin: 0;
+}
+
+.nametitle > h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: "BlackAndWhitePicture-Regular";
+    color: #8B4513;
+}
+
+.nametitle > h3 {
+    text-align: center;
+    font-size: 25px;
+    font-family: "Gaegu-Light";
+}
+
+.caution {
+    font-family: "Gaegu-Regular";
+    clear: left;
+    margin: 30px auto;
+    background: #E1B771;
+    padding: 10px;
+}
+
+.caution > h1 {
+    font-family: "Gaegu-Bold";
+    font-size: 30px;
+    color: red;
+}
+
+#allergynav {
+    width: 170px;
+    height: 50px;
+    position: relative;
+    left: 940px;
+    background-color: rgb(193, 154, 106);
+    border-radius: 15px;
+    padding: 0 10px;
+}
+
+#allergynav > a {
+    font-family: "Gaegu-Bold";
+    font-size: 40px;
+    text-decoration: none;
+    color: black;
+}
