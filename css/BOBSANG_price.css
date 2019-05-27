@@ -78,7 +78,7 @@ nav ul li a{
 /*----nav----*/
 
 body{
-    background-color: rgb(248,242,228);
+
 
 }
 
@@ -87,8 +87,9 @@ body{
       width:1280px;
     position:relative;
     left:330px;
-
-      background-color: rgb(248,242,228);
+    border:1px solid rgb(248,242,228) ;
+      background-color: rgb(248,242,228) ;
+    border-top:none;
 }
 .box{
 
@@ -104,10 +105,13 @@ body{
 
 
 .h3{
+    padding-top: 30px;
     font-family: "Gaegu Regular";
     color:rgb(72,74,61);
     font-size:30px;
     font-weight:bolder;
+    padding-left:10px;
+
 }
 .line{
     width:100%;
