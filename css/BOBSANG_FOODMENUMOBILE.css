@@ -78,7 +78,7 @@ nav {
 
 nav ul li {
     display: inline-block;
-    width: 19.6%;
+    width: 16.2%;
     text-align: center;
     margin-right: -6px;
     padding: 30px 0 30px 0;
@@ -136,17 +136,17 @@ footer p {
 /*----footer----*/
 
 #foodsection {
-    width: 1140px;
+    width: 100%;
     height: 4200px;
-    padding: 50px 70px;
+    padding: 50px 0;
     margin: 0 auto;
     background-color: rgb(229, 220, 203);
 }
 
 #drinksection {
-    width: 1140px;
+    width: 100%;
     height: 1300px;
-    padding: 50px 70px;
+    padding: 50px 0;
     margin: 0 auto;
     background-color: rgb(229, 220, 203);
 }
@@ -162,6 +162,7 @@ div {
 
 ul li{
     list-style: none;
+    display: block;
 }
 
 .line {
@@ -179,13 +180,14 @@ ul li{
 
 #foodmainimg {
     /*지울것*/
-    width: inherit;
-    height: 600px;
+    width: 100%;
+
 }
 
 #foodmainimg > img {
-    width: inherit;
-    height: 600px;
+    width: 100%;
+    height: auto;
+    display: inline-block;
 }
 
 .nametitle > h1 {
@@ -197,26 +199,25 @@ ul li{
 
 /*        음식 시작*/
 .foodbox {
-    width: 550px;
-    height: 635px;
+    width: 100%;
     float: left;
-    margin: 20px 10px;
+    margin: 20px 0;
+    display: block;
+
 }
 
 .foodboximg img {
     /*음식 이미지 크기 조정*/
-    width: 550px;
-    height: 455px;
+    width: 100%;
+    height: auto;
 }
 
 .foodboxtext {
     background-color: #CD853F;
-    width: 550px;
-    height: 455px;
+    width: inherit;
     display: none;
     opacity: 0.7;
     color: white;
-    position: absolute;
     z-index: 2;
 }
 
@@ -225,14 +226,12 @@ ul li{
     font-size: 40px;
     text-align: center;
     text-decoration: underline;
-    margin: 80px 0 80px 0;
 }
 
 .foodboxtext > h2 {
     font-family: "Gaegu-Light";
     font-size: 30px;
     text-align: center;
-    margin: 40px 0 40px 0;
 }
 
 .foodboxtext > div {
@@ -248,7 +247,7 @@ ul li{
 }
 
 .foodboxundertext {
-    width: inherit;
+    width: 100%;;
     height: 180px;
     background-color: burlywood;
 /*    position: absolute;*/
@@ -279,23 +278,19 @@ ul li{
 
 /*마실음료 css시작*/
 .drinkbox {
-    width: 260px;
-    height: 520px;
-    margin: 10px;
+    width: 50%;
+    margin: 10px 0;
     float: left;
-    position: relative;
-    z-index: 1;
+    height: auto;
 }
 
 .drinkboximg img {
-    width: 260px;
-    height: 400px;
+    width: 100%;
 }
 
 .drinkboxtext {
     background-color: #CD853F;
-    width: 260px;
-    height: 400px;
+    width: 100%;
     display: none;
     opacity: 0.7;
     position: absolute;
@@ -306,11 +301,10 @@ ul li{
     font-family: "Gaegu-Bold";
     font-size: 40px;
     text-align: center;
-    margin: 60px 0 60px 0;
 }
 
 .drinkunderboxtext {
-    width: 260px;
+    width: 100%;
     text-align: center;
     z-index: 1;
     font-size: 20px;
@@ -322,10 +316,10 @@ ul li{
 }
 
 .drinkpricebox {
-    width: 560px;
-    height: 520px;
-    margin: 10px 0 10px 10px;
+    width: 100%;
+    margin: 10px 0;
     float: left;
+    display: block;
 }
 
 .drinkpricebox > table {
@@ -353,54 +347,19 @@ ul li{
 }
 
 #caution {
-    width: 650px;
-    height: 100px;
-    clear: left;
+    width: 100%;
+    float: left;
     margin: 0 auto;
     font-size: 25px;
     background-color: rgb(193, 154, 106);
 }
 
-/*        test중*/
-.shape {
-    stroke-dasharray: 0;
-    /*각 꼭지점을 기준으로 시작하는 길이 */
-    stroke: none;
-    /* 돌아가는 색상*/
-    transition: stroke-dashoffseet 1s, stroke-dasharray 1s;
-    fill: transparent;
-    /* svg값의 배경값을 가져온다.*/
-}
-
-.foodsvg {
-    position: absolute;
-    z-index: 3;
-}
-
-.foodsvg > svg:hover .shape {
-    stroke-width: 10px;
-    stroke-dashoffset: 0;
-    /* 왼쪽위를 기준으로 끝나는 총변의 길이*/
-    stroke-dasharray: 2420px;
-    stroke: brown;
-    /* 도형의 총 변의 길이 만큼 이펙트로 채워짐*/
-    position: relative;
-    z-index: 3;
+svg{
+    display: none;
 }
 
 .drinksvg {
     position: absolute;
-    z-index: 3;
-}
-
-.drinksvg > svg:hover .shape {
-    stroke-width: 10px;
-    stroke-dashoffset: 0;
-    /* 왼쪽위를 기준으로 끝나는 총변의 길이*/
-    stroke-dasharray: 1570px;
-    stroke: brown;
-    /* 도형의 총 변의 길이 만큼 이펙트로 채워짐*/
-    position: relative;
     z-index: 3;
 }
 

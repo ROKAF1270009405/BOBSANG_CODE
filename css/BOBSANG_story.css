@@ -80,6 +80,18 @@ nav ul li a{
 }
 /*----nav----*/
 
+.hometag{
+    width:200px;
+    height:auto;
+    float:right;
+    display: inline-block;
+    position:relative;
+    top:-25px;
+    right:-50px;
+    font-family:"Black And White Picture";
+    color:#b08d61;
+}
+
 
 div{
 
@@ -87,7 +99,7 @@ div{
 
 }
 .h3{
-    font-family: "Gaegu Regular";
+    font-family: "Black And White Picture";
     color:rgb(72,74,61);
     font-size:30px;
     font-weight:bolder;
@@ -301,8 +313,9 @@ footer ul li a{
 #ov:hover{
     font-size: 50px;
      left:840px;
-    color:brown;
-    background-color:coral;
+    color:black;
+    background-color:darkmagenta;
+    font-family: "Black And White Picture";
 }
 
 .dot1{
