@@ -204,7 +204,7 @@ td{
     text-decoration: underline;
     color:rgb(72,74,61);
 }
-.altertab{
+.altertab{   /*스크립트 수정후 고민해볼것*/
     display: none;
 
 }
