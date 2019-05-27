@@ -82,6 +82,19 @@ body{
 
 }
 
+.hometag{
+    width:200px;
+    height:auto;
+    float:right;
+    display: inline-block;
+    position:relative;
+    top:-26px;
+    right:-30px;
+    font-family:"Black And White Picture";
+    color:#b08d61;
+}
+
+
 
 #di{
       width:1280px;
@@ -106,7 +119,7 @@ body{
 
 .h3{
     padding-top: 30px;
-    font-family: "Gaegu Regular";
+    font-family: "Black And White Picture";
     color:rgb(72,74,61);
     font-size:30px;
     font-weight:bolder;
