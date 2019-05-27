@@ -204,6 +204,12 @@ td{
     text-decoration: underline;
     color:rgb(72,74,61);
 }
+.altertab{
+    display: none;
+
+}
+
+
 
 footer{
     width: 100%;
