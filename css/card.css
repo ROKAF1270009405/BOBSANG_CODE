@@ -176,11 +176,11 @@ nav ul li a{
 
 ul h3 {
     /*background-color: papayawhip;*/
-    position: absolute;
+    /*position: absolute;*/
     float: left;
     width: 422px;
     height: 60px;
-    position: relative;
+    /*position: relative;*/
     text-align: center;
     border: 2px solid silver;
     font-size: 25px;
