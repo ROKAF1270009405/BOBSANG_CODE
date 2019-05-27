@@ -87,7 +87,7 @@ nav ul li a{
 #out{
    width: 1280px;
    height: 1500px;
-   border: 1px solid silver;
+   border: 1px solid lightyellow;
    background-color:lightyellow;
    margin: auto;
 }
@@ -148,7 +148,7 @@ nav ul li a{
     margin: auto;
     margin-top: 25px;
     padding: 10px;
-    border: 2px solid black;
+    border: 1px solid papayawhip;
     background-color: papayawhip;
     line-height: 20.0px;
 }
@@ -167,7 +167,7 @@ nav ul li a{
     width: 1280px;
     height: 1100px;
     margin: 0 auto;
-    border: 1px solid silver;
+    border: 1px solid lightyellow;
 }
 
 .tab > li {
@@ -175,12 +175,12 @@ nav ul li a{
 }
 
 ul h3 {
-    /*background-color: skyblue;*/
-    position: absolute;
+    /*background-color: papayawhip;*/
+    /*position: absolute;*/
     float: left;
     width: 422px;
     height: 60px;
-    position: relative;
+    /*position: relative;*/
     text-align: center;
     border: 2px solid silver;
     font-size: 25px;
@@ -190,14 +190,14 @@ ul>li>div{
     position: absolute;
     top: 546px;
     width: 1280px;
-    border: 1px solid silver;
+    border: 1px solid lightyellow;
     height: 1130px;
     background-color: lightyellow;
 }
 
 .tab h3 a {
     display: inline-block;
-    margin-top: 8px;
+    margin-top: 14px;
     text-decoration: none;
     color: black;
 }
@@ -236,28 +236,29 @@ ul>li>div{
 }
 
 #ub img{
-    width: 350px;
-    height: 210px;
-    padding-top: 80px;
-    padding-left: 110px;
-    padding-right: 100px;
+    width: 450px;
+    height: 270px;
+    padding-top: 120px;
+    padding-left: 60px;
+    padding-right: 60px;
     float: right;
 }
 
 #sb {
-    padding-top: 360px;
-    padding-left: 130px;
-    padding-right: 50px;
-    line-height: 25.0px;
+    padding-top: 460px;
+    padding-left: 70px;
+    padding-right: 0px;
+    line-height: 30.0px;
 }
 
 #sb h4{
     color: red;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 #sb li{
     list-style: none;
+    font-size: 20px;
 }
 
 #sb img{
@@ -269,29 +270,30 @@ ul>li>div{
 }
 
 #uc img {
-    width: 350px;
-    height: 210px;
-    padding-top: 90px;
-    padding-left: 0px;
-    padding-right: 50px;
-    margin-left: -150px;
+    width: 450px;
+    height: 270px;
+    padding-top: 110px;
+    padding-left: 50px;
+    padding-right: 30px;
+    /*margin-left: -150px;*/
     float: left;
 }
 
 #sc {
-    padding-top: 110px;
-    padding-left: 70px;
-    padding-right: 50px;
+    padding-top: 170px;
+    padding-left: 10px;
+    padding-right: 10px;
     float: left;
-    line-height: 25.0px;
+    line-height: 30.0px;
 }
 #sc h4{
     color: red;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 #sc li{
     list-style: none;
+    font-size: 20px;
 }
 
 #sc img{
@@ -304,8 +306,8 @@ ul>li>div{
 
 #ud #h{
     color: chocolate;
-    font-size: 20px;
-    padding-top: 50px;
+    font-size: 25px;
+    padding-top: 30px;
     padding-left: 120px;
     /*margin: 10px;*/
 }
@@ -314,38 +316,201 @@ ul>li>div{
     width: 450px;
     height: 270px;
     padding-top: 10px;
-    padding-left: 110px;
-    padding-right: 100px;
+    padding-left: 120px;
+    padding-right: 80px;
     float: left;
+}
+
+#sd {
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    /*float: right;*/
+    line-height: 30.0px;
 }
 
 #sd td{
      /*border-collapse: collapse;
      width: 500px;
      height: 200px;*/
-     border: 2px solid silver;
+     border: 1px solid silver;
+    background-color: white;
 }
 
+/*#sd table{
+    padding-right: 20px;
+}*/
 #sd table img{
-    width: 166px;
-    height: 66px;
+    width: 160px;
+    height: 64px;
 }
 
 #sd td{
   border: 2px solid silver;
+  /*width: 120px;
+  height: 50px;*/
   /*text-align: left;*/
   /*padding-right: 100px;*/
 }
-/*#ud #b{
-    width: 350px;
-    height: 210px;
-    padding-top: 10px;
-    padding-left: 110px;
-    padding-right: 100px;
-    clear: both;
-    float: left;
+
+#sd h4{
+    color: red;
+    font-size: 25px;
+}
+
+#sd li{
+    list-style: none;
+    font-size: 20px;
+}
+
+/*#sd a{
+    padding: 100px;
 }*/
 
+#sd img{
+    width: 150px;
+    height: 30px;
+    /*padding-top: 500px;*/
+    /*padding-top: -250px;*/
+    /*padding-left: 90px;*/
+   /* margin: 0;*/
+    /*padding-left: 50px;*/
+    /*float: left;*/
+}
+
+#home{
+    padding-left: 650px;
+}
+/*ue*/
+#ue #h{
+    color: chocolate;
+    font-size: 25px;
+    padding-top: 50px;
+    padding-right: 120px;
+    float: right;
+}
+
+#ue #a{
+    width: 450px;
+    height: 270px;
+    position: relative;
+    top: 100px;
+    right: -290px;
+    padding-left: 60px;
+    /*padding-right: 60px;*/
+    float: right;
+}
+
+#se {
+    padding-top: 100px;
+    padding-left: 115px;
+    /*padding-bottom: -50px;*/
+    /*padding-right: 50px;*/
+    /*float: right;*/
+    line-height: 30.0px;
+    white-space:nowrap;
+}
+
+#se table{
+    position: relative;
+    top: -50px;
+}
+
+#se td{
+     /*border-collapse: collapse;
+     width: 500px;
+     height: 200px;*/
+     border: 1px solid silver;
+    background-color: white;
+}
+
+/*#sd table{
+    padding-right: 20px;
+}*/
+#se table img{
+    width: 160px;
+    height: 64px;
+}
+
+#se td{
+  border: 2px solid silver;
+  /*width: 120px;
+  height: 50px;*/
+  /*text-align: left;*/
+  /*padding-right: 100px;*/
+}
+
+#se h4{
+    color: red;
+    font-size: 25px;
+}
+
+#se li{
+    list-style: none;
+    font-size: 20px;
+}
+
+#se li a{
+    position: relative;
+    top: -50px;
+}
+
+/*#sd a{
+    padding: 100px;
+}*/
+
+#se img{
+    width: 150px;
+    height: 30px;
+}
+
+#sbox1{
+    width: 600px;
+    height: 120px;
+    border: 1px solid papayawhip;
+    margin: auto;
+    position: relative;
+    top: -30px;
+    line-height: 25.0px;
+    padding: 10px;
+    background-color: papayawhip;
+}
+
+#uf figure{
+    display: inline-block;
+    padding-left: 80px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin-left: 35px;
+    /*margin: auto;*/
+}
+
+#uf figcaption{
+    text-align: center;
+}
+
+#uf #h{
+    color: chocolate;
+    font-size: 25px;
+    padding-top: 30px;
+    padding-left: 120px;
+}
+
+#sbox2{
+    width: 1000px;
+    height: 250px;
+    border: 1px solid papayawhip;
+    margin: auto;
+    padding: 20px;*/
+    position: relative;
+    top: 50px;*/
+    line-height: 25.0px;
+    background-color: papayawhip;
+}
+
+/*#uf{
+    display: inline-block;
+}*/
 /*----footer----*/
 footer{
     width: 100%;

@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+}
+
+#wrap {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    /*background-color: white;*/
+    /*border: 1px solid silver;*/
+}
+
+header {
+    width: 100%;
+    height: 95px;
+    background-color: #DAB991;
+}
+
+header > div:nth-child(1) {
+    margin: 54px 0 0 5px;
+    float: left;
+}
+
+header > div:nth-child(2) {
+    width: 215px;
+    height: 75px;
+    margin: 0 auto;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+header > div:nth-child(3) {
+    margin: 54px 5px 0 0;
+    float: right;
+    display: inline-block;
+}
+
+header > div:nth-child(3) table {
+    border-collapse: collapse;
+}
+
+header > div:nth-child(3) table tr td {
+    padding: 0 10px 0 10px;
+}
+.header_login ul li{
+    font-family: "Gaegu Regular";
+    font-weight: bold;
+    padding: 0 10px 0 10px;
+    border-right: 1px solid #b08d61;
+    display: inline-block;
+}
+.header_login ul li a{
+
+   color:  #4d3c26;
+    text-decoration: none;
+}
+
+nav {
+    background-color: #b08d61;
+    height: 80px;
+}
+
+nav ul li {
+    font-family: "Gaegu Regular";
+    font-weight: bold;
+    font-size: 1.5em;
+    display: inline-block;
+    width: 16.6%;
+    text-align: center;
+    margin-right: -5px;
+    padding: 30px 0 30px 0;
+    color:#4d3c26;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #4d3c26;
+}
+
+#out{
+   width: 1280px;
+   height: 1500px;
+   border: 1px solid silver;
+   background-color:lightyellow;
+   margin: auto;
+}
+
+#location {
+    width: 1280px;
+    height: 80px;
+    margin: auto;
+    border-bottom: 2px solid silver;
+}
+
+#location h1 {
+    float: left;
+    margin-top: 30px;
+}
+
+#location ul {
+    float: right;
+    list-style: none;
+    margin-top: 60px;
+}
+
+#location li {
+    float: left;
+    padding-right: 11px;
+    margin-right: 7px;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: -1px;
+}
+
+#location li.home a {
+    display: block;
+    /*width:50px;
+            height:24px;*/
+    font-size: 15px;
+}
+
+#location li a {
+    display: block;
+    font-size: 15px;
+}
+
+#location li.on {
+    display: block;
+    font-size: 15px;
+}
+
+#box {
+    width: 1280px;
+    height: 400px;
+    margin: auto;
+}
+
+#box section {
+    width: 700px;
+    height: 140px;
+    margin-top: 30px;
+    padding-top: 100px;
+    border: 1px solid lightyellow;
+    background-color: lightyellow;
+    line-height: 40.0px;
+}
+
+#box h3 {
+    color: chocolate;
+    font-size: 25px;
+}
+
+#box p{
+    font-size: 20px;
+}
+
+#box img{
+    width: 450px;
+    height: 300px;
+    float: right;
+    margin-top: -275px;
+}
+
+ul.tab {
+    width: 1280px;
+    height: 800px;
+    margin: 0 auto;
+}
+
+#wrap2 {
+    width: 1280px;
+    height: 1100px;
+    margin: 0 auto;
+    border: 1px solid silver;
+}
+
+.tab > li {
+    list-style:none;
+}
+
+ul h3 {
+    background-color: papayawhip;
+    position: absolute;
+    float: left;
+    width: 317px;
+    height: 60px;
+    position: relative;
+    text-align: center;
+    border: 1px solid silver;
+    font-size: 25px;
+}
+
+.tab>li>div{
+    position: absolute;
+    top: 546px;
+    width: 1200px;
+    border: 1px solid silver;
+    height: 1000px;
+    background-color: lightyellow;
+}
+
+.tab h3 a {
+    display: inline-block;
+    /*margin-top: 14px;*/
+    margin: 0;
+    text-decoration: none;
+    color: black;
+}
+
+/*#uf{
+    display: inline-block;
+}*/
+/*----footer----*/
+footer{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    background-color: rgb(72,74,61);
+}
+footer>div{
+    height: 60px;
+}
+footer>div img{
+    width:40px;
+    height: 40px;
+    margin: 17px;
+}
+footer ul li{
+    font-family: "Gaegu Regular";
+    font-size: 1em;
+    height: 10px;;
+    color: white;
+    display: inline-block;
+    padding: 0 5px 5px 5px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-right: 1px solid white;
+
+}
+footer ul li a{
+    color: white;
+    text-decoration: none;
+}
+footer p{
+    font-family: "Gaegu Regular";
+    color:white;
+}
+    /*----footer----*/
