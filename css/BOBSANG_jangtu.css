@@ -148,10 +148,35 @@ nav ul li a{
     font-size: 2em;
     text-align: center;
     position: relative;
+    z-index: 0;
 }
+#all_menu_wrap .menu_wrap .menu a img{
+    height: 252px;
+}
+
+#all_menu_wrap .menu_wrap:hover .hidden_area{
+    visibility: visible;
+    opacity: 0.71;
+}
+.hidden_area{
+    width: 324px;
+    height: 252px;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    opacity: 2;
+    transition-duration: 0.3s;
+    visibility: hidden;
+    opacity: 0;
+}
+
+
+
+
 #all_menu_wrap .menu_wrap div:nth-last-child(1){
    padding-top: 30px;
 }
+
 #all_menu_wrap .menu_wrap img:nth-child(1){
     height: 200px;
 }
@@ -213,8 +238,6 @@ footer p{
     bottom: 400px;
     opacity: 0.5;
 }
-<<<<<<< HEAD
-=======
 /*----footer----*/
 
 /*test*/
@@ -257,4 +280,4 @@ footer p{
             position: relative;
             z-index: 3;
         }
->>>>>>> origin/master
+/*hover*/
