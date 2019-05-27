@@ -87,8 +87,8 @@ nav ul li a{
 #out{
    width: 1280px;
    height: 1500px;
-   border: 1px solid lightyellow;
-   background-color:lightyellow;
+   border: 1px solid #F8F2E4;
+   background-color:#F8F2E4;
    margin: auto;
 }
 
@@ -148,8 +148,8 @@ nav ul li a{
     margin: auto;
     margin-top: 25px;
     padding: 10px;
-    border: 1px solid papayawhip;
-    background-color: papayawhip;
+    border: 1px solid #DAB991;
+    background-color: #DAB991;
     line-height: 20.0px;
 }
 
@@ -173,7 +173,7 @@ nav ul li a{
     width: 1280px;
     height: 1100px;
     margin: 0 auto;
-    border: 1px solid lightyellow;
+    border: 1px solid #F8F2E4;
 }
 
 .tab > li {
@@ -188,7 +188,7 @@ ul h3 {
     height: 60px;
     /*position: relative;*/
     text-align: center;
-    border: 2px solid silver;
+    border: 2px solid lightyellow;
     font-size: 25px;
 }
 
@@ -196,9 +196,9 @@ ul>li>div{
     position: absolute;
     top: 546px;
     width: 1280px;
-    border: 1px solid lightyellow;
+    border: 1px solid #F8F2E4;
     height: 1130px;
-    background-color: lightyellow;
+    background-color: #F8F2E4;
 }
 
 .tab h3 a {
@@ -311,7 +311,7 @@ ul>li>div{
 }
 
 #ud #h{
-    color: chocolate;
+    color: #B08D61;
     font-size: 25px;
     padding-top: 30px;
     padding-left: 120px;
@@ -389,7 +389,7 @@ ul>li>div{
 }
 /*ue*/
 #ue #h{
-    color: chocolate;
+    color: #B08D61;
     font-size: 25px;
     padding-top: 50px;
     padding-right: 120px;
@@ -473,13 +473,13 @@ ul>li>div{
 #sbox1{
     width: 600px;
     height: 120px;
-    border: 1px solid papayawhip;
+    border: 1px solid #DAB991;
     margin: auto;
     position: relative;
     top: -30px;
     line-height: 25.0px;
     padding: 10px;
-    background-color: papayawhip;
+    background-color: #DAB991;
 }
 
 #uf figure{
@@ -496,7 +496,7 @@ ul>li>div{
 }
 
 #uf #h{
-    color: chocolate;
+    color: #B08D61;
     font-size: 25px;
     padding-top: 30px;
     padding-left: 120px;
@@ -505,13 +505,13 @@ ul>li>div{
 #sbox2{
     width: 1000px;
     height: 250px;
-    border: 1px solid papayawhip;
+    border: 1px solid #DAB991;
     margin: auto;
     padding: 20px;*/
     position: relative;
     top: 50px;*/
     line-height: 25.0px;
-    background-color: papayawhip;
+    background-color: #DAB991;
 }
 
 /*#uf{

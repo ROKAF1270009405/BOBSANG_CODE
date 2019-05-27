@@ -19,6 +19,10 @@
                 .css('background-color', 'brown')
                 .next()
                 .show()
+            $('.tab>li:eq(1)').find('h3')
+                .css('background-color', 'lightyellow');
+            $('.tab>li:eq(2)').find('h3')
+                .css('background-color', 'lightyellow');
                 /*.css('background-color', 'brown')*/;
             $('.tab>li>h3').on('click', function(){
                 $('.tab>li').find('div').hide();
