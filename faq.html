@@ -16,26 +16,17 @@
                 .css('background-color', 'brown')
                 .next()
                 .show()
-                /*.css('background-color', 'brown')*/;
-
-
-             /*var d=$('.tab>li>div').find('p:odd').hide();
-                console.log(d);*/
 
             $('.tab>li>h3').on('click', function(){
                 $('.tab>li').find('div').hide();
                 $('.tab>li').find('h3')
                     .css('background-color', 'white');
-                    /*.next()
-                    .css('background-color', 'skyblue');*/
 
                 $(this).css('background-color', 'brown')
                     .next()
                     .show();
-                $('.dc').myfunction();
             });
 
-            $.fn.myfunction=function(){
                $('.tab>li>div>p:eq(0)').on('click', function(){
                 $('.tab>li>div>p:eq(0)').addClass('change');
                 $('.tab>li>div>p:eq(1)').slideDown();
@@ -147,7 +138,6 @@
                 $('.tab>li>div>p:eq(13)').slideUp();
                 $('.tab>li>div>p:eq(12)').removeClass('change');
             });
-        }
 
         });
 
