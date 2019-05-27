@@ -137,3 +137,12 @@ body div .r2{
     color:darkseagreen;
     background-color:crimson;
 }
+.dot1,.dot2,.dot3,.dot4
+{
+    display:none;
+
+
+}
+.line3{
+   display: none;
+}
