@@ -324,3 +324,8 @@ li {
 .slide li:nth-child(4) {
     background-image: url(/img/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C%EC%9D%B4%EB%AF%B8%EC%A7%801.gif);
 }
+/*media*/
+
+@media screen and (max-width:839px){
+
+}
