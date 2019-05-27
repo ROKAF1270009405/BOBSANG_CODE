@@ -133,12 +133,14 @@ body div .r2{
     left: 300px;
     bottom:550px;
 
+
 }
 #ov:hover{
     font-size: 30px;
      left:250px;
-    color:darkseagreen;
-    background-color:crimson;
+    color:black;
+    background-color:darkorange;
+    font-family: "Black And White Picture";
 }
 .dot1,.dot2,.dot3,.dot4
 {
