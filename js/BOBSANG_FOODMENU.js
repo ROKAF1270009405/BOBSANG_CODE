@@ -1,6 +1,5 @@
 $(document).ready(function () {
-    let boxtext;
-    $('svg').on('mouseover', function () {
+    function slidedown() {
         let boxname = $(this).parent().parent();
         if ((boxname.attr('class')).indexOf('food') >= 0) {
             boxtext = $(boxname).find('.foodboxtext');
@@ -9,10 +8,14 @@ $(document).ready(function () {
             boxtext = $(boxname).find('.drinkboxtext');
             boxtext.slideDown();
         }
-    });
+    }
 
-    $('svg').on('mouseout', function () {
+    function slideup() {
         boxtext.slideUp();
-    });
+    }
 
+    $('svg').on('mouseover', slidedown);
+    $('svg').on('mouseout', slideup);
+    $('.boxundertextname').on('focusin', slidedown);
+    $('.boxundertextname').on('focusout', slideup);
 });
