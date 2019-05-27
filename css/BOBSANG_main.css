@@ -1,34 +1,41 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-img{
+
+img {
     width: 100%;
 }
-body{
+
+body {
     width: 100%;
 }
-.hr{
+
+.hr {
     width: 80%;
     height: 0.1px;
     border: 1px solid #b08d61;
 }
-#wrap{
+
+#wrap {
     width: 100%;
     height: auto;
     margin: 0 auto;
 }
+
 /*----header----*/
-header{
+header {
     width: 100%;
     height: 95px;
     background-color: #DAB991;
 }
-header>div:nth-child(1){
+
+header > div:nth-child(1) {
     margin: 54px 0 0 5px;
     float: left;
 }
-header>div:nth-child(2){
+
+header > div:nth-child(2) {
     width: 215px;
     height: 75px;
     margin: 0 auto;
@@ -37,48 +44,54 @@ header>div:nth-child(2){
     left: 50%;
     transform: translateX(-50%);
 }
-.header_login{
+
+.header_login {
     font-family: "Gaegu Regular";
     font-weight: bold;
     margin: 54px 5px 0 0;
     float: right;
 }
-.header_login ul{
 
-}
-.header_login ul li{
+.header_login ul {}
+
+.header_login ul li {
     padding: 0 10px 0 10px;
     border-right: 1px solid #b08d61;
     display: inline-block;
 }
-.header_login ul li a{
-   color:  #4d3c26;
+
+.header_login ul li a {
+    color: #4d3c26;
     text-decoration: none;
 }
+
 /*----header----*/
 
 /*----nav----*/
-nav{
+nav {
     font-family: "Gaegu Regular";
     font-size: 1.5em;
     font-weight: bold;
     background-color: #b08d61;
     height: 80px;
 }
-nav ul li{
+
+nav ul li {
     display: inline-block;
-    width: 16.2%;
+    width: 19.6%;
     text-align: center;
     margin-right: -6px;
     padding: 30px 0 30px 0;
 }
-nav ul li a{
+
+nav ul li a {
     text-decoration: none;
     color: #4d3c26;
 }
+
 /*----nav----*/
 
-#three_part{
+#three_part {
     background-color: #b08d61;
     width: 1280px;
     height: 1850px;
@@ -87,14 +100,16 @@ nav ul li a{
 }
 
 /*----main_img----*/
-#main_img{
+#main_img {
     width: 100%;
     height: 580px;
 }
-#main_img img{
+
+#main_img img {
     height: 580px;
 }
-#main_img>div:nth-child(1){
+
+#main_img > div:nth-child(1) {
     width: 100%;
     position: absolute;
     left: 50%;
@@ -102,13 +117,15 @@ nav ul li a{
     height: 580px;
     text-align: center;
 }
-#main_img .left_black_box{
+
+#main_img .left_black_box {
     position: absolute;
     width: 23%;
     height: 580px;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0, 0, 0, 0.7);
 }
-#main_img .left_black_box>img{
+
+#main_img .left_black_box > img {
     width: 90%;
     height: 29.4%;
     margin: 10px 5%;
@@ -116,51 +133,59 @@ nav ul li a{
 }
 
 /*----slide_img----*/
-#slide_img{
+#slide_img {
     width: 95%;
     margin: 30px;
     height: 730px;
     position: relative;
     z-index: 3;
 }
-#slide_img .slide_button img{
+
+#slide_img .slide_button img {
     width: 120px;
 }
-#slide_img .slide_button img:nth-child(1){
+
+#slide_img .slide_button img:nth-child(1) {
     float: left;
 }
-#slide_img .slide_button img:nth-child(2){
+
+#slide_img .slide_button img:nth-child(2) {
     float: right;
 }
+
 /*----slide_img----*/
 
 /*----card----*/
-#card{
+#card {
     width: 95%;
     margin: 30px 30px 0 30px;
     height: 445px;
     background-color: #f8f2e4;
 
 }
-.card_left{
+
+.card_left {
     clear: both;
     position: absolute;
 }
-#card .card_left h2{
+
+#card .card_left h2 {
     color: #4d3c26;
     font-family: "Black And White Picture";
     font-size: 2.7em;
     margin-bottom: 20px;
 }
-#card .card_left h4{
+
+#card .card_left h4 {
     font-family: "Gaegu";
     font-size: 1.6em;
-    color: rgb(160,76,30);
+    color: rgb(160, 76, 30);
     text-decoration: underline;
     padding-top: 30px;
     padding-bottom: 30px;
 }
-#card .card_left h3{
+
+#card .card_left h3 {
     color: #4d3c26;
     font-family: "Black And White Picture";
     font-size: 1.8em;
@@ -168,12 +193,13 @@ nav ul li a{
     padding-bottom: 20px;
     display: inline-block;
 }
-.card_left img{
-    width : 30px;
+
+.card_left img {
+    width: 30px;
     margin-left: 20px;
 }
 
-.card_left{
+.card_left {
     width: 44.9%;
     height: 385px;
     margin-left: 30px;
@@ -181,42 +207,63 @@ nav ul li a{
     float: left;
     border-right: 2px solid #b08d61;
 }
-.card_right{
+
+.card_right {
     width: 40.9%;
     height: 385px;
     padding: 30px;
     position: absolute;
     right: 2.5%;
 }
-#card div:nth-child(2) .button{
+
+#card div:nth-child(2) .button {
     margin-left: 230px;
     height: 11px;
 }
-#card div:nth-child(2) div>img{
+
+.button1 {
     width: 11px;
     height: 11px;
     display: inline-block;
+    position: relative;
+    visibility: visible;
 }
+
+.button2 {
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+    position: relative;
+    left: -66px;
+    visibility: hidden;
+}
+
+
+
 /*----card----*/
 /*----footer----*/
-footer{
+footer {
     width: 100%;
     height: 200px;
     text-align: center;
-    background-color: rgb(72,74,61);
+    background-color: rgb(72, 74, 61);
 }
-footer>div{
+
+footer > div {
     height: 60px;
 }
-footer>div img{
-    width:40px;
+
+footer > div img {
+    width: 40px;
     height: 40px;
     margin: 17px;
 }
-footer ul li{
+
+footer ul li {
     font-family: "Gaegu Regular";
     font-size: 1em;
-    height: 10px;;
+    height: 10px;
+    ;
     color: white;
     display: inline-block;
     padding: 0 5px 5px 5px;
@@ -225,17 +272,131 @@ footer ul li{
     border-right: 1px solid white;
 
 }
-footer ul li a{
+
+footer ul li a {
     color: white;
     text-decoration: none;
 }
-footer p{
+
+footer p {
     font-family: "Gaegu Regular";
-    color:white;
+    color: white;
 }
+
 .slide_button {
     position: relative;
     z-index: 1;
     bottom: 400px;
     opacity: 0.5;
+}
+
+/*slide*/
+ul,
+li {
+    list-style: none;
+}
+
+.slide {
+    height: 780px;
+    overflow: hidden;
+}
+
+.slide ul {
+    height: 100%;
+}
+
+.slide li {
+    height: 100%;
+}
+
+.slide li:nth-child(1) {
+    background-image: url(/img/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C%EC%9D%B4%EB%AF%B8%EC%A7%801.gif);
+}
+
+.slide li:nth-child(2) {
+    background-image: url(/img/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C%EC%9D%B4%EB%AF%B8%EC%A7%801.gif);
+}
+
+.slide li:nth-child(3) {
+    background-image: url(/img/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C%EC%9D%B4%EB%AF%B8%EC%A7%801.gif);
+}
+
+.slide li:nth-child(4) {
+    background-image: url(/img/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C%EC%9D%B4%EB%AF%B8%EC%A7%801.gif);
+}
+
+/*media*/
+
+@media screen and (max-width:832px) {
+    .slide {
+        display: none;
+    }
+
+    #card {
+        width: 850px;
+        position: relative;
+        display: none;
+    }
+
+    .card_right {
+        display: none;
+    }
+
+    .main_big_img{
+        display: none;
+    }
+    #main_img .left_black_box{
+        width: 900px;
+        height: 1700px;
+        background-color: #f8f2e4;
+        display: none;
+
+    }
+    #main_img .left_black_box .left_mini_img{
+        height: 500px;
+        width: 95%;
+        margin: 25px;;
+    }
+    #three_part{
+        height: 1700px;
+    }
+    .header_onetext{
+        display: none;
+    }
+    .header_login{
+        margin-top: 75px;
+        margin-right: 28%;
+
+    }
+
+    nav{
+        height: auto;
+        background-image: url(/img/aluminous-749358_1920.jpg);
+        background-size: 900px;
+        background-repeat: no-repeat;
+    }
+
+    nav ul li {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-right: -6px;
+    padding: 30px 0 30px 0;
+    background-color: black;
+    opacity: 0.7;
+
+}
+    nav ul li:hover{
+        opacity: 1;
+    }
+    nav ul li a{
+        color: white;
+        font-size: 1.5em;
+    }
+
+
+    #three_part {
+        height:  0;
+    }
+
 }

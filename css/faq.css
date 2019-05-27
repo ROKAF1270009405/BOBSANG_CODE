@@ -7,6 +7,12 @@ body {
     width: 100%;
 }
 
+.change {
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+
 #wrap {
     width: 100%;
     height: auto;
@@ -72,7 +78,7 @@ nav ul li {
     font-weight: bold;
     font-size: 1.5em;
     display: inline-block;
-    width: 16.6%;
+    width: 19.6%;
     text-align: center;
     margin-right: -5px;
     padding: 30px 0 30px 0;
@@ -138,7 +144,7 @@ nav ul li a{
 
 #box {
     width: 1280px;
-    height: 400px;
+    height: 270px;
     margin: auto;
 }
 
@@ -165,18 +171,18 @@ nav ul li a{
     width: 450px;
     height: 300px;
     float: right;
-    margin-top: -275px;
+    margin-top: -272px;
 }
 
-ul.tab {
+/*ul.tab {
     width: 1280px;
     height: 800px;
     margin: 0 auto;
-}
+}*/
 
 #wrap2 {
     width: 1280px;
-    height: 1100px;
+    height: 800px;
     margin: 0 auto;
     border: 1px solid silver;
 }
@@ -186,33 +192,65 @@ ul.tab {
 }
 
 ul h3 {
-    background-color: papayawhip;
-    position: absolute;
+    /*background-color: papayawhip;
+    position: absolute;*/
     float: left;
-    width: 317px;
+    width: 317.5px;
     height: 60px;
-    position: relative;
+    /*position: relative;*/
     text-align: center;
     border: 1px solid silver;
     font-size: 25px;
 }
 
-.tab>li>div{
+ul>li>div{
     position: absolute;
-    top: 546px;
-    width: 1200px;
+    top: 622px;
+    width: 1280px;
     border: 1px solid silver;
-    height: 1000px;
+    height: 972px;
     background-color: lightyellow;
+    padding-top: 80px;
 }
 
 .tab h3 a {
     display: inline-block;
-    /*margin-top: 14px;*/
-    margin: 0;
+    margin-top: 14px;
     text-decoration: none;
     color: black;
 }
+
+.a{
+    width: 1100px;
+    height: 110px;
+    background-color: lightyellow;
+    border: 2px solid silver;
+    margin: auto;
+    font-size: 25px;
+}
+
+.a img{
+    float: right;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.b{
+    width: 1100px;
+    height: 70px;
+    background-color: papayawhip;
+    border: 2px solid silver;
+    margin: auto;
+    font-size: 25px;
+    color: blue;
+}
+
+.b img{
+    float: right;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
 
 /*#uf{
     display: inline-block;
