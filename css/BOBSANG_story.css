@@ -81,6 +81,7 @@ nav ul li a{
 }
 nav ul li:hover {
     background-color: rgb(72,74,61);
+    height: 20px;
 }
 nav ul li:hover a{
     color: white;
