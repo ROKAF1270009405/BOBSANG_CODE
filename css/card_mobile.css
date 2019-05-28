@@ -190,7 +190,7 @@ footer p {
     font-size: 20px;
 }*/
 
-#location ul {
+#location h1 {
     float: right;
     list-style: none;
     margin: auto;
@@ -242,62 +242,31 @@ box {
     font-size: 15px;
 }
 
-/*.change{
-    background-color: yellow;
-    font-weight: bold;
-    font-size: 25px;
+
+
+/*tab > li {
+    list-style: none;
 }*/
 
-/*ul.tab {
-    width: 600px;
-    height: 800px;
-    margin: 0 auto;
-}*/
 
-#wrap2 {
-    width: 400px;
-    /*height: 1600px;*/
-    /*margin-left:-10px;*/
-    border: 1px solid #F8F2E4;
-}
-
-tab > li {
-    display: inline-block;
-}
-
-ul h3 {
-    /*background-color: white;
-    position: absolute;
-    float: left;*/
-    display: block;
-    width: 100px;
-    height: 60px;
-    /*position: relative;*/
-    /*text-align: center;*/
-    border: 2px solid lightyellow;
-    font-size: 15px;
-}
 
 ul>li>div{
-    position: relative;
-    top: 100px;
-    width: 300px;
+    position: absolute;
+    top: 1200px;
+    width: 400px;
     border: 1px solid #F8F2E4;
     height: 1430px;
     background-color: #F8F2E4;
 }
 
-.tab h3 a {
+.tab h3{
     display: none;
-    margin-top: 14px;
-    text-decoration: none;
-    color: black;
 }
 
 #ua img {
-    width: 200px;
+    width: 250px;
    /* height: 270px;*/
-    padding-top: 20px;
+    padding-top: -120px;
     padding-left: 50px;
     padding-right: 30px;
     float: left;
