@@ -137,29 +137,36 @@ footer p {
 
 #foodsection {
     width: 100%;
+    height: 4200px;
     padding: 50px 0;
+    margin: 0 auto;
     background-color: rgb(229, 220, 203);
 }
 
 #drinksection {
     width: 100%;
+    height: 1300px;
     padding: 50px 0;
+    margin: 0 auto;
     background-color: rgb(229, 220, 203);
+}
+
+.sectioninner {
+    width: inherit;
+    height: inherit;
 }
 
 div {
     margin-bottom: 20px;
 }
 
-section ul li{
+ul li{
     list-style: none;
     display: block;
-    line-height: 1;
 }
 
 .line {
-    border: 3px solid #4d3c26;
-    background-color: #4d3c26;
+    border: 3px solid rgb(193, 154, 106);
 }
 
 #toptitle{
@@ -168,29 +175,35 @@ section ul li{
 
 #toptitle > h1 {
     font-family: "BlackAndWhitePicture-Regular";
-    color: #4d3c26;
+    color: #8B4513;
 }
 
 #foodmainimg {
+    /*지울것*/
     width: 100%;
+
 }
 
 #foodmainimg > img {
     width: 100%;
     height: auto;
+    display: inline-block;
 }
 
 .nametitle > h1 {
     text-align: center;
     font-size: 50px;
     font-family: "BlackAndWhitePicture-Regular";
-    color: #4d3c26;
+    color: #8B4513;
 }
 
 /*        음식 시작*/
 .foodbox {
     width: 100%;
+    float: left;
     margin: 20px 0;
+    display: block;
+
 }
 
 .foodboximg img {
@@ -200,7 +213,7 @@ section ul li{
 }
 
 .foodboxtext {
-    background-color: #4d3c26;
+    background-color: #CD853F;
     width: inherit;
     display: none;
     opacity: 0.7;
@@ -236,7 +249,9 @@ section ul li{
 .foodboxundertext {
     width: 100%;;
     height: 180px;
-    background-color: #DAB991;
+    background-color: burlywood;
+/*    position: absolute;*/
+/*    top: 455px;*/
     z-index: 1;
     font-size: 20px;
     text-align: center;
@@ -266,6 +281,7 @@ section ul li{
     width: 50%;
     margin: 10px 0;
     float: left;
+    height: auto;
 }
 
 .drinkboximg img {
@@ -273,9 +289,8 @@ section ul li{
 }
 
 .drinkboxtext {
-    background-color: #4d3c26;
-    color: white;
-    width: 50%;
+    background-color: #CD853F;
+    width: 100%;
     display: none;
     opacity: 0.7;
     position: absolute;
@@ -296,31 +311,32 @@ section ul li{
 }
 
 .drinkunderboxtext > h2 {
-    color: #4d3c26;
+    color: firebrick;
 
 }
 
 .drinkpricebox {
     width: 100%;
     margin: 10px 0;
+    float: left;
     display: block;
 }
 
 .drinkpricebox > table {
-    width: 100%;
+    width: inherit;
+    height: inherit;
     border-collapse: separate;
     text-align: center;
-    border: 2px solid #4d3c26;
 }
 
 .drinkpricebox th,
 .drinkpricebox td {
-    border: 1px solid darkgoldenrod;
+    border: 1px solid rgb(193, 154, 10);
     padding: 5px 0;
 }
 
 .drinkpricebox th {
-    background-color: #DAB991;
+    background-color: rgb(193, 154, 106);
     font-family: "Gaegu-Bold";
     font-size: 30px;
 }
@@ -332,9 +348,10 @@ section ul li{
 
 #caution {
     width: 100%;
-    margin: 20px auto;
+    float: left;
+    margin: 0 auto;
     font-size: 25px;
-    background-color: #DAB991;
+    background-color: rgb(193, 154, 106);
 }
 
 svg{
@@ -350,7 +367,7 @@ svg{
     width: 170px;
     height: 50px;
     float: right;
-    background-color: #DAB991;
+    background-color: rgb(193, 154, 106);
     border-radius: 15px;
     padding: 0 10px;
     margin: 0;
@@ -365,5 +382,5 @@ svg{
     font-family: "Gaegu-Bold";
     font-size: 40px;
     text-decoration: none;
-    color: #4d3c26;
+    color: black;
 }

@@ -8,18 +8,9 @@
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script>
         $(document).ready(function(){
-            $('.b').hide();
 
-           $('h3').on('click',function(){
-               $(this).css('background-color','red');
-               $(this).find('dc').slideToggle();
-           });
+            $('.tab>li').find('p:odd').hide();
 
-<<<<<<< HEAD
-            let aimg = $('.a').find('img');
-            aimg.on('click',function(){
-                let tmp=$(this).next();
-=======
             $('.tab>li').find('div').hide();
             $('.tab>li:eq(0)').find('h3')
                 .css('background-color', 'brown')
@@ -160,11 +151,9 @@
                 /*}*/
 
             /*QA 글을 클릭했을 때 나타나는 반응*/
->>>>>>> origin/master
 
-                console.log(tmp);
-            })
         });
+
     </script>
 </head>
 <body>
@@ -183,14 +172,14 @@
 <!--nav시작 처음에는 이미지를 넣으려 했으나 배경색으로 하자 링크 추가 필요-->
         <nav>
             <ul>
-                <li><a href="BOBSANG_story.html">시골밥상</a></li>
+                <li><a href="BOBSANG_story.html">시골밥상 이야기</a></li>
                 <li><a href="BOBSANG_FOODMENU.html">차림메뉴</a></li>
                 <li><a href="BOBSANG_jangtu.html">시골장터</a></li>
-                <li><a href="BOBSANG_price.html">가격/이용안내</a></li>
                 <li><a href="card.html">제휴혜택</a></li>
-                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="#">FAQ</a></li>
             </ul>
         </nav>
+
 
     <div id="out">
         <div id="location">
@@ -217,37 +206,6 @@
 
             <li>
                 <h3><a href="#">사이트 이용</a></h3>
-<<<<<<< HEAD
-                <ul class="dc"><li class="a">
-                    <p>Q. 시골밥상은 어떻게 이용해야 하나요?</p>
-                    <img src="img/%EC%95%84%EB%9E%98%20%ED%99%94%EC%82%B4%ED%91%9C.jpg">
-                    <p>A. 방문하셔서 직원에게 문의하시면 됩니다.<img src="img/%EC%9C%84%20%ED%99%94%EC%82%B4%ED%91%9C.jpg"></p>
-                    </li><li class="a">
-                    <p>Q. 시골밥상은 어떻게 이용해야 하나요?</p>
-                    <img src="img/%EC%95%84%EB%9E%98%20%ED%99%94%EC%82%B4%ED%91%9C.jpg">
-                    <p>A. 방문하셔서 직원에게 문의하시면 됩니다.<img src="img/%EC%9C%84%20%ED%99%94%EC%82%B4%ED%91%9C.jpg"></p>
-                    </li><li class="a">
-                    <p>Q. 시골밥상은 어떻게 이용해야 하나요?</p>
-                    <img src="img/%EC%95%84%EB%9E%98%20%ED%99%94%EC%82%B4%ED%91%9C.jpg">
-                    <p>A. 방문하셔서 직원에게 문의하시면 됩니다.<img src="img/%EC%9C%84%20%ED%99%94%EC%82%B4%ED%91%9C.jpg"></p>
-                    </li>
-                    <li class="a">
-                    <p>Q. 시골밥상은 어떻게 이용해야 하나요?</p>
-                    <img src="img/%EC%95%84%EB%9E%98%20%ED%99%94%EC%82%B4%ED%91%9C.jpg">
-                    <p>A. 방문하셔서 직원에게 문의하시면 됩니다.<img src="img/%EC%9C%84%20%ED%99%94%EC%82%B4%ED%91%9C.jpg"></p>
-                    </li>
-                    <li class="a">
-                    <p>Q. 시골밥상은 어떻게 이용해야 하나요?</p>
-                    <img src="img/%EC%95%84%EB%9E%98%20%ED%99%94%EC%82%B4%ED%91%9C.jpg">
-                    <p>A. 방문하셔서 직원에게 문의하시면 됩니다.<img src="img/%EC%9C%84%20%ED%99%94%EC%82%B4%ED%91%9C.jpg"></p>
-                    </li>
-                    <li class="a">
-                    <p>Q. 시골밥상은 어떻게 이용해야 하나요?</p>
-                    <img src="img/%EC%95%84%EB%9E%98%20%ED%99%94%EC%82%B4%ED%91%9C.jpg">
-                    <p>A. 방문하셔서 직원에게 문의하시면 됩니다.<img src="img/%EC%9C%84%20%ED%99%94%EC%82%B4%ED%91%9C.jpg"></p>
-                    </li>
-                </ul>
-=======
                 <div class="dc">
                     <p class="a">사이트 이용&nbsp;&nbsp; &nbsp; &nbsp; Q. 시골밥상은 어떻게 이용해야 하나요?<img src="img/%EC%95%84%EB%9E%98%20%ED%99%94%EC%82%B4%ED%91%9C.jpg"></p>
                     <p class="b">A. 방문하셔서 직원에게 문의하시면 됩니다.<img src="img/%EC%9C%84%20%ED%99%94%EC%82%B4%ED%91%9C.jpg"></p>
@@ -264,7 +222,6 @@
                     <p class="a">사이트 이용&nbsp;&nbsp; &nbsp; &nbsp;Q. 시골밥상은 어떻게 이용해야 하나요?<img src="img/%EC%95%84%EB%9E%98%20%ED%99%94%EC%82%B4%ED%91%9C.jpg"></p>
                     <p class="b">A. 방문하셔서 직원에게 문의하시면 됩니다.<img src="img/%EC%9C%84%20%ED%99%94%EC%82%B4%ED%91%9C.jpg"></p>
                 </div>
->>>>>>> origin/master
             </li>
 
             <li>
@@ -289,12 +246,7 @@
 
             <li>
                 <h3><a href="#">멤버십</a></h3>
-                <ul class="dc">
-                    <li class="a">
-                    <p>Q. 시골밥상은 어떻게 이용해야 하나요?</p>
-                    <img src="img/%EC%95%84%EB%9E%98%20%ED%99%94%EC%82%B4%ED%91%9C.jpg">
-                    <p>A. 방문하셔서 직원에게 문의하시면 됩니다.<img src="img/%EC%9C%84%20%ED%99%94%EC%82%B4%ED%91%9C.jpg"></p>
-                    </li>
+                <div class="dc">
                     <p class="a">Q. 시골밥상은 어떻게 이용해야 하나요?<img src="img/%EC%95%84%EB%9E%98%20%ED%99%94%EC%82%B4%ED%91%9C.jpg"></p>
                     <p class="b">A. 방문하셔서 직원에게 문의하시면 됩니다.<img src="img/%EC%9C%84%20%ED%99%94%EC%82%B4%ED%91%9C.jpg"></p>
                     <p class="a">Q. 시골밥상은 어떻게 이용해야 하나요?<img src="img/%EC%95%84%EB%9E%98%20%ED%99%94%EC%82%B4%ED%91%9C.jpg"></p>
@@ -307,7 +259,9 @@
                     <p class="b">A. 방문하셔서 직원에게 문의하시면 됩니다.<img src="img/%EC%9C%84%20%ED%99%94%EC%82%B4%ED%91%9C.jpg"></p>
                     <p class="a">Q. 시골밥상은 어떻게 이용해야 하나요?<img src="img/%EC%95%84%EB%9E%98%20%ED%99%94%EC%82%B4%ED%91%9C.jpg"></p>
                     <p class="b">A. 방문하셔서 직원에게 문의하시면 됩니다.<img src="img/%EC%9C%84%20%ED%99%94%EC%82%B4%ED%91%9C.jpg"></p>
-                </ul>
+                    <p class="a">Q. 시골밥상은 어떻게 이용해야 하나요?<img src="img/%EC%95%84%EB%9E%98%20%ED%99%94%EC%82%B4%ED%91%9C.jpg"></p>
+                    <p class="b">A. 방문하셔서 직원에게 문의하시면 됩니다.<img src="img/%EC%9C%84%20%ED%99%94%EC%82%B4%ED%91%9C.jpg"></p>
+                </div>
             </li>
 
             <li>

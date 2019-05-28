@@ -1,5 +1,4 @@
 $(document).ready(function () {
-
     function slidedown() {
         let boxname = $(this).parent().parent();
         if ((boxname.attr('class')).indexOf('food') >= 0) {
@@ -15,18 +14,16 @@ $(document).ready(function () {
         boxtext.slideUp();
     }
 
-    function drinkresize() {
-        for (let i = 0; i < 2; i++) {
-            let imgtag = $('.drinkboximg:eq(' + (i * 2 - 2) + ')').find('img');
-            let boxh = $('.drinkboximg:eq(' + (i * 2 - 1) + ')').find('img');
-            imgtag.height(boxh.height());
-        }
-    }
-
     $('svg').on('mouseover', slidedown);
     $('svg').on('mouseout', slideup);
     $('.boxundertextname').on('focusin', slidedown);
     $('.boxundertextname').on('focusout', slideup);
 
-    $(window).resize(drinkresize);
+    $(window).resize(function () {
+        for (let i = 0; i < 2; i++) {
+            let imgtag = $('.drinkboximg:eq(' + (i * 2 - 2) + ')').find('img');
+            let boxh = $('.drinkboximg:eq(' + (i * 2 - 1) + ')').find('img');
+            imgtag.height(boxh.height());
+        }
+    });
 });

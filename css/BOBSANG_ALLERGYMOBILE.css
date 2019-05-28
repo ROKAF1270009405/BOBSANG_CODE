@@ -97,14 +97,11 @@ footer {
     height: 200px;
     text-align: center;
     background-color: rgb(72, 74, 61);
-    float: left;
-    display: block;
 }
 
 footer > div {
     height: 60px;
-    margin-top: 0px;
-    /*바디부분이랑 띄워져 있길래 추가합니다.*/
+    margin-top: 0px; /*바디부분이랑 띄워져 있길래 추가합니다.*/
 }
 
 footer > div img {
@@ -151,17 +148,17 @@ table {
     width: 100%;
     border-collapse: separate;
     text-align: center;
-    border: 2px solid #4d3c26;
+    border: 1px solid none;
 }
 
 th,
 td {
-    border: 1px solid darkgoldenrod;
+    border: 1px solid rgb(193, 154, 10);
     padding: 5px 0;
 }
 
 th {
-    background-color: #DAB991;
+    background-color: rgb(193, 154, 106);
     font-family: "Gaegu-Bold";
     font-size: 30px;
 }
@@ -175,30 +172,29 @@ div {
     margin: 10px 0;
 }
 
-section > img {
+section> img {
     background-color: white;
 }
 
-#toptitle {
+#toptitle{
     clear: right;
 }
 
 #toptitle > h1 {
     font-family: "BlackAndWhitePicture-Regular";
-    color: #4d3c26;
+    color: #8B4513;
 }
 
 .line {
-    border: 3px solid #4d3c26;
-    background-color: #4d3c26;
-    margin-bottom: 50px;
+    border: 3px solid rgb(193, 154, 106);
+    margin: 0;
 }
 
 .nametitle > h1 {
     text-align: center;
     font-size: 50px;
     font-family: "BlackAndWhitePicture-Regular";
-    color: #4d3c26;
+    color: #8B4513;
     margin-top: 50px;
 }
 
@@ -211,7 +207,7 @@ section > img {
 .caution {
     clear: left;
     margin: 30px auto;
-    background: #DAB991;
+    background: #E1B771;
     padding: 10px;
 }
 
@@ -221,21 +217,20 @@ section > img {
     color: red;
 }
 
-p {
+p{
     font-family: "Gaegu-Regular";
 }
-
 #allergynav {
     width: 170px;
     height: 50px;
     float: right;
-    background-color: #DAB991;
+    background-color: rgb(193, 154, 106);
     border-radius: 15px;
     padding: 0 10px;
     margin: 0;
 }
 
-#allergynav:hover {
+#allergynav:hover{
     transform: scale(1.1);
     transition: 0.1s;
 }
@@ -244,5 +239,5 @@ p {
     font-family: "Gaegu-Bold";
     font-size: 40px;
     text-decoration: none;
-    color: #4d3c26;
+    color: black;
 }
