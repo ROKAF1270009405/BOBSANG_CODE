@@ -8,149 +8,20 @@
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script>
         $(document).ready(function(){
+            $('.b').hide();
 
-            $('.tab>li').find('p:odd').hide();
+           $('h3').on('click',function(){
+               $(this).css('background-color','red');
+               $(this).find('dc').slideToggle();
+           });
 
-            $('.tab>li').find('div').hide();
-            $('.tab>li:eq(0)').find('h3')
-                .css('background-color', 'brown')
-                .next()
-                .show()
-                /*.css('background-color', 'brown')*/;
+            let aimg = $('.a').find('img');
+            aimg.on('click',function(){
+                let tmp=$(this).next();
 
-
-             /*var d=$('.tab>li>div').find('p:odd').hide();
-                console.log(d);*/
-
-            $('.tab>li>h3').on('click', function(){
-                $('.tab>li').find('div').hide();
-                $('.tab>li').find('h3')
-                    .css('background-color', 'white');
-                    /*.next()
-                    .css('background-color', 'skyblue');*/
-
-                $(this).css('background-color', 'brown')
-                    .next()
-                    .show();
-                $('.dc').myfunction();
-            });
-
-            $.fn.myfunction=function(){
-               $('.tab>li>div>p:eq(0)').on('click', function(){
-                $('.tab>li>div>p:eq(0)').addClass('change');
-                $('.tab>li>div>p:eq(1)').slideDown();
-                $('.tab>li>div>p').each(function(index){
-                    if(index!=1&&index%2==1)
-                        $('.tab>li>div>p:eq('+index+')').slideUp();
-                    else if(index!=0&&index%2==0)
-                        $('.tab>li>div>p:eq('+index+')').removeClass('change');
-                });
-            });
-
-            $('.tab>li>div>p:eq(1)').on('click', function(){
-                $('.tab>li>div>p:eq(1)').slideUp();
-            $('.tab>li>div>p:eq(0)').removeClass('change');
-            });
-
-            $('.tab>li>div>p:eq(2)').on('click', function(){
-                $('.tab>li>div>p:eq(2)').addClass('change');
-                $('.tab>li>div>p:eq(3)').slideDown();
-                $('.tab>li>div>p').each(function(index){
-                    if(index!=3&&index%2==1)
-                        $('.tab>li>div>p:eq('+index+')').slideUp();
-                    else if(index!=2&&index%2==0)
-                        $('.tab>li>div>p:eq('+index+')').removeClass('change');
-                });
-            });
-
-            $('.tab>li>div>p:eq(3)').on('click', function(){
-                $('.tab>li>div>p:eq(3)').slideUp();
-                $('.tab>li>div>p:eq(2)').removeClass('change');
-            });
-
-            $('.tab>li>div>p:eq(4)').on('click', function(){
-                $('.tab>li>div>p:eq(4)').addClass('change');
-                $('.tab>li>div>p:eq(5)').slideDown();
-                $('.tab>li>div>p').each(function(index){
-                    if(index!=5&&index%2==1)
-                        $('.tab>li>div>p:eq('+index+')').slideUp();
-                    else if(index!=4&&index%2==0)
-                        $('.tab>li>div>p:eq('+index+')').removeClass('change');
-                });
-            });
-
-            $('.tab>li>div>p:eq(5)').on('click', function(){
-                $('.tab>li>div>p:eq(5)').slideUp();
-                $('.tab>li>div>p:eq(4)').removeClass('change');
-            });
-
-            $('.tab>li>div>p:eq(6)').on('click', function(){
-                $('.tab>li>div>p:eq(6)').addClass('change');
-                $('.tab>li>div>p:eq(7)').slideDown();
-                $('.tab>li>div>p').each(function(index){
-                    if(index!=7&&index%2==1)
-                        $('.tab>li>div>p:eq('+index+')').slideUp();
-                    else if(index!=6&&index%2==0)
-                        $('.tab>li>div>p:eq('+index+')').removeClass('change');
-                });
-            });
-
-            $('.tab>li>div>p:eq(7)').on('click', function(){
-                $('.tab>li>div>p:eq(7)').slideUp();
-                $('.tab>li>div>p:eq(6)').removeClass('change');
-            });
-
-            $('.tab>li>div>p:eq(8)').on('click', function(){
-                $('.tab>li>div>p:eq(8)').addClass('change');
-                $('.tab>li>div>p:eq(9)').slideDown();
-                $('.tab>li>div>p').each(function(index){
-                    if(index!=9&&index%2==1)
-                        $('.tab>li>div>p:eq('+index+')').slideUp();
-                    else if(index!=8&&index%2==0)
-                        $('.tab>li>div>p:eq('+index+')').removeClass('change');
-                });
-            });
-
-            $('.tab>li>div>p:eq(9)').on('click', function(){
-                $('.tab>li>div>p:eq(9)').slideUp();
-                $('.tab>li>div>p:eq(8)').removeClass('change');
-            });
-
-            $('.tab>li>div>p:eq(10)').on('click', function(){
-                $('.tab>li>div>p:eq(10)').addClass('change');
-                $('.tab>li>div>p:eq(11)').slideDown();
-                $('.tab>li>div>p').each(function(index){
-                    if(index!=11&&index%2==1)
-                        $('.tab>li>div>p:eq('+index+')').slideUp();
-                    else if(index!=10&&index%2==0)
-                        $('.tab>li>div>p:eq('+index+')').removeClass('change');
-                });
-            });
-
-            $('.tab>li>div>p:eq(11)').on('click', function(){
-                $('.tab>li>div>p:eq(11)').slideUp();
-                $('.tab>li>div>p:eq(10)').removeClass('change');
-            });
-
-            $('.tab>li>div>p:eq(12)').on('click', function(){
-                $('.tab>li>div>p:eq(12)').addClass('change');
-                $('.tab>li>div>p:eq(13)').slideDown();
-                $('.tab>li>div>p').each(function(index){
-                    if(index!=13&&index%2==1)
-                        $('.tab>li>div>p:eq('+index+')').slideUp();
-                    else if(index!=12&&index%2==0)
-                        $('.tab>li>div>p:eq('+index+')').removeClass('change');
-                });
-            });
-
-            $('.tab>li>div>p:eq(13)').on('click', function(){
-                $('.tab>li>div>p:eq(13)').slideUp();
-                $('.tab>li>div>p:eq(12)').removeClass('change');
-            });
-        }
-
+                console.log(tmp);
+            })
         });
-
     </script>
 </head>
 <body>
@@ -203,22 +74,35 @@
 
             <li>
                 <h3><a href="#">사이트 이용</a></h3>
-                <div class="dc">
-                    <p class="a">Q. 시골밥상은 어떻게 이용해야 하나요?<img src="img/%EC%95%84%EB%9E%98%20%ED%99%94%EC%82%B4%ED%91%9C.jpg"></p>
-                    <p class="b">A. 방문하셔서 직원에게 문의하시면 됩니다.<img src="img/%EC%9C%84%20%ED%99%94%EC%82%B4%ED%91%9C.jpg"></p>
-                    <p class="a">Q. 시골밥상은 어떻게 이용해야 하나요?<img src="img/%EC%95%84%EB%9E%98%20%ED%99%94%EC%82%B4%ED%91%9C.jpg"></p>
-                    <p class="b">A. 방문하셔서 직원에게 문의하시면 됩니다.<img src="img/%EC%9C%84%20%ED%99%94%EC%82%B4%ED%91%9C.jpg"></p>
-                    <p class="a">Q. 시골밥상은 어떻게 이용해야 하나요?<img src="img/%EC%95%84%EB%9E%98%20%ED%99%94%EC%82%B4%ED%91%9C.jpg"></p>
-                    <p class="b">A. 방문하셔서 직원에게 문의하시면 됩니다.<img src="img/%EC%9C%84%20%ED%99%94%EC%82%B4%ED%91%9C.jpg"></p>
-                    <p class="a">Q. 시골밥상은 어떻게 이용해야 하나요?<img src="img/%EC%95%84%EB%9E%98%20%ED%99%94%EC%82%B4%ED%91%9C.jpg"></p>
-                    <p class="b">A. 방문하셔서 직원에게 문의하시면 됩니다.<img src="img/%EC%9C%84%20%ED%99%94%EC%82%B4%ED%91%9C.jpg"></p>
-                    <p class="a">Q. 시골밥상은 어떻게 이용해야 하나요?<img src="img/%EC%95%84%EB%9E%98%20%ED%99%94%EC%82%B4%ED%91%9C.jpg"></p>
-                    <p class="b">A. 방문하셔서 직원에게 문의하시면 됩니다.<img src="img/%EC%9C%84%20%ED%99%94%EC%82%B4%ED%91%9C.jpg"></p>
-                    <p class="a">Q. 시골밥상은 어떻게 이용해야 하나요?<img src="img/%EC%95%84%EB%9E%98%20%ED%99%94%EC%82%B4%ED%91%9C.jpg"></p>
-                    <p class="b">A. 방문하셔서 직원에게 문의하시면 됩니다.<img src="img/%EC%9C%84%20%ED%99%94%EC%82%B4%ED%91%9C.jpg"></p>
-                    <p class="a">Q. 시골밥상은 어떻게 이용해야 하나요?<img src="img/%EC%95%84%EB%9E%98%20%ED%99%94%EC%82%B4%ED%91%9C.jpg"></p>
-                    <p class="b">A. 방문하셔서 직원에게 문의하시면 됩니다.<img src="img/%EC%9C%84%20%ED%99%94%EC%82%B4%ED%91%9C.jpg"></p>
-                </div>
+                <ul class="dc"><li class="a">
+                    <p>Q. 시골밥상은 어떻게 이용해야 하나요?</p>
+                    <img src="img/%EC%95%84%EB%9E%98%20%ED%99%94%EC%82%B4%ED%91%9C.jpg">
+                    <p>A. 방문하셔서 직원에게 문의하시면 됩니다.<img src="img/%EC%9C%84%20%ED%99%94%EC%82%B4%ED%91%9C.jpg"></p>
+                    </li><li class="a">
+                    <p>Q. 시골밥상은 어떻게 이용해야 하나요?</p>
+                    <img src="img/%EC%95%84%EB%9E%98%20%ED%99%94%EC%82%B4%ED%91%9C.jpg">
+                    <p>A. 방문하셔서 직원에게 문의하시면 됩니다.<img src="img/%EC%9C%84%20%ED%99%94%EC%82%B4%ED%91%9C.jpg"></p>
+                    </li><li class="a">
+                    <p>Q. 시골밥상은 어떻게 이용해야 하나요?</p>
+                    <img src="img/%EC%95%84%EB%9E%98%20%ED%99%94%EC%82%B4%ED%91%9C.jpg">
+                    <p>A. 방문하셔서 직원에게 문의하시면 됩니다.<img src="img/%EC%9C%84%20%ED%99%94%EC%82%B4%ED%91%9C.jpg"></p>
+                    </li>
+                    <li class="a">
+                    <p>Q. 시골밥상은 어떻게 이용해야 하나요?</p>
+                    <img src="img/%EC%95%84%EB%9E%98%20%ED%99%94%EC%82%B4%ED%91%9C.jpg">
+                    <p>A. 방문하셔서 직원에게 문의하시면 됩니다.<img src="img/%EC%9C%84%20%ED%99%94%EC%82%B4%ED%91%9C.jpg"></p>
+                    </li>
+                    <li class="a">
+                    <p>Q. 시골밥상은 어떻게 이용해야 하나요?</p>
+                    <img src="img/%EC%95%84%EB%9E%98%20%ED%99%94%EC%82%B4%ED%91%9C.jpg">
+                    <p>A. 방문하셔서 직원에게 문의하시면 됩니다.<img src="img/%EC%9C%84%20%ED%99%94%EC%82%B4%ED%91%9C.jpg"></p>
+                    </li>
+                    <li class="a">
+                    <p>Q. 시골밥상은 어떻게 이용해야 하나요?</p>
+                    <img src="img/%EC%95%84%EB%9E%98%20%ED%99%94%EC%82%B4%ED%91%9C.jpg">
+                    <p>A. 방문하셔서 직원에게 문의하시면 됩니다.<img src="img/%EC%9C%84%20%ED%99%94%EC%82%B4%ED%91%9C.jpg"></p>
+                    </li>
+                </ul>
             </li>
 
             <li>
@@ -243,7 +127,12 @@
 
             <li>
                 <h3><a href="#">멤버십</a></h3>
-                <div class="dc">
+                <ul class="dc">
+                    <li class="a">
+                    <p>Q. 시골밥상은 어떻게 이용해야 하나요?</p>
+                    <img src="img/%EC%95%84%EB%9E%98%20%ED%99%94%EC%82%B4%ED%91%9C.jpg">
+                    <p>A. 방문하셔서 직원에게 문의하시면 됩니다.<img src="img/%EC%9C%84%20%ED%99%94%EC%82%B4%ED%91%9C.jpg"></p>
+                    </li>
                     <p class="a">Q. 시골밥상은 어떻게 이용해야 하나요?<img src="img/%EC%95%84%EB%9E%98%20%ED%99%94%EC%82%B4%ED%91%9C.jpg"></p>
                     <p class="b">A. 방문하셔서 직원에게 문의하시면 됩니다.<img src="img/%EC%9C%84%20%ED%99%94%EC%82%B4%ED%91%9C.jpg"></p>
                     <p class="a">Q. 시골밥상은 어떻게 이용해야 하나요?<img src="img/%EC%95%84%EB%9E%98%20%ED%99%94%EC%82%B4%ED%91%9C.jpg"></p>
@@ -256,9 +145,7 @@
                     <p class="b">A. 방문하셔서 직원에게 문의하시면 됩니다.<img src="img/%EC%9C%84%20%ED%99%94%EC%82%B4%ED%91%9C.jpg"></p>
                     <p class="a">Q. 시골밥상은 어떻게 이용해야 하나요?<img src="img/%EC%95%84%EB%9E%98%20%ED%99%94%EC%82%B4%ED%91%9C.jpg"></p>
                     <p class="b">A. 방문하셔서 직원에게 문의하시면 됩니다.<img src="img/%EC%9C%84%20%ED%99%94%EC%82%B4%ED%91%9C.jpg"></p>
-                    <p class="a">Q. 시골밥상은 어떻게 이용해야 하나요?<img src="img/%EC%95%84%EB%9E%98%20%ED%99%94%EC%82%B4%ED%91%9C.jpg"></p>
-                    <p class="b">A. 방문하셔서 직원에게 문의하시면 됩니다.<img src="img/%EC%9C%84%20%ED%99%94%EC%82%B4%ED%91%9C.jpg"></p>
-                </div>
+                </ul>
             </li>
 
             <li>
