@@ -19,11 +19,13 @@ $(document).ready(function () {
     $('.boxundertextname').on('focusin', slidedown);
     $('.boxundertextname').on('focusout', slideup);
 
-    $(window).resize(function () {
+    $(window).resize(autoheight);
+
+    function autoheight() {
         for (let i = 0; i < 2; i++) {
             let imgtag = $('.drinkboximg:eq(' + (i * 2 - 2) + ')').find('img');
             let boxh = $('.drinkboximg:eq(' + (i * 2 - 1) + ')').find('img');
             imgtag.height(boxh.height());
         }
-    });
+    }
 });

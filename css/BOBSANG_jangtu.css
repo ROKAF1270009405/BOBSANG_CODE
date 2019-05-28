@@ -237,6 +237,7 @@ footer {
     height: 200px;
     text-align: center;
     background-color: rgb(72, 74, 61);
+
 }
 
 footer > div {
@@ -244,9 +245,14 @@ footer > div {
 }
 
 footer > div img {
+
     width: 40px;
     height: 40px;
     margin: 17px;
+
+
+
+
 }
 
 footer ul li {
@@ -428,5 +434,15 @@ footer p {
             color: white;
             font-size: 1.5em;
         }
+        footer{
+            height:253px;
+        }
+        footer div img{
+            position: relative;
+            bottom:35px;
+
+        }
 
     }
+
+
