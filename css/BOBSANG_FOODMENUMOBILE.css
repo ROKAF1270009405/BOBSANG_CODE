@@ -50,6 +50,7 @@ header > div:nth-child(2) {
     font-weight: bold;
     margin: 54px 5px 0 0;
     float: right;
+    display: none;
 }
 
 .header_login ul {}
@@ -70,10 +71,11 @@ header > div:nth-child(2) {
 /*----nav----*/
 nav {
     font-family: "Gaegu-Regular";
-    font-size: 1.5em;
+    font-size: 150%;
     font-weight: bold;
     background-color: #b08d61;
     height: 80px;
+    overflow: hidden;
 }
 
 nav ul li {
@@ -83,10 +85,41 @@ nav ul li {
     margin-right: -6px;
     padding: 30px 0 30px 0;
 }
+nav{
+        height: auto;
+        background-image: url(/img/aluminous-749358_1920.jpg);
+        background-size: 950px;
+        background-repeat: no-repeat;
+    }
 
+.header_onetext{
+        display: none;
+    }
+    .header_login{
+        margin-top: 75px;
+        margin-right: 35%;
+
+    }
+    nav ul li {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-right: -6px;
+    padding: 30px 0 30px 0;
+    background-color: black;
+    opacity: 0.7;
+
+}
 nav ul li a {
     text-decoration: none;
-    color: #4d3c26;
+    color: white;
+}
+nav ul li:hover {
+    background-color: rgb(72,74,61);
+     opacity: 1;
+}
+nav ul li:hover a{
+    color: white;
 }
 
 /*----nav----*/
@@ -97,6 +130,7 @@ footer {
     height: 200px;
     text-align: center;
     background-color: rgb(72, 74, 61);
+    clear: left;
 }
 
 footer > div {
@@ -156,17 +190,15 @@ footer p {
     height: inherit;
 }
 
-div {
-    margin-bottom: 20px;
-}
-
 ul li{
     list-style: none;
     display: block;
+    line-height: 1;
 }
 
 .line {
-    border: 3px solid rgb(193, 154, 106);
+    border: 3px solid #4d3c26;
+    background-color: #4d3c26;
 }
 
 #toptitle{
@@ -175,7 +207,7 @@ ul li{
 
 #toptitle > h1 {
     font-family: "BlackAndWhitePicture-Regular";
-    color: #8B4513;
+    color: #4d3c26;
 }
 
 #foodmainimg {
@@ -194,7 +226,7 @@ ul li{
     text-align: center;
     font-size: 50px;
     font-family: "BlackAndWhitePicture-Regular";
-    color: #8B4513;
+    color: #4d3c26;
 }
 
 /*        음식 시작*/
@@ -213,7 +245,7 @@ ul li{
 }
 
 .foodboxtext {
-    background-color: #CD853F;
+    background-color: #4d3c26;
     width: inherit;
     display: none;
     opacity: 0.7;
@@ -249,7 +281,7 @@ ul li{
 .foodboxundertext {
     width: 100%;;
     height: 180px;
-    background-color: burlywood;
+    background-color: #DAB991;
 /*    position: absolute;*/
 /*    top: 455px;*/
     z-index: 1;
@@ -268,6 +300,7 @@ ul li{
     font-family: "Gaegu-Light";
     font-size: 30px;
     padding: 0 10px;
+    margin: 20px;
 }
 
 .foodboxundertext > p {
@@ -289,8 +322,9 @@ ul li{
 }
 
 .drinkboxtext {
-    background-color: #CD853F;
-    width: 100%;
+    background-color: #4d3c26;
+    color: white;
+    width: 50%;
     display: none;
     opacity: 0.7;
     position: absolute;
@@ -327,16 +361,17 @@ ul li{
     height: inherit;
     border-collapse: separate;
     text-align: center;
+    border: 3px solid #4d3c26;
 }
 
 .drinkpricebox th,
 .drinkpricebox td {
-    border: 1px solid rgb(193, 154, 10);
+    border: 1px solid darkgoldenrod;
     padding: 5px 0;
 }
 
 .drinkpricebox th {
-    background-color: rgb(193, 154, 106);
+    background-color: #DAB991;
     font-family: "Gaegu-Bold";
     font-size: 30px;
 }
@@ -351,7 +386,7 @@ ul li{
     float: left;
     margin: 0 auto;
     font-size: 25px;
-    background-color: rgb(193, 154, 106);
+    background-color: #DAB991;
 }
 
 svg{
@@ -367,7 +402,7 @@ svg{
     width: 170px;
     height: 50px;
     float: right;
-    background-color: rgb(193, 154, 106);
+    background-color: #DAB991;
     border-radius: 15px;
     padding: 0 10px;
     margin: 0;
@@ -382,5 +417,5 @@ svg{
     font-family: "Gaegu-Bold";
     font-size: 40px;
     text-decoration: none;
-    color: black;
+    color: #4d3c26;
 }

@@ -33,6 +33,7 @@ header {
 header > div:nth-child(1) {
     margin: 54px 0 0 5px;
     float: left;
+    display: none;
 }
 
 header > div:nth-child(2) {
@@ -50,9 +51,13 @@ header > div:nth-child(2) {
     font-weight: bold;
     margin: 54px 5px 0 0;
     float: right;
+    display: none;
 }
+.header_login{
+        margin-top: 75px;
+        margin-right: 35%;
 
-.header_login ul {}
+    }
 
 .header_login ul li {
     padding: 0 10px 0 10px;
@@ -70,10 +75,11 @@ header > div:nth-child(2) {
 /*----nav----*/
 nav {
     font-family: "Gaegu-Regular";
-    font-size: 1.5em;
+    font-size: 150%;
     font-weight: bold;
     background-color: #b08d61;
     height: 80px;
+    overflow: hidden;
 }
 
 nav ul li {
@@ -83,12 +89,42 @@ nav ul li {
     margin-right: -6px;
     padding: 30px 0 30px 0;
 }
+nav{
+        height: auto;
+        background-image: url(/img/aluminous-749358_1920.jpg);
+        background-size: 950px;
+        background-repeat: no-repeat;
+    }
 
-nav ul li a {
-    color: #4d3c26;
-    text-decoration: none;
+.header_onetext{
+        display: none;
+    }
+    .header_login{
+        margin-top: 75px;
+        margin-right: 35%;
+
+    }
+    nav ul li {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-right: -6px;
+    padding: 30px 0 30px 0;
+    background-color: black;
+    opacity: 0.7;
+
 }
-
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+nav ul li:hover {
+    background-color: rgb(72,74,61);
+     opacity: 1;
+}
+nav ul li:hover a{
+    color: white;
+}
 /*----nav----*/
 
 /*----footer----*/
@@ -148,7 +184,7 @@ table {
     width: 100%;
     border-collapse: separate;
     text-align: center;
-    border: 1px solid none;
+    border: 3px solid #4d3c26;
 }
 
 th,
@@ -158,7 +194,7 @@ td {
 }
 
 th {
-    background-color: rgb(193, 154, 106);
+    background-color: #DAB991;
     font-family: "Gaegu-Bold";
     font-size: 30px;
 }
@@ -182,19 +218,19 @@ section> img {
 
 #toptitle > h1 {
     font-family: "BlackAndWhitePicture-Regular";
-    color: #8B4513;
+    color: #4d3c26;
 }
 
 .line {
-    border: 3px solid rgb(193, 154, 106);
-    margin: 0;
+    border: 3px solid #4d3c26;
+    background-color: #4d3c26;
 }
 
 .nametitle > h1 {
     text-align: center;
     font-size: 50px;
     font-family: "BlackAndWhitePicture-Regular";
-    color: #8B4513;
+    color: #4d3c26;
     margin-top: 50px;
 }
 
@@ -207,7 +243,7 @@ section> img {
 .caution {
     clear: left;
     margin: 30px auto;
-    background: #E1B771;
+    background: #DAB991;
     padding: 10px;
 }
 
@@ -224,7 +260,7 @@ p{
     width: 170px;
     height: 50px;
     float: right;
-    background-color: rgb(193, 154, 106);
+    background-color: #DAB991;
     border-radius: 15px;
     padding: 0 10px;
     margin: 0;
@@ -239,5 +275,5 @@ p{
     font-family: "Gaegu-Bold";
     font-size: 40px;
     text-decoration: none;
-    color: black;
+    color: #4d3c26;
 }

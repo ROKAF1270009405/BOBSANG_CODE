@@ -74,6 +74,7 @@ nav {
     font-weight: bold;
     background-color: #b08d61;
     height: 80px;
+    overflow: hidden;
 }
 
 nav ul li {
@@ -90,11 +91,12 @@ nav ul li a {
 }
 nav ul li:hover {
     background-color: rgb(72,74,61);
-    height: 20px;
 }
 nav ul li:hover a{
     color: white;
 }
+
+
 /*----nav----*/
 
 /*----footer----*/
@@ -168,10 +170,12 @@ div {
 
 ul li{
     list-style: none;
+    line-height: 1;
 }
 
 .line {
-    border: 3px solid rgb(193, 154, 106);
+    border: 3px solid #4d3c26;
+    background-color: #4d3c26;
 }
 
 #toptitle{
@@ -180,7 +184,7 @@ ul li{
 
 #toptitle > h1 {
     font-family: "BlackAndWhitePicture-Regular";
-    color: #8B4513;
+    color: #4d3c26;
 }
 
 #foodmainimg {
@@ -198,7 +202,7 @@ ul li{
     text-align: center;
     font-size: 50px;
     font-family: "BlackAndWhitePicture-Regular";
-    color: #8B4513;
+    color: #4d3c26;
 }
 
 /*        음식 시작*/
@@ -216,7 +220,7 @@ ul li{
 }
 
 .foodboxtext {
-    background-color: #CD853F;
+    background-color: #4d3c26;
     width: 550px;
     height: 455px;
     display: none;
@@ -256,9 +260,7 @@ ul li{
 .foodboxundertext {
     width: inherit;
     height: 180px;
-    background-color: burlywood;
-/*    position: absolute;*/
-/*    top: 455px;*/
+    background-color: #DAB991;
     z-index: 1;
     font-size: 20px;
     text-align: center;
@@ -275,6 +277,7 @@ ul li{
     font-family: "Gaegu-Light";
     font-size: 30px;
     padding: 0 10px;
+    margin: 20px;
 }
 
 .foodboxundertext > p {
@@ -299,7 +302,8 @@ ul li{
 }
 
 .drinkboxtext {
-    background-color: #CD853F;
+    background-color: #4d3c26;
+    color: white;
     width: 260px;
     height: 400px;
     display: none;
@@ -339,16 +343,17 @@ ul li{
     height: inherit;
     border-collapse: separate;
     text-align: center;
+    border: 3px solid #4d3c26;
 }
 
 .drinkpricebox th,
 .drinkpricebox td {
-    border: 1px solid rgb(193, 154, 10);
+    border: 1px solid darkgoldenrod;
     padding: 5px 0;
 }
 
 .drinkpricebox th {
-    background-color: rgb(193, 154, 106);
+    background-color: #DAB991;
     font-family: "Gaegu-Bold";
     font-size: 30px;
 }
@@ -364,7 +369,9 @@ ul li{
     clear: left;
     margin: 0 auto;
     font-size: 25px;
-    background-color: rgb(193, 154, 106);
+    background-color: #DAB991;
+    padding: 20px;
+    border-radius: 20px;
 }
 
 /*        test중*/
@@ -388,7 +395,7 @@ ul li{
     stroke-dashoffset: 0;
     /* 왼쪽위를 기준으로 끝나는 총변의 길이*/
     stroke-dasharray: 2420px;
-    stroke: brown;
+    stroke: #4d3c26;
     /* 도형의 총 변의 길이 만큼 이펙트로 채워짐*/
     position: relative;
     z-index: 3;
@@ -404,7 +411,7 @@ ul li{
     stroke-dashoffset: 0;
     /* 왼쪽위를 기준으로 끝나는 총변의 길이*/
     stroke-dasharray: 1570px;
-    stroke: brown;
+    stroke: #4d3c26;
     /* 도형의 총 변의 길이 만큼 이펙트로 채워짐*/
     position: relative;
     z-index: 3;
@@ -414,7 +421,7 @@ ul li{
     width: 170px;
     height: 50px;
     float: right;
-    background-color: rgb(193, 154, 106);
+    background-color: #DAB991;
     border-radius: 15px;
     padding: 0 10px;
     margin: 0;
@@ -429,5 +436,5 @@ ul li{
     font-family: "Gaegu-Bold";
     font-size: 40px;
     text-decoration: none;
-    color: black;
+    color: #4d3c26;
 }

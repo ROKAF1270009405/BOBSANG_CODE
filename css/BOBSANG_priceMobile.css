@@ -30,11 +30,12 @@ header>div:nth-child(2){
     transform: translateX(-50%);
 }
 .header_login{
-    font-family: "Gaegu Regular";
-    font-weight: bold;
-    margin: 54px 5px 0 0;
-    float: right;
-}
+        margin-top: 75px;
+        margin-right: 28%;
+    }
+.header_onetext{
+        display: none;
+    }
 .header_login ul{
 
 }
@@ -43,7 +44,10 @@ header>div:nth-child(2){
     border-right: 1px solid #b08d61;
     display: inline-block;
 }
-=======
+.header_login ul li a{
+   color:  #4d3c26;
+    text-decoration: none;
+}
 }
 .header_login ul li{
     padding: 0 10px 0 10px;
@@ -55,26 +59,31 @@ header>div:nth-child(2){
     text-decoration: none;
 }
 /*----header----*/
-
 /*----nav----*/
 nav{
-    font-family: "Gaegu Regular";
-    font-size: 1.5em;
-    font-weight: bold;
-    background-color: #b08d61;
-    height: 80px;
-}
-nav ul li{
-    display: inline-block;
-    width: 16.2%;
+        height: auto;
+        background-image: url(/img/aluminous-749358_1920.jpg);
+        background-size: 950px;
+        background-repeat: no-repeat;
+    }
+
+nav ul li {
+    display: block;
+    width: 100%;
     text-align: center;
     margin-right: -6px;
     padding: 30px 0 30px 0;
+    background-color: black;
+    opacity: 0.7;
+
 }
-nav ul li a{
-    text-decoration: none;
-    color: #4d3c26;
-}
+nav ul li:hover{
+        opacity: 1;
+    }
+    nav ul li a{
+        color: white;
+        font-size: 1.5em;
+    }
 /*----nav----*/
 body{
     background-color: rgb(248,242,228);
@@ -156,7 +165,7 @@ position:relative;
 }
 footer{
     position: absolute;
-    bottom:-1500px;
+    bottom:-2120px;
     width: 100%;
     height: 260px;
     text-align: center;
