@@ -69,7 +69,7 @@ nav{
 }
 nav ul li{
     display: inline-block;
-    width: 19.6%;
+    width: 16.3%;
     text-align: center;
     margin-right: -6px;
     padding: 30px 0 30px 0;
@@ -276,7 +276,8 @@ footer ul li a{
 #di{
       width:1280px;
     position:relative;
-    left:330px;
+    left: 50%;
+    transform: translateX(-50%);
       border:1px solid rgb(248,242,228);
     border-top:none;
       background-color: rgb(248,242,228);
