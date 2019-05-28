@@ -8,6 +8,7 @@ body {
 }
 
 .change {
+    /*background-color: yellow;*/
     color: red;
     font-weight: bold;
     font-size: 20px;
@@ -78,7 +79,7 @@ nav ul li {
     font-weight: bold;
     font-size: 1.5em;
     display: inline-block;
-    width: 19.6%;
+    width: 16.3%;
     text-align: center;
     margin-right: -5px;
     padding: 30px 0 30px 0;
@@ -89,12 +90,18 @@ nav ul li a{
     text-decoration: none;
     color: #4d3c26;
 }
-
+nav ul li:hover {
+    background-color: rgb(72,74,61);
+    height: 20px;
+}
+nav ul li:hover a{
+    color: white;
+}
 #out{
    width: 1280px;
    height: 1500px;
-   border: 1px solid silver;
-   background-color:lightyellow;
+   border: 1px solid #F8F2E4;
+   background-color:#F8F2E4;
    margin: auto;
 }
 
@@ -153,13 +160,13 @@ nav ul li a{
     height: 140px;
     margin-top: 30px;
     padding-top: 100px;
-    border: 1px solid lightyellow;
-    background-color: lightyellow;
+    border: 1px solid #F8F2E4;
+    background-color: #F8F2E4;
     line-height: 40.0px;
 }
 
 #box h3 {
-    color: chocolate;
+    color: #B08D61;
     font-size: 25px;
 }
 
@@ -184,7 +191,7 @@ nav ul li a{
     width: 1280px;
     height: 800px;
     margin: 0 auto;
-    border: 1px solid silver;
+    border: 1px solid #F8F2E4;
 }
 
 .tab > li {
@@ -199,7 +206,7 @@ ul h3 {
     height: 60px;
     /*position: relative;*/
     text-align: center;
-    border: 1px solid silver;
+    border: 1px solid lightyellow;
     font-size: 25px;
 }
 
@@ -207,9 +214,9 @@ ul>li>div{
     position: absolute;
     top: 622px;
     width: 1280px;
-    border: 1px solid silver;
+    border: 1px solid #F8F2E4;
     height: 972px;
-    background-color: lightyellow;
+    background-color: #F8F2E4;
     padding-top: 80px;
 }
 
@@ -223,13 +230,14 @@ ul>li>div{
 .a{
     width: 1100px;
     height: 110px;
-    background-color: lightyellow;
+    background-color: #F8F2E4;
     border: 2px solid silver;
     margin: auto;
     font-size: 25px;
 }
 
 .a img{
+    /*background-color: lightyellow;*/
     float: right;
     padding-top: 10px;
     padding-right: 10px;
@@ -238,7 +246,7 @@ ul>li>div{
 .b{
     width: 1100px;
     height: 70px;
-    background-color: papayawhip;
+    background-color: #DAB991;
     border: 2px solid silver;
     margin: auto;
     font-size: 25px;
