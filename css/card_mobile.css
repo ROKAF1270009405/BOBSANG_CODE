@@ -171,10 +171,11 @@ footer p {
 
 #out{
    width: 70%;
-   height: 2200px;
+   height: 1800px;
    border: 1px solid #F8F2E4;
    background-color:#F8F2E4;
    margin: auto;
+
 }
 
 /*#location {
@@ -197,6 +198,8 @@ footer p {
 }
 
 location li {
+
+
     float: left;
     padding-right: 11px;
     margin: auto;
@@ -206,7 +209,8 @@ location li {
 }
 
 #location li.home a {
-    display: block;
+
+    display: *block;
     font-size: 15px;
 }
 
@@ -229,7 +233,9 @@ box {
 }
 
 .box section {
-    width: 400px;
+    position:relative;
+    top:0px;
+    width: 540px;
     height: 280px;
     margin-top:20px;
     padding: 0px;
@@ -265,7 +271,7 @@ tab > li {
     display: inline-block;
 }
 
-ul h3 {
+/*ul h3 {
     /*background-color: white;
     position: absolute;
     float: left;*/
@@ -276,7 +282,7 @@ ul h3 {
     /*text-align: center;*/
     border: 2px solid lightyellow;
     font-size: 15px;
-}
+}*/
 
 ul>li>div{
     position: relative;
@@ -295,10 +301,10 @@ ul>li>div{
 }
 
 #ua img {
-    width: 200px;
+    width: 150px;
    /* height: 270px;*/
     padding-top: 20px;
-    padding-left: 50px;
+/*    padding-left: 50px;*/
     padding-right: 30px;
     float: left;
 }
@@ -313,11 +319,13 @@ ul>li>div{
 #sa h4{
     color: red;
     font-size: 15px;
+
 }
 
 #sa li{
     list-style: none;
     font-size: 15px;
+
 }
 
 #sa img{
@@ -332,11 +340,12 @@ ul>li>div{
     /*height: 270px;*/
     padding-top: 20px;
     padding-left: 60px;
-    padding-right: 60px;
+/*    padding-right: 60px;*/
     float: right;
 }
 
 #sb {
+
     padding-top: 10px;
     padding-left: 0px;
     padding-right: 0px;
@@ -351,6 +360,9 @@ ul>li>div{
 #sb li{
     list-style: none;
     font-size: 15px;
+    text-align: end;
+
+
 }
 
 #sb img{
@@ -362,10 +374,10 @@ ul>li>div{
 }
 
 #uc img {
-    width: 200px;
+    width: 150px;
     /*height: 270px;*/
     padding-top: 20px;
-    padding-left: 60px;
+/*    padding-left: 60px;*/
     padding-right: 60px;
     /*margin-left: -150px;*/
     float: left;
@@ -396,24 +408,24 @@ ul>li>div{
 }
 
 #ub-1 img{
-    width: 50%;
-    height: 270px;
-    padding-top: 120px;
+    width: 150px;
+    height: 100px;
+/*    padding-top: 120px;*/
     padding-left: 60px;
     padding-right: 60px;
     float: right;
 }
 
 #sb-1 {
-    padding-top: 540px;
-    padding-left: 70px;
+/*    padding-top: 540px;*/
+/*    padding-left: 70px;*/
     padding-right: 0px;
     line-height: 20.0px;
 }
 
 #sb-1 h4{
     color: red;
-    font-size: 25px;
+    font-size: 15px;
 }
 
 #sb-1 li{
@@ -633,4 +645,8 @@ ul>li>div{
     line-height: 30.0px;
     background-color: #DAB991;
     font-size: 20px;
+}
+#sb-1 li{
+    font-size:15px;
+
 }
