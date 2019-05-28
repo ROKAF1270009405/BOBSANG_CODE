@@ -370,7 +370,11 @@ footer p {
 
     }
 
-    @media screen and (max-width:773px) {
+    @media screen and (max-width:768px) {
+        nav ul li:hover {
+    background-color: rgb(72,74,61);
+    height: 40px;
+}
         #all_menu_wrap {
             width: 400px;
             margin: 0px auto;
