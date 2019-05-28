@@ -74,6 +74,7 @@ nav {
     font-weight: bold;
     background-color: #b08d61;
     height: 80px;
+    overflow: hidden;
 }
 
 nav ul li {
@@ -85,7 +86,6 @@ nav ul li {
 }
 nav ul li:hover {
     background-color: rgb(72,74,61);
-    height: 20px;
 }
 nav ul li:hover a{
     color: white;
@@ -334,7 +334,7 @@ li {
 
 /*media*/
 
-@media screen and (max-width:807px) {
+@media screen and (max-width:768px) {
     .slide {
         display: none;
     }
