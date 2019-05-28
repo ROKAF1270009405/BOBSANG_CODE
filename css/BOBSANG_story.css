@@ -320,13 +320,13 @@ footer ul li a{
 #ov{
     position:relative;
     bottom:170px;
-    left:450px;
+    left:400px;
     font-size:40px;
 
 }
 #ov:hover{
-    font-size: 50px;
-     left:400px;
+    font-size: 40px;
+     left:360px;
     color:black;
     background-color:darkgoldenrod;
 
