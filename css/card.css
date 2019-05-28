@@ -94,7 +94,7 @@ nav ul li:hover a{
 
 #out{
    width: 1280px;
-   height: 2100px;
+   height: 2200px;
    border: 1px solid #F8F2E4;
    background-color:#F8F2E4;
    margin: auto;
@@ -110,20 +110,20 @@ nav ul li:hover a{
 #location h1 {
     float: left;
     margin-top: 40px;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 #location ul {
     float: right;
     list-style: none;
-    margin-top: 60px;
+    margin-top: 75px;
 }
 
 #location li {
     float: left;
     padding-right: 11px;
     margin-right: 7px;
-    font-size: 11px;
+    font-size: 15px;
     line-height: 13px;
     letter-spacing: -1px;
 }
@@ -149,6 +149,8 @@ nav ul li:hover a{
     width: 1280px;
     height: 350px;
     margin: auto;
+    padding-top: 20px;
+    padding-bottom: 70px;
 }
 
 .box section {
@@ -203,7 +205,7 @@ ul h3 {
 
 ul>li>div{
     position: absolute;
-    top: 746px;
+    top: 846px;
     width: 1280px;
     border: 1px solid #F8F2E4;
     height: 1430px;
@@ -319,6 +321,40 @@ ul>li>div{
     float: left;
 }
 
+#ub-1 img{
+    width: 450px;
+    height: 270px;
+    padding-top: 120px;
+    padding-left: 60px;
+    padding-right: 60px;
+    float: right;
+}
+
+#sb-1 {
+    padding-top: 540px;
+    padding-left: 70px;
+    padding-right: 0px;
+    line-height: 30.0px;
+}
+
+#sb-1 h4{
+    color: red;
+    font-size: 25px;
+}
+
+#sb-1 li{
+    list-style: none;
+    font-size: 20px;
+}
+
+#sb-1 img{
+    width: 150px;
+    height: 30px;
+    margin: 0;
+    padding: 0px;
+    float: left;
+}
+
 #ud #h{
     color: #B08D61;
     font-size: 25px;
@@ -400,7 +436,7 @@ ul>li>div{
 #ue #h{
     color: #B08D61;
     font-size: 25px;
-    padding-top: 50px;
+    padding-top: 80px;
     padding-right: 120px;
     float: right;
 }
@@ -409,7 +445,7 @@ ul>li>div{
     width: 450px;
     height: 270px;
     position: relative;
-    top: 100px;
+    top: 150px;
     right: -290px;
     padding-left: 60px;
     /*padding-right: 60px;*/
@@ -485,7 +521,7 @@ ul>li>div{
     border: 1px solid #DAB991;
     margin: auto;
     position: relative;
-    top: -30px;
+    top: 350px;
     line-height: 25.0px;
     padding: 10px;
     background-color: #DAB991;
@@ -511,16 +547,22 @@ ul>li>div{
     padding-left: 120px;
 }
 
-#sbox2{
-    width: 1000px;
-    height: 250px;
+.sbox2{
+    width: 1100px;
+    height: 370px;
     border: 1px solid #DAB991;
     margin: auto;
-    padding: 20px;*/
+    margin-top: 15px;
+    padding: 20px;
     position: relative;
-    top: 50px;*/
-    line-height: 25.0px;
+    top: 40px;
+    line-height: 30.0px;
     background-color: #DAB991;
+    font-size: 20px;
+}
+
+.sbox2 section {
+
 }
 
 /*#uf{
