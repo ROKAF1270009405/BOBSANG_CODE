@@ -67,6 +67,7 @@ nav{
     font-weight: bold;
     background-color: #b08d61;
     height: 80px;
+    overflow: hidden;
 }
 nav ul li{
     display: inline-block;
@@ -81,7 +82,7 @@ nav ul li a{
 }
 nav ul li:hover {
     background-color: rgb(72,74,61);
-    height: 20px;
+
 }
 nav ul li:hover a{
     color: white;
@@ -112,6 +113,8 @@ div{
     font-size:30px;
     font-weight:bolder;
     padding-left:10px;
+    position:relative;
+    right:570px;
 }
 .h1{
     color:rgb(72,74,61);
@@ -303,26 +306,27 @@ footer ul li a{
 .vc{
     position: relative;
     bottom:350px;
-    left:75px;
+    left:0px;
     padding-right:10px;
 }
 .imgbob{
     width:700px;
     height:400px;
     position:relative;
+    right:250px;
     top:40px;
 }
 
 #ov{
     position:relative;
     bottom:170px;
-    left:930px;
+    left:450px;
     font-size:40px;
 
 }
 #ov:hover{
     font-size: 50px;
-     left:840px;
+     left:400px;
     color:black;
     background-color:darkgoldenrod;
 
@@ -385,8 +389,17 @@ footer ul li a{
     background-color: #b08d61;
     border-radius: 50px;
 }
+.h333{
 
+    font-family: "Black And White Picture";
+    color:rgb(72,74,61);
+    font-size:30px;
+    font-weight:bolder;
+    padding-left:10px;
+    position:relative;
+    right:530px;
 
+}
 
 
 
