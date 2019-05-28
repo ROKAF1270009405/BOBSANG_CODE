@@ -146,19 +146,19 @@ body div .r2{
 }
 #ov{
     width: 100%;
-    font-size:20px;
+    font-size:30px;
     position:absolute;
-    left: 100px;
+    left: 20px;
     bottom:550px;
 
 
 }
 #ov:hover{
-    font-size: 30px;
-     left:80px;
+    font-size: 40px;
+     left:20px;
     color:black;
     background-color:dodgerblue;
-
+    font-family:"Black And White Picture";
 }
 .dot1,.dot2,.dot3,.dot4
 {
