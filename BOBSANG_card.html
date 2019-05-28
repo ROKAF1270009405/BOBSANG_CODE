@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/card.css" media="screen and (min-width:769px)">
     <link rel="stylesheet" href="css/card_mobile.css" media="screen and (max-width:768px)">
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
@@ -42,15 +42,6 @@
             $('.sbox2').mouseleave(function(){
                 $(this).css({'background-color':'#DAB991', 'color':'black', 'font-size':'20px', 'line-height':'30.0px'});
             });
-
-           /* $('.sbox2').mouseover(function(){
-                $(this).css({'background-color':'black', 'color':'yellow', 'font-size':'30px'});
-            });
-            */
-
-            /*$('.box li').mouseover(function(){
-                $(this).addClass('change');
-            })*/
         });
     </script>
 </head>
@@ -114,10 +105,11 @@
                 <h3><a href="#">제휴 카드</a></h3>
                 <div>
                     <ul id="ua">
-                        <img src="img/card.jpg">
+                          <img id="a" src="img/card.jpg">
+                           <a href="http://bitcamp.co.kr"><img class="h1" src="img/%ED%95%A0%EC%9D%B81.jpg" alt="할인가격1"></a>
                         <section id="sa">
-                            <h4>비트카드 20% 포인트 결제</h4>
-                            <li>* 비트카드 포인트로 20% 결제</li>
+                            <h4>비트카드 20% 즉시할인</h4>
+                            <li>* 비트카드 20% 즉시 할인</li>
                             <li>* 최소 1,000포인트 이상 시 사용 가능, 연간한도 무제한</li>
                             <li>* 포인트 한도 내 결제 가능하며, 잔여 포인트 부족 시 잔여 포인트 만큼만 차감</li>
                             <li>* 일부 매장은 포인트 결제가 제외됩니다.(계절밥상 코엑스몰점)</li>
@@ -126,10 +118,10 @@
                         </section>
                     </ul>
                     <ul id="ub">
-                        <img src="img/credit-3643710_1280.png">
+                        <img id="b" src="img/credit-3643710_1280.png"><a href="http://bitcamp.co.kr"><img class="h2" src="img/%ED%95%A0%EC%9D%B82.jpg" alt="할인가격2"></a>
                         <section id="sb">
-                            <h4>비트카드 20% 포인트 결제</h4>
-                            <li>* 비트카드 포인트로 20% 결제</li>
+                            <h4>비트 A카드 20% 포인트 결제</h4>
+                            <li>* 비트 A카드 포인트로 20% 결제</li>
                             <li>* 최소 1,000포인트 이상 시 사용 가능, 연간한도 무제한</li>
                             <li>* 포인트 한도 내 결제 가능하며, 잔여 포인트 부족 시 잔여 포인트 만큼만 차감</li>
                             <li>* 일부 매장은 포인트 결제가 제외됩니다.(계절밥상 코엑스몰점)</li>
@@ -139,10 +131,10 @@
                     </ul>
 
                     <ul id="uc">
-                        <img src="img/credit-card-1680347_1280.jpg">
+                        <img id="c" src="img/credit-card-1680347_1280.jpg"><a href="http://bitcamp.co.kr"><img class="h3" src="img/%ED%95%A0%EC%9D%B83.jpg" alt="할인가격3"></a>
                         <section id="sc">
-                            <h4>비트카드 20% 포인트 결제</h4>
-                            <li>* 비트카드 포인트로 20% 결제</li>
+                            <h4>비트 B카드 25% 포인트 결제</h4>
+                            <li>* 비트 B카드 포인트로 25% 결제</li>
                             <li>* 최소 1,000포인트 이상 시 사용 가능, 연간한도 무제한</li>
                             <li>* 포인트 한도 내 결제 가능하며, 잔여 포인트 부족 시 잔여 포인트 만큼만 차감</li>
                             <li>* 일부 매장은 포인트 결제가 제외됩니다.(계절밥상 코엑스몰점)</li>
@@ -152,10 +144,10 @@
                     </ul>
 
                     <ul id="ub-1">
-                        <img src="img/card.jpg">
+                        <img id="b1" src="img/card1.jpg"><a href="http://bitcamp.co.kr"><img class="h4" src="img/%ED%95%A0%EC%9D%B84.jpg" alt="할인가격4"></a>
                         <section id="sb-1">
-                            <h4>비트카드 20% 포인트 결제</h4>
-                            <li>* 비트카드 포인트로 20% 결제</li>
+                            <h4>비트 C카드 30% 포인트 결제</h4>
+                            <li>* 비트 C카드 포인트로 30% 결제</li>
                             <li>* 최소 1,000포인트 이상 시 사용 가능, 연간한도 무제한</li>
                             <li>* 포인트 한도 내 결제 가능하며, 잔여 포인트 부족 시 잔여 포인트 만큼만 차감</li>
                             <li>* 일부 매장은 포인트 결제가 제외됩니다.(계절밥상 코엑스몰점)</li>
@@ -171,7 +163,7 @@
                 <div>
                     <ul id="ud">
                             <h4 id="h"><u>SG(시골)상품권</u></h4>
-                            <img id="a" src="img/%EC%83%81%ED%92%88%EA%B6%8C1-1.jpg">
+                            <img id="a" src="img/%EC%83%81%ED%92%88%EA%B6%8C1-1.jpg"><a href="http://bitcamp.co.kr"><img class="h5" src="img/%ED%96%89%EC%82%AC1.jpg" alt="행사1"></a>
                         <section id="sd">
                             <h4>이용 가능 매장</h4>
                             <li>뚜레주르, 빕스, 더플레이스, 시골밥상, 제일제면소,<br> 시골푸드월드에서 사용<br>(단, 일부 매장 제외)</li>
@@ -181,7 +173,7 @@
                     </ul>
                     <ul id="ue">
                             <h4 id="h"><u>SG(시골) 외식전용 상품권</u></h4>
-                            <img id="a" src="img/%EC%83%81%ED%92%88%EA%B6%8C2.png">
+                            <img id="a" src="img/%EC%83%81%ED%92%88%EA%B6%8C2.png"><a href="http://bitcamp.co.kr"><img class="h6" src="img/%ED%96%89%EC%82%AC2.jpg" alt="행사2"></a>
                         <section id="se">
                             <h4>이용 가능 매장</h4>
                             <li>뚜레주르, 빕스, 더플레이스, 시골밥상, 제일제면소,<br> 시골푸드월드에서 사용<br>(단, 일부 매장 제외)</li>
@@ -190,18 +182,34 @@
                         </section>
                     </ul>
 
-                    <ul id="ud">
-                            <h4 id="h"><u>SG(시골) VIP 상품권</u></h4>
-                            <img id="a" src="img/%EC%83%81%ED%92%88%EA%B6%8C1-2.jpg">
-                        <section id="sd">
-                            <h4>이용 가능 매장</h4>
-                            <li>뚜레주르, 빕스, 더플레이스, 시골밥상, 제일제면소,<br> 시골푸드월드에서 사용<br>(단, 일부 매장 제외)</li>
-                            <table><tr><td><img src="img/%ED%83%80%EC%9D%B4%ED%8B%80.gif"></td><td><img src="img/logo-1.jpg"></td><td><img src="img/logo-2.png"></td></tr><tr><td><img src="img/logo-3.jpg"></td><td><img src="img/logo-4.jpg"></td><td><img src="img/logo-5.jpg"></td></tr><tr><td><img src="img/logo-6.jpg"></td><td><img src="img/logo-7.jpg"></td><td><img src="img/logo-8.jpg"></td></tr></table>
-                            <li id="home"><a href="http://bitcamp.co.kr"><img src="img/home.jpg">(www.bitcamp.co.kr)</a></li>
-                        </section>
+                    <ul id="ud-1">
+                        <h4 id="h"><u>SG(시골) VIP 상품권</u></h4>
+                        <img id="a" src="img/%EC%83%81%ED%92%88%EA%B6%8C1-2.jpg"><a href="http://bitcamp.co.kr"><img class="h7" src="img/%ED%96%89%EC%82%AC3.jpg" alt="행사3">
+                            <section id="sd-1">
+                                <h4>이용 가능 매장</h4>
+                                <li>뚜레주르, 빕스, 더플레이스, 시골밥상, 제일제면소,<br> 시골푸드월드에서 사용<br>(단, 일부 매장 제외)</li>
+                                <table>
+                                    <tr>
+                                        <td><img src="img/%ED%83%80%EC%9D%B4%ED%8B%80.gif"></td>
+                                        <td><img src="img/logo-1.jpg"></td>
+                                        <td><img src="img/logo-2.png"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="img/logo-3.jpg"></td>
+                                        <td><img src="img/logo-4.jpg"></td>
+                                        <td><img src="img/logo-5.jpg"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="img/logo-6.jpg"></td>
+                                        <td><img src="img/logo-7.jpg"></td>
+                                        <td><img src="img/logo-8.jpg"></td>
+                                    </tr>
+                                </table>
+                                <li id="home"><a href="http://bitcamp.co.kr"><img src="img/home.jpg">(www.bitcamp.co.kr)</a></li>
+                            </section>
                     </ul>
-                </div>
-            </li>
+                    </div>
+                    </li>
 
             <li>
                 <h3><a href="#">제휴 상품권</a></h3>

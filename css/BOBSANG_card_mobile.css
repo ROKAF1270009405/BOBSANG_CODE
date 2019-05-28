@@ -1,23 +1,3 @@
-@font-face {
-    font-family: BlackAndWhitePicture-Regular;
-    src: url(../fonts/Black_And_White_picture/BlackAndWhitePicture-Regular.ttf);
-}
-
-@font-face {
-    font-family: Gaegu-Bold;
-    src: url(../fonts/Gaegu/Gaegu-Bold.ttf);
-}
-
-@font-face {
-    font-family: Gaegu-Light;
-    src: url(../fonts/Gaegu/Gaegu-Light.ttf);
-}
-
-@font-face {
-    font-family: Gaegu-Regular;
-    src: url(../fonts/Gaegu/Gaegu-Regular.ttf);
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -170,47 +150,43 @@ footer p {
 /*----footer----*/
 
 #out{
-   width: 70%;
-   height: 1800px;
-   border: 1px solid #F8F2E4;
+   width: 100%;
    background-color:#F8F2E4;
-   margin: auto;
+   /*margin: auto;*/
 
 }
 
-/*#location {
-    width: 50%;
+#location {
+    width: 100%;
     height: 100px;
-    margin: auto;
-    border-bottom: 2px solid silver;
+    /*border-bottom: 2px solid silver;*/
 }
 
 #location h1 {
     float: left;
-    margin: auto;
-    font-size: 20px;
-}*/
-
-#location h1 {
-    float: right;
-    list-style: none;
-    margin: auto;
+    margin-top: 40px;
+    font-size: 30px;
+    padding-left: 30px;
 }
 
-location li {
+#location ul{
+    /*float: right;
+    list-style: none;
+    margin-top: 75px;*/
+    display: none;
+}
 
-
+/*location li {
     float: left;
     padding-right: 11px;
-    margin: auto;
+    margin-right: 7px;
     font-size: 15px;
     line-height: 13px;
     letter-spacing: -1px;
 }
 
 #location li.home a {
-
-    display: *block;
+    display: block;
     font-size: 15px;
 }
 
@@ -224,241 +200,203 @@ location li {
     font-size: 15px;
 }*/
 
-box {
+/*.box {
     width: 50%;
     height: 350px;
     margin-top: 30px;
     padding-top: 100px;
     padding-bottom: 70px;
-}
+}*/
 
 .box section {
-    position:relative;
-    top:0px;
-    width: 540px;
-    height: 280px;
-    margin-top:20px;
-    padding: 0px;
+    width: 90%;
+    margin: auto;
     border: 1px solid #DAB991;
     background-color: #DAB991;
-    line-height: 20.0px;
+    line-height: 30.0px;
+    padding: 5px;
 }
 
 .box li {
-    font-size: 15px;
+    font-size: 18px;
 }
 
-
-
-/*tab > li {
-    list-style: none;
-}*/
-
-
-<<<<<<< HEAD
-=======
-tab > li {
-    display: inline-block;
-}
-
-/*ul h3 {
-    /*background-color: white;
-    position: absolute;
-    float: left;*/
+#wrap2{
+    width: 100%;
     display: block;
-    width: 100px;
-    height: 60px;
-    /*position: relative;*/
-    /*text-align: center;*/
-    border: 2px solid lightyellow;
-    font-size: 15px;
-}*/
->>>>>>> origin/master
+}
 
-ul>li>div{
-    position: absolute;
-    top: 1200px;
-    width: 400px;
-    border: 1px solid #F8F2E4;
-    height: 1430px;
-    background-color: #F8F2E4;
+tab > li {
+    list-style: none;
+}
+
+ul h3 {
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    border: 2px solid lightyellow;
+    font-size: 20px;
 }
 
 .tab h3{
-    display: none;
+    text-align: center;
+    margin-top: 14px;
+    margin-left: 25px;
+    text-decoration: none;
+    color: black;
 }
 
 #ua img {
-<<<<<<< HEAD
-    width: 250px;
-   /* height: 270px;*/
-    padding-top: -120px;
-    padding-left: 50px;
-=======
-    width: 150px;
-   /* height: 270px;*/
-    padding-top: 20px;
-/*    padding-left: 50px;*/
->>>>>>> origin/master
-    padding-right: 30px;
-    float: left;
+    width: 70%;
+    height: auto;
+    margin-top: 40px;
+    margin-left: 25px;
 }
 
+/*#ua #a {
+    width: 70%;
+    height: auto;
+}
+
+#ua:hover .h1 {
+    visibility: visible;
+    opacity: 0.95;
+}
+
+.h1 {
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    opacity: 2;
+    transition-duration: 0.1s;
+    visibility: hidden;
+    opacity: 0;
+}*/
+
 #sa {
-    padding-top: 10px;
-    padding-left: 0px;
-    padding-right: 0px;
     float: left;
-    line-height: 20.0px;
+    line-height: 30.0px;
+    margin-left: 25px;
 }
 #sa h4{
     color: red;
-    font-size: 15px;
-
+    font-size: 20px;
 }
 
 #sa li{
     list-style: none;
-    font-size: 15px;
+    font-size: 18px;
 
 }
 
 #sa img{
-    width: 100px;
-    height: 30px;
-    margin: 0;
-    padding: 5px;
+    width: 20%;
+    height: auto;
+    margin-top: -10px;
 }
 
 #ub img{
-    width: 200px;
-    /*height: 270px;*/
-    padding-top: 20px;
-    padding-left: 60px;
-/*    padding-right: 60px;*/
-    float: right;
+    width: 70%;
+    height: auto;
+    margin-top: 40px;
+    margin-left: 25px;
 }
 
 #sb {
-
-    padding-top: 10px;
-    padding-left: 0px;
-    padding-right: 0px;
-    line-height: 20.0px;
+    line-height: 30.0px;
+    margin-left: 25px;
 }
 
 #sb h4{
     color: red;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 #sb li{
     list-style: none;
-    font-size: 15px;
-    text-align: end;
-
-
+    font-size: 18px;
 }
 
 #sb img{
-    width: 50%;
-    height: 30px;
-    margin: 0;
-    padding: 0px;
-    float: left;
+    width: 20%;
+    height: auto;
+    margin-top: -10px;
 }
 
 #uc img {
-    width: 150px;
-    /*height: 270px;*/
-    padding-top: 20px;
-/*    padding-left: 60px;*/
-    padding-right: 60px;
-    /*margin-left: -150px;*/
-    float: left;
+    width: 70%;
+    height: auto;
+    margin-top: 40px;
+    margin-left: 25px;
 }
 
 #sc {
-    padding-top: 10px;
-    padding-left: 0px;
-    padding-right: 0px;
-    line-height: 20.0px;
+    line-height: 30.0px;
+    margin-left: 25px;
 }
 #sc h4{
     color: red;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 #sc li{
     list-style: none;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 #sc img{
-    width: 50%;
-    height: 30px;
-    margin: 0;
-    padding: 0px;
-    float: left;
+    width: 20%;
+    height: auto;
+    margin-top: -10px;
 }
 
 #ub-1 img{
-    width: 150px;
-    height: 100px;
-/*    padding-top: 120px;*/
-    padding-left: 60px;
-    padding-right: 60px;
-    float: right;
+    width: 70%;
+    height: auto;
+    margin-top: 40px;
+    margin-left: 25px;
 }
 
 #sb-1 {
-/*    padding-top: 540px;*/
-/*    padding-left: 70px;*/
-    padding-right: 0px;
-    line-height: 20.0px;
+    line-height: 30.0px;
+    margin-left: 25px;
 }
 
 #sb-1 h4{
     color: red;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 #sb-1 li{
     list-style: none;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 #sb-1 img{
-    width: 50%;
-    height: 30px;
-    margin: 0;
-    padding: 0px;
-    float: left;
+    width: 20%;
+    height: auto;
+    margin-top: -10px;
 }
 
 #ud #h{
     color: #B08D61;
-    font-size: 25px;
-    padding-top: 30px;
-    padding-left: 120px;
-    /*margin: 10px;*/
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 25px;
 }
 
 #ud #a{
-    width: 50%;
-    height: 270px;
-    padding-top: 10px;
-    padding-left: 120px;
-    padding-right: 80px;
-    float: left;
+    width: 70%;
+    height: auto;
+    margin-left: 25px;
 }
 
 #sd {
-    padding-top: 10px;
-    padding-left: 0px;
-    padding-right: 0px;
-    /*float: right;*/
     line-height: 30.0px;
+    margin-left: 25px;
 }
 
 #sd td{
@@ -473,26 +411,26 @@ ul>li>div{
     padding-right: 20px;
 }*/
 #sd table img{
-    width: 50%;
-    height: 64px;
+    width: 100%;
+    height: auto;
 }
 
 #sd td{
   border: 2px solid silver;
-  /*width: 120px;
-  height: 50px;*/
+  width: 20%;
+  height: auto;
   /*text-align: left;*/
   /*padding-right: 100px;*/
 }
 
 #sd h4{
     color: red;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 #sd li{
     list-style: none;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 /*#sd a{
@@ -500,8 +438,8 @@ ul>li>div{
 }*/
 
 #sd img{
-    width: 50%;
-    height: 30px;
+    width: 20%;
+    height: auto;
     /*padding-top: 500px;*/
     /*padding-top: -250px;*/
     /*padding-left: 90px;*/
@@ -510,49 +448,42 @@ ul>li>div{
     /*float: left;*/
 }
 
-#home{
+/*#home{
     padding-left: 650px;
-}
+}*/
 /*ue*/
 #ue #h{
     color: #B08D61;
-    font-size: 25px;
-    padding-top: 80px;
-    padding-right: 120px;
-    float: right;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 25px;
 }
 
 #ue #a{
-    width: 50%;
-    height: 270px;
-    position: relative;
-    top: 150px;
-    right: -290px;
-    padding-left: 60px;
-    /*padding-right: 60px;*/
-    float: right;
+    width: 70%;
+    height: auto;
+    margin-left: 25px;
 }
 
 #se {
-    padding-top: 100px;
-    padding-left: 115px;
-    /*padding-bottom: -50px;*/
-    /*padding-right: 50px;*/
-    /*float: right;*/
-    line-height: 20.0px;
-    white-space:nowrap;
+    line-height: 30.0px;
+    margin-left: 25px;
 }
 
-#se table{
+/*#se table{
     position: relative;
     top: -50px;
-}
+}*/
 
 #se td{
+    border: 2px solid silver;
+    width: 20%;
+    height: auto;
      /*border-collapse: collapse;
      width: 500px;
      height: 200px;*/
-     border: 1px solid silver;
+     /*border: 1px solid silver;*/
     background-color: white;
 }
 
@@ -560,60 +491,44 @@ ul>li>div{
     padding-right: 20px;
 }*/
 #se table img{
-    width: 50%;
-    height: 64px;
-}
-
-#se td{
-  border: 2px solid silver;
-  /*width: 120px;
-  height: 50px;*/
-  /*text-align: left;*/
-  /*padding-right: 100px;*/
+    width: 100%;
+    height: auto;
 }
 
 #se h4{
     color: red;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 #se li{
     list-style: none;
-    font-size: 20px;
+    font-size: 18px;
 }
 
-#se li a{
+/*#se li a{
     position: relative;
     top: -50px;
-}
+}*/
 
 /*#sd a{
     padding: 100px;
 }*/
 
 #se img{
-    width: 50%;
-    height: 30px;
+    width: 20%;
+    height: auto;
 }
 
 #sbox1{
-    width: 50%;
-    height: 120px;
+    width: 100%;
+    height: auto;
     border: 1px solid #DAB991;
-    margin: auto;
-    position: relative;
-    top: 350px;
     line-height: 25.0px;
-    padding: 10px;
     background-color: #DAB991;
 }
 
 #uf figure{
-    display: none;
-    padding-left: 80px;
-    padding-top: 30px;
-    padding-bottom: 10px;
-    margin-left: 35px;
+    text-align: center;
     /*margin: auto;*/
 }
 
@@ -624,19 +539,16 @@ ul>li>div{
 #uf #h{
     color: #B08D61;
     font-size: 25px;
-    padding-top: 30px;
-    padding-left: 120px;
+    margin-top: 20px;
+    margin-left: 25px;
 }
 
 .sbox2{
-    width: none;
-    height: 370px;
-    border: 1px solid #DAB991;
+    width: 90%;
+    height: auto;
     margin: auto;
-    margin-top: 15px;
-    padding: 20px;
-    position: relative;
-    top: 40px;
+    padding: 10px;
+    border: 1px solid #DAB991;
     line-height: 30.0px;
     background-color: #DAB991;
     font-size: 20px;

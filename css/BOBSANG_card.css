@@ -228,6 +228,27 @@ ul>li>div{
     float: left;
 }
 
+#ua #a {
+    width: 450px;
+    height: 270px;
+}
+
+#ua:hover .h1 {
+    visibility: visible;
+    opacity: 0.95;
+}
+
+.h1 {
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    opacity: 2;
+    transition-duration: 0.1s;
+    visibility: hidden;
+    opacity: 0;
+}
 #sa {
     padding-top: 90px;
     padding-left: 0px;
@@ -259,6 +280,28 @@ ul>li>div{
     padding-left: 60px;
     padding-right: 60px;
     float: right;
+}
+
+#ub #b {
+    width: 450px;
+    height: 270px;
+}
+
+#ub:hover .h2 {
+    visibility: visible;
+    opacity: 0.95;
+}
+
+.h2 {
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 305px;
+    left: 710px;
+    opacity: 2;
+    transition-duration: 0.1s;
+    visibility: hidden;
+    opacity: 0;
 }
 
 #sb {
@@ -296,6 +339,28 @@ ul>li>div{
     float: left;
 }
 
+#uc #c {
+    width: 450px;
+    height: 270px;
+}
+
+#uc:hover .h3 {
+    visibility: visible;
+    opacity: 0.95;
+}
+
+.h3 {
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 695px;
+    left: 2px;
+    opacity: 2;
+    transition-duration: 0.1s;
+    visibility: hidden;
+    opacity: 0;
+}
+
 #sc {
     padding-top: 170px;
     padding-left: 10px;
@@ -328,6 +393,28 @@ ul>li>div{
     padding-left: 60px;
     padding-right: 60px;
     float: right;
+}
+
+#ub-1 #b1 {
+    width: 450px;
+    height: 270px;
+}
+
+#ub-1:hover .h4 {
+    visibility: visible;
+    opacity: 0.95;
+}
+
+.h4 {
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 1070px;
+    left: 705px;
+    opacity: 2;
+    transition-duration: 0.1s;
+    visibility: hidden;
+    opacity: 0;
 }
 
 #sb-1 {
@@ -370,6 +457,28 @@ ul>li>div{
     padding-left: 120px;
     padding-right: 80px;
     float: left;
+}
+
+#ud #a {
+    width: 450px;
+    height: 270px;
+}
+
+#ud:hover .h5 {
+    visibility: visible;
+    opacity: 0.95;
+}
+
+.h5 {
+    width: 450px;
+    height: 270px;
+    position: absolute;
+    top: 70px;
+    left: 118px;
+    opacity: 2;
+    transition-duration: 0.1s;
+    visibility: hidden;
+    opacity: 0;
 }
 
 #sd {
@@ -452,6 +561,28 @@ ul>li>div{
     float: right;
 }
 
+#ue #a {
+    width: 450px;
+    height: 270px;
+}
+
+#ue:hover .h6 {
+    visibility: visible;
+    opacity: 0.95;
+}
+
+.h6 {
+    width: 450px;
+    height: 270px;
+    position: absolute;
+    top: 613px;
+    left: 708px;
+    opacity: 2;
+    transition-duration: 0.1s;
+    visibility: hidden;
+    opacity: 0;
+}
+
 #se {
     padding-top: 100px;
     padding-left: 115px;
@@ -515,7 +646,108 @@ ul>li>div{
     height: 30px;
 }
 
-#sbox1{
+#ud-1 #h{
+    color: #B08D61;
+    font-size: 25px;
+    padding-top: 30px;
+    padding-left: 120px;
+    /*margin: 10px;*/
+}
+
+#ud-1 #a{
+    width: 450px;
+    height: 270px;
+    padding-top: 10px;
+    padding-left: 120px;
+    padding-right: 80px;
+    float: left;
+}
+
+#ud-1 #a {
+    width: 450px;
+    height: 270px;
+}
+
+#ud-1:hover .h7 {
+    visibility: visible;
+    opacity: 0.95;
+}
+
+.h7 {
+    width: 450px;
+    height: 270px;
+    position: absolute;
+    top: 1085px;
+    left: 118px;
+    opacity: 2;
+    transition-duration: 0.1s;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#sd-1 {
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    /*float: right;*/
+    line-height: 30.0px;
+}
+
+#sd-1 td{
+     /*border-collapse: collapse;
+     width: 500px;
+     height: 200px;*/
+     border: 1px solid silver;
+    background-color: white;
+}
+
+/*#sd table{
+    padding-right: 20px;
+}*/
+#sd-1 table img{
+    width: 160px;
+    height: 64px;
+}
+
+#sd-1 td{
+  border: 2px solid silver;
+  /*width: 120px;
+  height: 50px;*/
+  /*text-align: left;*/
+  /*padding-right: 100px;*/
+}
+
+#sd-1 h4{
+    color: red;
+    font-size: 25px;
+}
+
+#sd-1 li{
+    list-style: none;
+    font-size: 20px;
+}
+
+/*#sd a{
+    padding: 100px;
+}*/
+
+#sd-1 img{
+    width: 150px;
+    height: 30px;
+    /*padding-top: 500px;*/
+    /*padding-top: -250px;*/
+    /*padding-left: 90px;*/
+   /* margin: 0;*/
+    /*padding-left: 50px;*/
+    /*float: left;*/
+}
+
+#home{
+    padding-left: 650px;
+}
+
+
+/*#sbox1{
     width: 600px;
     height: 120px;
     border: 1px solid #DAB991;
@@ -525,7 +757,7 @@ ul>li>div{
     line-height: 25.0px;
     padding: 10px;
     background-color: #DAB991;
-}
+}*/
 
 #uf figure{
     display: inline-block;
