@@ -362,6 +362,8 @@ ul li{
     border-collapse: separate;
     text-align: center;
     border: 3px solid #4d3c26;
+    border-right: none;
+    border-left: none;
 }
 
 .drinkpricebox th,
