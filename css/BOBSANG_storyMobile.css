@@ -101,7 +101,8 @@ nav ul li:hover{
 
 #di{
       width:100%;
-
+    position:absolute;
+    left:0;
       border:1px solid rgb(248,242,228);
     border-top:none;
       background-color: rgb(248,242,228);
