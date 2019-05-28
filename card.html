@@ -4,13 +4,8 @@
     <meta charset="UTF-8">
     <title>Document</title>
     <meta name="viewport" content="width=device-width; initial-scale=1.0">
-    <link rel="stylesheet" href="/css/card.css">
-    <!--<style>
-        .change{
-            background-color: brown;
-            color: white;
-        }
-    </style>-->
+    <link rel="stylesheet" href="/css/card.css" media="screen and (min-width:832px)">
+    <link rel="stylesheet" href="css/card_mobile.css" media="screen and (max-width:831px)">
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script>
         $(document).ready(function(){
@@ -30,7 +25,7 @@
                     .css('background-color', 'lightyellow');
                     /*.next()
                     .css('background-color', 'skyblue');*/
-                $(this).css('background-color', 'brown')
+                $(this).css('background-color', 'brown').css('color', 'white')
                     .next()
                     .show()
                     /*.css('background-color', 'silver')*/;
@@ -205,12 +200,6 @@
                             <li id="home"><a href="http://bitcamp.co.kr"><img src="img/home.jpg">(www.bitcamp.co.kr)</a></li>
                         </section>
                     </ul>
-                    <section id="sbox1">
-                        <h4>주의사항</h4>
-                        <p>* 상품권은 액먄가액이 1만 원 초과 시 60%, 1만 원 이하 시 80% 이상을 사용하시는 경우 잔액을 현금으로 지급받을 수 있습니다.</p>
-                        <p>* SG(시골) 상품권은 5천 원, 1만 원, 5만 원, 10만 원 4종이 있습니다.</p>
-                        <p>* 상품권은 현금으로 교환되지 않습니다.</p>
-                    </section>
                 </div>
             </li>
 
