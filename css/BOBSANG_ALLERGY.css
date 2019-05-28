@@ -154,7 +154,7 @@ table {
     width: 100%;
     border-collapse: separate;
     text-align: center;
-    border: 1px solid none;
+    border: 3px solid #4d3c26;
 }
 
 th,
@@ -164,7 +164,7 @@ td {
 }
 
 th {
-    background-color: rgb(193, 154, 106);
+    background-color: #DAB991;
     font-family: "Gaegu-Bold";
     font-size: 30px;
 }
@@ -188,19 +188,19 @@ section> img {
 
 #toptitle > h1 {
     font-family: "BlackAndWhitePicture-Regular";
-    color: #8B4513;
+    color: #4d3c26;
 }
 
 .line {
-    border: 3px solid rgb(193, 154, 106);
-    margin: 0;
+    border: 3px solid #4d3c26;
+    background-color: #4d3c26;
 }
 
 .nametitle > h1 {
     text-align: center;
     font-size: 50px;
     font-family: "BlackAndWhitePicture-Regular";
-    color: #8B4513;
+    color: #4d3c26;
     margin-top: 50px;
 }
 
@@ -213,8 +213,9 @@ section> img {
 .caution {
     clear: left;
     margin: 30px auto;
-    background: #E1B771;
+    background: #DAB991;
     padding: 10px;
+    border-radius: 20px;
 }
 
 .caution > h1 {
@@ -230,7 +231,7 @@ p{
     width: 170px;
     height: 50px;
     float: right;
-    background-color: rgb(193, 154, 106);
+    background-color: #DAB991;
     border-radius: 15px;
     padding: 0 10px;
     margin: 0;
@@ -245,5 +246,5 @@ p{
     font-family: "Gaegu-Bold";
     font-size: 40px;
     text-decoration: none;
-    color: black;
+    color: #4d3c26;
 }
