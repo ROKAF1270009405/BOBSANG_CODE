@@ -164,11 +164,11 @@ footer p {
     height: inherit;
 }
 
-div {
+section div {
     margin-bottom: 20px;
 }
 
-ul li{
+section ul li{
     list-style: none;
     line-height: 1;
 }

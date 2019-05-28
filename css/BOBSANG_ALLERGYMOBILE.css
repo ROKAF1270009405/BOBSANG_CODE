@@ -131,7 +131,7 @@ nav ul li:hover a{
 /*----footer----*/
 footer {
     width: 100%;
-    height: 200px;
+    height: 100%;
     text-align: center;
     background-color: rgb(72, 74, 61);
 }

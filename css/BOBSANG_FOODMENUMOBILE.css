@@ -128,7 +128,7 @@ nav ul li:hover a{
 /*----footer----*/
 footer {
     width: 100%;
-    height: 200px;
+    height: 100%;
     text-align: center;
     background-color: rgb(72, 74, 61);
     clear: left;
@@ -167,7 +167,6 @@ footer p {
     font-family: "Gaegu-Regular";
     color: white;
 }
-
 /*----footer----*/
 
 #foodsection {
@@ -191,7 +190,7 @@ footer p {
     height: inherit;
 }
 
-ul li{
+section ul li{
     list-style: none;
     display: block;
     line-height: 1;
@@ -235,8 +234,6 @@ ul li{
     width: 100%;
     float: left;
     margin: 20px 0;
-    display: block;
-
 }
 
 .foodboximg img {
