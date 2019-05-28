@@ -74,6 +74,7 @@ nav {
     font-weight: bold;
     background-color: #b08d61;
     height: 80px;
+    overflow: hidden;
 }
 
 nav ul li {
@@ -90,11 +91,12 @@ nav ul li a {
 }
 nav ul li:hover {
     background-color: rgb(72,74,61);
-    height: 20px;
 }
 nav ul li:hover a{
     color: white;
 }
+
+
 /*----nav----*/
 
 /*----footer----*/

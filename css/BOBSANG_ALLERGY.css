@@ -74,11 +74,12 @@ nav {
     font-weight: bold;
     background-color: #b08d61;
     height: 80px;
+    overflow: hidden;
 }
 
 nav ul li {
     display: inline-block;
-    width: 19.6%;
+    width: 16.3%;
     text-align: center;
     margin-right: -6px;
     padding: 30px 0 30px 0;
@@ -88,7 +89,12 @@ nav ul li a {
     color: #4d3c26;
     text-decoration: none;
 }
-
+nav ul li:hover {
+    background-color: rgb(72,74,61);
+}
+nav ul li:hover a{
+    color: white;
+}
 /*----nav----*/
 
 /*----footer----*/
