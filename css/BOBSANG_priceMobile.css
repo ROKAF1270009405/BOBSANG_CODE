@@ -76,6 +76,15 @@ nav ul li a{
     color: #4d3c26;
 }
 /*----nav----*/
+body{
+    background-color: rgb(248,242,228);
+
+}
+.p1{
+    position:absolute;
+    top:410px;
+
+}
 
 #di{
       width:100%;

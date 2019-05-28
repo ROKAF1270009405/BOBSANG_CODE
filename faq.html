@@ -17,37 +17,30 @@
                 .next()
                 .show();
             $('.tab>li:eq(1)').find('h3')
-                .css('background-color', 'lightyellow')
-                /*.next()
-                .show()*/;
+                .css('background-color', 'lightyellow');
             $('.tab>li:eq(2)').find('h3')
                 .css('background-color', 'lightyellow');
             $('.tab>li:eq(3)').find('h3')
                 .css('background-color', 'lightyellow');
-
             $('.tab>li>h3').on('click', function(){
                 $('.tab>li').find('div').hide();
                 $('.tab>li').find('h3')
                     .css('background-color', 'lightyellow');
 
-
                 $(this).css('background-color', 'brown')
                     .next()
                     .show();
+                /*var d=this;
+                console.log(d);*/
+            });
 
+               /*QA 글을 클릭했을 때 나타나는 반응*/
 
-
-
-                /*console.log("test:");
-                console.log($(this).next());
-                */
-
-                t=$(this).next().find('p');
-
+            /*$.fn.myfunction()=function(){*/
             $('.tab>li>div>p:eq(0)').on('click', function(){
                 $('.tab>li>div>p:eq(0)').addClass('change');
                 $('.tab>li>div>p:eq(1)').slideDown();
-                $('.tab>li>div>p').each(function(index){
+                $('.tab>lsi>div>p').each(function(index){
                     if(index!=1&&index%2==1)
                         $('.tab>li>div>p:eq('+index+')').slideUp();
                     else if(index!=0&&index%2==0)
@@ -155,12 +148,11 @@
                 $('.tab>li>div>p:eq(13)').slideUp();
                 $('.tab>li>div>p:eq(12)').removeClass('change');
             });
-                 });
-            });
                 /*}*/
 
             /*QA 글을 클릭했을 때 나타나는 반응*/
 
+        });
 
     </script>
 </head>
@@ -214,7 +206,7 @@
 
             <li>
                 <h3><a href="#">사이트 이용</a></h3>
-                <div>
+                <div class="dc">
                     <p class="a">사이트 이용&nbsp;&nbsp; &nbsp; &nbsp; Q. 시골밥상은 어떻게 이용해야 하나요?<img src="img/%EC%95%84%EB%9E%98%20%ED%99%94%EC%82%B4%ED%91%9C.jpg"></p>
                     <p class="b">A. 방문하셔서 직원에게 문의하시면 됩니다.<img src="img/%EC%9C%84%20%ED%99%94%EC%82%B4%ED%91%9C.jpg"></p>
                     <p class="a">사이트 이용&nbsp;&nbsp; &nbsp; &nbsp;Q. 시골밥상은 어떻게 이용해야 하나요?<img src="img/%EC%95%84%EB%9E%98%20%ED%99%94%EC%82%B4%ED%91%9C.jpg"></p>
@@ -234,7 +226,7 @@
 
             <li>
                 <h3><a href="#">매장 이용</a></h3>
-                <div>
+                <div class="dc">
                     <p class="a">Q. 시골밥상은 어떻게 이용해야 하나요?<img src="img/%EC%95%84%EB%9E%98%20%ED%99%94%EC%82%B4%ED%91%9C.jpg"></p>
                     <p class="b">A. 방문하셔서 직원에게 문의하시면 됩니다.<img src="img/%EC%9C%84%20%ED%99%94%EC%82%B4%ED%91%9C.jpg"></p>
                     <p class="a">Q. 시골밥상은 어떻게 이용해야 하나요?<img src="img/%EC%95%84%EB%9E%98%20%ED%99%94%EC%82%B4%ED%91%9C.jpg"></p>
@@ -254,7 +246,7 @@
 
             <li>
                 <h3><a href="#">멤버십</a></h3>
-                <div>
+                <div class="dc">
                     <p class="a">Q. 시골밥상은 어떻게 이용해야 하나요?<img src="img/%EC%95%84%EB%9E%98%20%ED%99%94%EC%82%B4%ED%91%9C.jpg"></p>
                     <p class="b">A. 방문하셔서 직원에게 문의하시면 됩니다.<img src="img/%EC%9C%84%20%ED%99%94%EC%82%B4%ED%91%9C.jpg"></p>
                     <p class="a">Q. 시골밥상은 어떻게 이용해야 하나요?<img src="img/%EC%95%84%EB%9E%98%20%ED%99%94%EC%82%B4%ED%91%9C.jpg"></p>
@@ -274,7 +266,7 @@
 
             <li>
                 <h3><a href="#">제휴 혜택</a></h3>
-                <div>
+                <div class="dc">
                     <p class="a">Q. 시골밥상은 어떻게 이용해야 하나요?<img src="img/%EC%95%84%EB%9E%98%20%ED%99%94%EC%82%B4%ED%91%9C.jpg"></p>
                     <p class="b">A. 방문하셔서 직원에게 문의하시면 됩니다.<img src="img/%EC%9C%84%20%ED%99%94%EC%82%B4%ED%91%9C.jpg"></p>
                     <p class="a">Q. 시골밥상은 어떻게 이용해야 하나요?<img src="img/%EC%95%84%EB%9E%98%20%ED%99%94%EC%82%B4%ED%91%9C.jpg"></p>

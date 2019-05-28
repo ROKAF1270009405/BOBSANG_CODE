@@ -70,7 +70,7 @@ header > div:nth-child(2) {
 /*----nav----*/
 nav {
     font-family: "Gaegu Regular";
-    font-size: 1.5em;
+    font-size: 150%;
     font-weight: bold;
     background-color: #b08d61;
     height: 80px;
@@ -78,11 +78,19 @@ nav {
 
 nav ul li {
     display: inline-block;
-    width: 19.6%;
+    width: 16.3%;
     text-align: center;
     margin-right: -6px;
     padding: 30px 0 30px 0;
 }
+nav ul li:hover {
+    background-color: rgb(72,74,61);
+    height: 20px;
+}
+nav ul li:hover a{
+    color: white;
+}
+
 
 nav ul li a {
     text-decoration: none;
@@ -263,7 +271,6 @@ footer ul li {
     font-family: "Gaegu Regular";
     font-size: 1em;
     height: 10px;
-    ;
     color: white;
     display: inline-block;
     padding: 0 5px 5px 5px;
@@ -327,7 +334,7 @@ li {
 
 /*media*/
 
-@media screen and (max-width:832px) {
+@media screen and (max-width:807px) {
     .slide {
         display: none;
     }
@@ -372,7 +379,7 @@ li {
     nav{
         height: auto;
         background-image: url(/img/aluminous-749358_1920.jpg);
-        background-size: 900px;
+        background-size: 950px;
         background-repeat: no-repeat;
     }
 
