@@ -94,7 +94,7 @@ nav ul li:hover a{
 
 #out{
    width: 1280px;
-   height: 1500px;
+   height: 2100px;
    border: 1px solid #F8F2E4;
    background-color:#F8F2E4;
    margin: auto;
@@ -102,14 +102,15 @@ nav ul li:hover a{
 
 #location {
     width: 1280px;
-    height: 80px;
+    height: 100px;
     margin: auto;
     border-bottom: 2px solid silver;
 }
 
 #location h1 {
     float: left;
-    margin-top: 30px;
+    margin-top: 40px;
+    font-size: 50px;
 }
 
 #location ul {
@@ -146,23 +147,23 @@ nav ul li:hover a{
 
 .box {
     width: 1280px;
-    height: 200px;
+    height: 350px;
     margin: auto;
 }
 
 .box section {
     width: 800px;
-    height: 200px;
+    height: 300px;
     margin: auto;
     margin-top: 25px;
-    padding: 10px;
+    padding: 15px;
     border: 1px solid #DAB991;
     background-color: #DAB991;
-    line-height: 20.0px;
+    line-height: 30.0px;
 }
 
 .box li {
-    font-size: 14px;
+    font-size: 20px;
 }
 
 /*.change{
@@ -179,7 +180,7 @@ nav ul li:hover a{
 
 #wrap2 {
     width: 1280px;
-    height: 1100px;
+    height: 1600px;
     margin: 0 auto;
     border: 1px solid #F8F2E4;
 }
@@ -202,10 +203,10 @@ ul h3 {
 
 ul>li>div{
     position: absolute;
-    top: 546px;
+    top: 746px;
     width: 1280px;
     border: 1px solid #F8F2E4;
-    height: 1130px;
+    height: 1430px;
     background-color: #F8F2E4;
 }
 
