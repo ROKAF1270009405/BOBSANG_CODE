@@ -199,6 +199,7 @@ section ul li{
 .line {
     border: 3px solid #4d3c26;
     background-color: #4d3c26;
+    margin-bottom: 20px;
 }
 
 #toptitle{
@@ -207,6 +208,7 @@ section ul li{
 
 #toptitle > h1 {
     font-family: "BlackAndWhitePicture-Regular";
+    font-size: 30px;
     color: #4d3c26;
 }
 
