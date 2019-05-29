@@ -71,7 +71,7 @@ header > div:nth-child(2) {
 
 /*----nav----*/
 nav {
-    font-family: "Gaegu-Regular";
+    font-family: "Gaegu Regular";
     font-size: 150%;
     font-weight: bold;
     background-color: #b08d61;
@@ -118,7 +118,7 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: white;
-    font-size: 1.5em
+    font-size: 1.5em;
 }
 
 nav ul li:hover {
