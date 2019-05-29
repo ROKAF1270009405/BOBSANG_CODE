@@ -424,9 +424,7 @@ li {
         display: none;
     }
     .header_login{
-        margin-top: 75px;
-        margin-right: 35%;
-
+    display: none;
     }
 
     nav{

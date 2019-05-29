@@ -403,8 +403,7 @@ footer p {
         }
 
         .header_login {
-            margin-top: 75px;
-            margin-right: 35%;
+        display: none;
         }
 
 
